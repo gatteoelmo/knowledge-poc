@@ -12,7 +12,8 @@ ollama pull mxbai-embed-large
 ```
 ```bash
 ollama run
-```bassh
+```
+```bash
 npm install
 ```
 ```bash
