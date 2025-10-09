@@ -6,6 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { getTopKDocs } from "../scripts/utils.js";
 import { Ollama } from "@langchain/community/llms/ollama"; 
+import { Document, Packer, Paragraph, HeadingLevel, TextRun } from "docx";
 import tone from "../src/tone.json" assert { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -126,31 +127,93 @@ Example format:
 });
 
 // /api/export -> receives JSON (executive, opening, main) and returns docx
-import { Document, Packer, Paragraph, HeadingLevel } from "docx";
 app.post("/api/export", async (req, res) => {
   try{
     const { executive, opening, main } = req.body;
+    
+    if (!executive && !opening && !main) {
+      return res.status(400).json({ error: "No content to export" });
+    }
+
+    const children = [];
+
+    // Add Executive Summary section
+    if (executive) {
+      children.push(
+        new Paragraph({ 
+          text: "Executive Summary", 
+          heading: HeadingLevel.HEADING_1,
+          spacing: { after: 200 }
+        })
+      );
+      
+      // Split text by newlines and create paragraphs
+      const executiveParagraphs = executive.split('\n').filter(p => p.trim());
+      executiveParagraphs.forEach(p => {
+        children.push(new Paragraph({ 
+          text: p.trim(),
+          spacing: { after: 120 }
+        }));
+      });
+      
+      children.push(new Paragraph({ text: "", spacing: { after: 240 } })); // Extra space
+    }
+
+    // Add Opening section  
+    if (opening) {
+      children.push(
+        new Paragraph({ 
+          text: "Opening", 
+          heading: HeadingLevel.HEADING_1,
+          spacing: { after: 200 }
+        })
+      );
+      
+      const openingParagraphs = opening.split('\n').filter(p => p.trim());
+      openingParagraphs.forEach(p => {
+        children.push(new Paragraph({ 
+          text: p.trim(),
+          spacing: { after: 120 }
+        }));
+      });
+      
+      children.push(new Paragraph({ text: "", spacing: { after: 240 } })); // Extra space
+    }
+
+    // Add Main Content section
+    if (main) {
+      children.push(
+        new Paragraph({ 
+          text: "Main Content", 
+          heading: HeadingLevel.HEADING_1,
+          spacing: { after: 200 }
+        })
+      );
+      
+      const mainParagraphs = main.split('\n').filter(p => p.trim());
+      mainParagraphs.forEach(p => {
+        children.push(new Paragraph({ 
+          text: p.trim(),
+          spacing: { after: 120 }
+        }));
+      });
+    }
+
     const doc = new Document({
       sections: [{
-        children: [
-          new Paragraph({ text: "Executive Summary", heading: HeadingLevel.HEADING_1 }),
-          new Paragraph(executive || ""),
-          new Paragraph({ text: "Opening", heading: HeadingLevel.HEADING_2 }),
-          new Paragraph(opening || ""),
-          new Paragraph({ text: "Main Content", heading: HeadingLevel.HEADING_2 }),
-          new Paragraph(main || "")
-        ]
+        children: children
       }]
     });
 
     const buffer = await Packer.toBuffer(doc);
 
     res.setHeader("Content-Type", "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-    res.setHeader("Content-Disposition", "attachment; filename=digest.docx");
+    res.setHeader("Content-Disposition", "attachment; filename=maize_digest.docx");
     res.send(buffer);
+    
   } catch(err){
-    console.error(err);
-    res.status(500).json({ error: err.message });
+    console.error("Export error:", err);
+    res.status(500).json({ error: "Failed to generate Word document: " + err.message });
   }
 });
 

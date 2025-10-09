@@ -35,6 +35,7 @@
 .message-bubble-user {
   color: white;
   border: transparent;
+  text-align: right;
 }
 
 .message-bubble-assistant {
