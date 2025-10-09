@@ -95,6 +95,7 @@ INSTRUCTIONS:
 - Do not add any text outside the JSON.
 - Ensure all three sections are fully populated with meaningful content.
 - Make sure to include concrete details from the relevant documents.
+- Respond in the same language as the question
 
 Example format:
 {
