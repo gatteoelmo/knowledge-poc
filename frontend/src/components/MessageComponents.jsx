@@ -51,10 +51,10 @@ export function MessageBubble({ message, typingMessages }) {
   return (
     <div className={`message-row ${isUser ? "message-row-user" : ""}`}>
       <div className={`message-bubble ${isUser ? "message-bubble-user" : "message-bubble-assistant"}`}>
-        {message.isDigest ? (
-          <DigestContent digestData={message.digestData} />
-        ) : message.isTyping && message.messageId && typingMessages.has(message.messageId) ? (
+        {message.isTyping && message.messageId && typingMessages.has(message.messageId) ? (
           <TypingMessage text={typingMessages.get(message.messageId)} />
+        ) : message.isDigest && message.digestData ? (
+          <DigestContent digestData={message.digestData} />
         ) : (
           <div className="message-content">
             {message.content}

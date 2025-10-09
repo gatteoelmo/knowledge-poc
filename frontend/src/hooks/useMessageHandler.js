@@ -61,13 +61,11 @@ export const useMessageHandler = (typingFunctions) => {
 
         const digestContent = formatDigestResponse(result);
         
-        // Mostra il digest (senza typing perché è formattato)
-        setMessages(prev => [...prev, {
-          type: "assistant",
-          content: digestContent,
-          isDigest: true,
-          digestData: result
-        }]);
+        // Mostra il digest con effetto typing
+        addTypingAssistantMessage(digestContent, { 
+          isDigest: true, 
+          digestData: result 
+        });
         
         // Poi chiede conferma per l'esportazione con typing
         setTimeout(() => {
