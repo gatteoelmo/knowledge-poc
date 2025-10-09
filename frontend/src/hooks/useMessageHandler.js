@@ -61,17 +61,17 @@ export const useMessageHandler = (typingFunctions) => {
 
         const digestContent = formatDigestResponse(result);
         
-        // Mostra il digest con effetto typing
-        addTypingAssistantMessage(digestContent, { 
+        // Mostra il digest con effetto typing e callback quando finisce
+        addTypingAssistantMessageWithCallback(digestContent, () => {
+          // Questo viene eseguito quando il digest ha finito di essere scritto
+          setTimeout(() => {
+            addTypingAssistantMessage("Would you like me to export this digest as a Word document?", { isWordPrompt: true });
+            setWaitingForWordConfirm(true);
+          }, 2000); // 2 secondi DOPO che il digest è finito
+        }, { 
           isDigest: true, 
           digestData: result 
         });
-        
-        // Poi chiede conferma per l'esportazione con typing
-        setTimeout(() => {
-          addTypingAssistantMessage("Would you like me to export this digest as a Word document?", { isWordPrompt: true });
-          setWaitingForWordConfirm(true);
-        }, 1300);
       }
     } catch (error) {
       console.error("Error generating digest:", error);

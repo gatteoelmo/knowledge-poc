@@ -27,6 +27,7 @@ export function ChatInput({
         placeholder={getPlaceholder()}
         className={`input-field ${isWaiting ? "input-field-waiting" : "input-field-normal"}`}
         disabled={loading}
+        autoFocus
       />
       
       {/* Pulsante di invio con stato dinamico */}

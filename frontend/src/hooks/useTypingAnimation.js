@@ -60,13 +60,16 @@ export const useTypingAnimation = () => {
   const addTypingAssistantMessage = (content, setMessages, extraProps = {}) => {
     const messageId = Date.now() + Math.random(); // ID unico per il messaggio
     
-    // Aggiungi il messaggio vuoto prima
+    // Separa le props che devono essere aggiunte solo alla fine del typing
+    const { isDigest, digestData, ...immediateProps } = extraProps;
+    
+    // Aggiungi il messaggio vuoto prima (senza isDigest)
     const newMessage = {
       type: "assistant",
       content: "",
       isTyping: true,
       messageId,
-      ...extraProps
+      ...immediateProps
     };
     
     setMessages(prev => [...prev, newMessage]);
@@ -74,10 +77,10 @@ export const useTypingAnimation = () => {
     // Avvia l'animazione typing
     setTimeout(() => {
       typeWriter(content, messageId, () => {
-        // Al completamento, aggiorna il messaggio con il contenuto finale
+        // Al completamento, aggiorna il messaggio con il contenuto finale e tutte le props
         setMessages(prev => prev.map(msg => 
           msg.messageId === messageId 
-            ? { ...msg, content, isTyping: false }
+            ? { ...msg, content, isTyping: false, isDigest, digestData }
             : msg
         ));
       });
@@ -88,13 +91,16 @@ export const useTypingAnimation = () => {
   const addTypingAssistantMessageWithCallback = (content, setMessages, onTypingComplete, extraProps = {}) => {
     const messageId = Date.now() + Math.random(); // ID unico per il messaggio
     
-    // Aggiungi il messaggio vuoto prima
+    // Separa le props che devono essere aggiunte solo alla fine del typing
+    const { isDigest, digestData, ...immediateProps } = extraProps;
+    
+    // Aggiungi il messaggio vuoto prima (senza isDigest)
     const newMessage = {
       type: "assistant",
       content: "",
       isTyping: true,
       messageId,
-      ...extraProps
+      ...immediateProps
     };
     
     setMessages(prev => [...prev, newMessage]);
@@ -102,10 +108,10 @@ export const useTypingAnimation = () => {
     // Avvia l'animazione typing
     setTimeout(() => {
       typeWriter(content, messageId, () => {
-        // Al completamento, aggiorna il messaggio con il contenuto finale
+        // Al completamento, aggiorna il messaggio con il contenuto finale e tutte le props
         setMessages(prev => prev.map(msg => 
           msg.messageId === messageId 
-            ? { ...msg, content, isTyping: false }
+            ? { ...msg, content, isTyping: false, isDigest, digestData }
             : msg
         ));
         // Chiama il callback quando il typing è finito
