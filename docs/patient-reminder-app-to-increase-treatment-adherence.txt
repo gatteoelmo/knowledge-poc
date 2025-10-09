@@ -1,0 +1,71 @@
+PATIENT REMINDER APP TO INCREASE TREATMENT ADHERENCE
+
+ASTRAZENECA
+
+------------------------------------------------------------
+
+Patient reminder app to increase treatment adherence
+
+AstraZeneca is a global, science-led biopharmaceutical business whose innovative
+medicines are used by millions of patients worldwide.
+
+Considering that treatment adherence is a paramount element for patients'
+wellness and effectiveness of pharmaceutical products, we crafted a Patient
+Reminder project for Italian Hospital Centers to minimize the number of patients
+who do not complete pharmaceutical treatments.
+
+AstraZeneca sponsored the project for 4 Hospital Centers and 400 patients to
+foster awareness level on treatment adherence.
+
+ASTRAZENECA
+
+CASE STUDY
+
+2
+
+Transformative innovation • Healthcare and Pharma • 2016
+
+------------------------------------------------------------
+
+Patient reminder app to increase treatment adherence
+
+Build a treatment adherence project to help the compliance manager minimize the
+number of patients who do not complete pharmaceutical treatments.
+
+A digital platform that can archive patients' data, send alerts via SMS and
+e-mail and run survey to monitor treatment adherence to be managed by hospital
+compliance manager.
+
+304 patients monitored, 1,494 tracked surveys, 1,791 alerts sent. In 6 months,
+the range patients pool registered 90% of treatment adherence compared to the
+40% average.
+
+In order to minimize the number of patients who do not complete pharmaceutical
+treatments we designed and developed a platform that allows for customizing and
+sending e-mail and SMS to the patients with a flexible frequency (daily, weekly,
+monthly, at specific dates) to support adherence to the treatment and run
+surveys to measure performance.
+
+The project, run in 4 Italian hospitals, involved 400 patients with
+cardiovascular issues. The compliance manager played a key role in the project
+supporting the doctor in patients' enrollment, managing the platform, setting
+reminders and sending surveys and analyzing results.
+
+Three types of surveys can be run via the platform: Morisky Medication Adherence
+Scale (MAAS), non-pharmacological adherence, smoking abstinence (Fagerström).
+Surveys are run at 0,1, 3 and 6 months from enrollment and allow people to
+measure adherence performance. 
+
+Patients involved in the project scored very high results in treatment adherence
+scores with 88-90% consistency across 6 months compared with a national average
+of 40%.
+
+ASTRAZENECA
+
+CASE STUDY
+
+3
+
+Transformative innovation • Healthcare and Pharma • 2016
+
+------------------------------------------------------------

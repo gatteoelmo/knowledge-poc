@@ -1,0 +1,57 @@
+A PRIORITIZATION WORKSHOP OF AI-RELATED USE CASES
+
+------------------------------------------------------------
+
+A prioritization workshop of AI-related use cases
+
+The client, through internal discussions, has identified AI application use
+cases. These UCs are either dedicated to the distribution network or to internal
+operations. The client asked for our help in prioritizing the UCs, based on
+business value but also on technical feasibility, preferably using generative AI
+tools.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2023
+
+------------------------------------------------------------
+
+A prioritization workshop of AI-related use cases
+
+Prioritize a set of internally identified use cases (to be implemented with AI
+tools) through a workshop
+
+An in-person workshop in which we analyzed the UCs together in detail, providing
+concrete examples of similar projects implemented by us
+
+We produced a prioritization matrix, on which we arranged the UCs according to
+business value and technical feasibility scores assigned to each
+
+The customer identified 5 use cases dedicated to the distribution network and 5
+on internal operations. For each of these UCs, they provided us with a brief,
+high-level description. Our task was to detail the UCs, defining the most
+appropriate technologies to implement them, the KPIs that would measure their
+success, and any critical issues and requirements needed to implement the UCs.
+We conducted an in-person workshop in which:
+
+A contact person from the client company would briefly expound on the UC.
+
+We would present our pre-analysis and present a case study already implemented
+by us comparable to the need expressed by the client.
+
+The client, with all this information, assigned a score of business value and
+technical feasibility to the UC.
+
+At the end of the day, the UCs were placed in a matrix in order to visualize the
+most feasible ones.Subsequently, we were approached to realize with a project
+the most valuable UC.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2023
+
+------------------------------------------------------------

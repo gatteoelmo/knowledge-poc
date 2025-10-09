@@ -1,0 +1,68 @@
+A VALUE PROPOSITION TO TAP INTO NEW MOBILITY SPACE
+
+------------------------------------------------------------
+
+A value proposition to tap into New Mobility space
+
+Emerging mobility forms such as ride-hailing or bike/car/e-scooter sharing are
+rapidly shaping new habits and service ecosystems, and they are expected to grow
+exponentially.
+
+Our client, a leading multi-line insurer operating globally in 210+ countries,
+wanted to position into this new mobility space to attract new customers —
+shifting from car owners to multi-modal transportation users.
+
+A comprehensive project supported our client in framing a new value proposition,
+focusing on New Mobility, from strategy through design and go-to-market.
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Financial Services • 2019
+
+------------------------------------------------------------
+
+A value proposition to tap into New Mobility space
+
+Explore business opportunities beyond the traditional ones and develop an
+insurance proposition that could answer mobility companies' and users' needs.
+
+A marketplace of insurance and services that mobility companies  could
+incorporate into their apps, and users might add to their trips, paying per-
+minute.
+
+A new business line dedicated to New Mobility, with an agreement to start a
+pilot in Europe with three sharing companies and 30+ potential partnerships
+discussed.
+
+Research - The project started with a mixed research approach (combining user
+interviews, behavioral trends, and market analysis) to explore existing
+insurance gaps and broader needs connected to new mobility lifestyles.
+
+Proposition design - We envisioned a B2B2C proposition that enabled our client
+to offer insurance solutions and added-value services to new mobility users,
+indirectly, through mobility players' apps (e.g., car/bike/e-scooter sharing
+apps).
+
+We designed a portfolio of coverage and services priced per-minute (including
+excess waiver, personal accident protection, theft protection, travel
+assistance, maps and itineraries, etc.) that mobility companies could integrate
+into their apps via API, and offer to their customers as trip add-ons.
+
+MVP development - We supported the client in consolidating the first MVP,
+defining business requirements, and creating an implementation roadmap with cost
+estimation for the first wave of development.
+
+Go-to-market and partnership - We supported the client in identifying and
+establishing global partnerships with mobility companies, including high-level
+pitches of proposition and co-design sessions. This was used to customize a
+solution based on partners' needs to agree on the scope of the collaboration.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Financial Services • 2019
+
+------------------------------------------------------------

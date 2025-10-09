@@ -1,0 +1,66 @@
+CHATBOT FOR FACILITATING THE DEBT COLLECTION PROCESS
+
+------------------------------------------------------------
+
+Chatbot for facilitating the debt collection process
+
+An Italian credit institution needs to improve the process of debt collection
+from its customers through a tool that allows automating the operation, speeding
+up the payment, and, at the same time, measuring users' preferences for
+different payment methods.
+
+We proposed to develop a conversational assistant to be delivered on two
+channels: the customer's landing page and a link sent to the debtor user. The
+chatbot, through a mainly agent-driven interaction, allows the user to manage
+his file, also by accessing his own customer area.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2020
+
+------------------------------------------------------------
+
+Chatbot for facilitating the debt collection process
+
+An automated tool that can handle the debt collection practices of insolvent
+users. Evaluate the possibility, if necessary, to scale the conversation to
+human operators.
+
+A  chatbot which can be queried either from the website or through a link
+through which the user will land directly on the dialogue screen with the bot,
+starting the interaction.
+
+Following release into production in late 2020, the chatbot has demonstrated
+great effectiveness in handling numerous debt collection cases, with an average
+monthly recovery of more than 250K euros.
+
+The Marketing and Product Development Department of a financial company needs to
+provide its customers with a tool to autonomously obtain information on the
+various methods of payment of outstanding installments in order to speed up the
+payment process and measure users' preferences regarding payment methods.
+
+We proposed a chatbot delivered on two channels: the company's customer area,
+through which the user can easily access to manage his file, and a link sent to
+debtor users via SMS that, if prompted, allows to interact with the bot.
+
+The assistant can answer about 30 FAQs related to how to pay outstanding debts,
+but the interaction mode is mainly agent-driven. The bot is able to guide the
+user to the different modes of payment of outstanding installments and will be
+able to redirect the customer to the client area or indicate other forms of
+payment with the bank transfer or credit details to be issued.
+
+The solution was released in production at the end of 2020, after a testing
+phase that involved both the conversational component and the graphic interface.
+Since then, the client has positively evaluated the application, which is able
+to independently manage a large number of insolvent users. The return on
+investment on the project has been extremely positive.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2020
+
+------------------------------------------------------------

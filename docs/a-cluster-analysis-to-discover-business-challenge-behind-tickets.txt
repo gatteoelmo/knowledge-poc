@@ -1,0 +1,66 @@
+A CLUSTER ANALYSIS TO DISCOVER BUSINESS CHALLENGE BEHIND TICKETS
+
+------------------------------------------------------------
+
+A cluster analysis to discover business challenge behind tickets
+
+A well-known fast-food company asked for our help to find insights and business
+challenges behind their tickets. In fact, they used to analyze ticket data in
+descriptive aggregated ways, to segment their restaurants and analyze the
+performance of their product lines or commercial campaigns, lacking a more
+transversal view on how to read customer behaviors and trends across time and
+geography.
+
+Hidden behind that amount of data and tickets, there was a huge unknown value
+for the company still untackled because of their analysis methods.
+
+CASE STUDY
+
+2
+
+Research and insights • Consumer Goods, Food & Beverage • 2021
+
+------------------------------------------------------------
+
+A cluster analysis to discover business challenge behind tickets
+
+To gain a deeper understanding of their customer base, their consumption
+behavior in order to design product and marketing strategies.
+
+A cluster analysis on all 2019 and 2020 client's transactions and Loyalty
+Program data, to look at their customer base from a different angle, challenging
+common beliefs.
+
+The cluster analysis highlighted how some beliefs about customer behavior were
+groundless and demonstrated new behavioral patterns that we translated into
+actionable insights for the business.
+
+In the first problem Framing phase, we interviewed several key stakeholders to
+have an understanding of the fundamental business logic and to collect their
+pain points, desires, and main questions.
+
+In the following co-design workshop, we identified a set of clear Business
+Challenges, well-defined questions to focus on during the analysis phase. We
+worked with an agile sprint method, gathering data scientists, business and
+service designers, and domain experts, working as one team for 10 weeks, on a
+database encompassing all 2019 and 2020 transactions, mixed with POS data and
+Loyalty Program data. We have approached the dataset complexity in a smart way,
+defining some synthetic indicators describing interesting business phenomena and
+using them as clustering variables.
+
+The analysis showed 9 behavioral clusters, highlighting, among other crucial
+insights, that about 70% of Loyalty Customers showed more than one behavior,
+challenging the dichotomy between high spenders and low spenders on which the
+client used to rely until then.
+
+Based on the results, we designed a roadmap of actions and experiments to deploy
+on the market regarding the offering, marketing strategies, and distribution
+channels.
+
+CASE STUDY
+
+3
+
+Research and insights • Consumer Goods, Food & Beverage • 2021
+
+------------------------------------------------------------

@@ -1,0 +1,60 @@
+A RAG TO SUPPORT CONTACT CENTER OPERATORS IN ENERGY FIELD
+
+------------------------------------------------------------
+
+A RAG to support contact center operators in Energy field
+
+A player in electricity and gas, energy efficiency and sustainability services
+for domestic users, condominiums, businesses and entities provides support to
+its customers through contact center operators in cross channel mode (phone,
+email and social channels) depending on the types of support.To speed up and
+streamline support operations, within a POC perimeter, the client asked us for
+an application capable of navigating the document base of procedures and news
+built in Salesforce Knowledge. The system is made available on a lite interface
+integrated on Salesforce.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2024
+
+------------------------------------------------------------
+
+A RAG to support contact center operators in Energy field
+
+An application to support customer care operators that makes it easy to search
+through service items and return timely responses with reduced case management
+time.
+
+A RAG for browsing procedures and news integrated with GPT-3.5 on an integrated
+interface with the customer's Salesforce instance to support customer care
+activities.
+
+Tested performance in terms of coverage and accuracy of responses, perceived
+quality of service, and high speed of response. Increased efficiency in case
+management in reduced time.
+
+Customer service operations in Energy occur real time across various channels
+and must be efficient to ensure the customer receives the desired service.
+Sometimes these operations can be time consuming, due to the lack of
+availability of information in the document base to be consulted.A global player
+in electricity and gas asked for our support to make customer care work more
+efficient. In a POC perimeter, we co-designed and implemented a RAG, a search
+application that would make it easier to navigate an excerpt of the document
+base available to the customer's customer care operators. The system searches
+the care articles (procedures and news items) built in Salesforce Knowledge,
+retrieves the most relevant documents with respect to the query posed, and
+returns them to the best-performing LLM, which is tasked with generating an
+accurate response in adequate time that, before being returned to the operator,
+is validated by an ad hoc implemented filtering module so that it is
+consistent.System performance is calculated from several KPIs, such as response
+coverage and accuracy, perceived service quality, and response time.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2024
+
+------------------------------------------------------------

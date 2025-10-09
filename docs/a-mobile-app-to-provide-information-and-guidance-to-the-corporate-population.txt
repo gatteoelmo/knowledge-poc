@@ -1,0 +1,58 @@
+A MOBILE APP TO PROVIDE INFORMATION AND GUIDANCE TO THE CORPORATE POPULATION
+
+GENERALI ITALIA
+
+------------------------------------------------------------
+
+A mobile app to provide information and guidance to the corporate population
+
+Generali Group has launched the “New Way of Working” program aimed at the
+transformation of its global work environment. The Program has begun with an
+Italian based flagship project (relocation of most of the existing Milan offices
+to the new Generali Tower), that set the ground rules for the group wide change.
+
+The Italian Flagship Project includes the adoption of new ways of working,
+changing people’s behavior and creating a state-of-the-art work culture.
+
+GENERALI ITALIA
+
+CASE STUDY
+
+2
+
+Organization and culture • Financial Services • 2018
+
+------------------------------------------------------------
+
+A mobile app to provide information and guidance to the corporate population
+
+In the context of the movement of part of its population to a new location,
+Generali is asking for support in the creation of a digital tool that
+accompanies staff in discovering the new workplace.
+
+Development and maintenance of a mobile application to provide information and
+guidance to a specific portion of the Generali population which will move to the
+new Generali Tower.
+
+The app, created in a short time to meet the stringent timeline of a couple of
+months, has made it possible to make many information materials available to a
+potential >2000 users.
+
+MAIZE designed and developed a multilanguage information app, available for iOS
+& Android smartphones (Italian and English). We started from the development of
+a graphic identity based on the General guidelines, which we applied to each
+section (User interaction UX and User Interface). On a technical level, the
+application is hybrid to enable functional evolutions and thus make offline
+management of content possible. We have structured the content database on which
+the CMS is built which enables the management by different types of users.
+Security: SSO (single sign on) used only to secure application distribution.
+
+GENERALI ITALIA
+
+CASE STUDY
+
+3
+
+Organization and culture • Financial Services • 2018
+
+------------------------------------------------------------

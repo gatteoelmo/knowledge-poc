@@ -1,0 +1,60 @@
+ENHANCING THE USER EXPERIENCE OF AN ENERGY PLATFORM - AGILE UX/UI TEAM
+
+SNAM
+
+------------------------------------------------------------
+
+Enhancing the User Experience of an energy platform - Agile UX/UI Team
+
+Jarvis is a platform for gas transportation, storage, and regasification that
+was created by combining seventeen different applications. Snam requested
+support to improve the user experience on the application. We established an
+agile UX/UI room with expertise in Service Design, UX Design, UI Design, and
+Front-end Development. This room supports the evolution of Jarvis with
+improvement proposals, requirements gathering, user testing, rapid prototyping,
+and front-end library updates.
+
+SNAM
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2022
+
+------------------------------------------------------------
+
+Enhancing the User Experience of an energy platform - Agile UX/UI Team
+
+The establishment of an agile team led by a Service Design background figure
+serving seven development teams, responsible for the proper user experience on
+the Jarvis application by Snam.
+
+We reorganized from the previous room, not sections of the sites, but based on
+demand, the team organizes based on their skills and availability, in true maize
+style.
+
+We brought into sprint co-design initiatives with Product Owners and UX research
+activities. We provided UX and UX writing guidelines that were not present until
+now, except for the UI side.
+
+Jarvis is a commercial platform for gas transportation, storage, and
+regasification and was born from the union of seventeen different applications.
+
+Snam asked us for help to maintain and evolve the platform towards the best user
+experience on the application. We responded by establishing an agile UX/UI room
+cross and serving the teams involved in the evolution and maintenance of Jarvis.
+The UX/UI room has expertise in Service Design, UX Design, UI Design, and Front-
+end Development with the following responsibilities: evolution proposals,
+requirements gathering, user testing, rapid prototyping, and updating and
+improving front-end libraries.
+
+SNAM
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2022
+
+------------------------------------------------------------

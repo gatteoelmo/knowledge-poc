@@ -1,0 +1,71 @@
+ALLIANZ1 BUSINESS: A SEMANTIC MULTICATALOG SEARCH ENGINE
+
+ALLIANZ
+
+------------------------------------------------------------
+
+Allianz1 Business: a semantic multicatalog search engine
+
+The Allianz Group is one of the world's leading providers of integrated
+financial services. The Italian branch of Allianz provides users with online
+quotation services, and in the domain of business insurance, it is not always
+intuitive to frame one's business and obtain quotes that suit one's needs.
+
+In order to facilitate the searchability of information and allow professionals
+to get insurance quotes for their business, Allianz asked us for a software
+application capable of interpreting users' natural language.
+
+ALLIANZ
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2019
+
+------------------------------------------------------------
+
+Allianz1 Business: a semantic multicatalog search engine
+
+A software application integrated in the customer infrastructure that allows
+users to find information and generate their own business insurance coverage.
+
+A semantic search engine with natural language interpretation and integrated
+suggester that can provide users with business insurance coverage that fits
+their needs.
+
+Allianz1 Business has been integrated into a client landing page and allows
+professionals with up to 5 employees to get an insurance quote in a simple and
+intuitive way.
+
+The Italian branch of Allianz provides users with online quoting services and
+business insurance profiles depend on the ATECO code. Users rarely remember the
+code of their business and abandon the search as it is complex and not easily
+usable.
+
+To facilitate searchability, we have integrated Allianz1 Business, a semantic
+search engine with an integrated suggester capable of interpreting natural
+language, into the client's systems.
+
+The system allows you to describe your business both in colloquial language
+register and in more formal terms. The system interprets the request and
+provides the results of the vast catalog directly in the suggester, bypassing
+the results page. The user proceeds with the request for quote by filling out a
+single form with 3 fields: a search box in which to enter keywords about your
+business, details on the number of employees up to a maximum of 5 and the zip
+code of the place where the activity is carried out, even if different from the
+registered office.
+
+By inserting these simple data, and without having to find less accessible
+information such as the ATECO code, the professional immediately receives an
+insurance quote that adheres significantly to the initial request.
+
+ALLIANZ
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2019
+
+------------------------------------------------------------

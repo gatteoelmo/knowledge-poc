@@ -1,0 +1,61 @@
+AUTOMATIC CLASSIFICATION OF LEGAL DOCUMENTS
+
+------------------------------------------------------------
+
+Automatic classification of legal documents
+
+The client needs to manage large quantities of legal documents, classifying them
+according to a taxonomy consisting of about 12,000 classifying nodes. To
+automate and thus reduce tagging costs, we created a system based on 12 BERT's
+Large Language Models capable of returning the most relevant taxonomy nodes
+given a text. The automated classification system has become a business asset
+that can easily carry the taxonomy to other client products and new document
+types.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2022
+
+------------------------------------------------------------
+
+Automatic classification of legal documents
+
+Automatic classification service for legal documents. The reference taxonomy is
+extremely large (12,000 nodes). The architecture and functionality are the
+subject of the project.
+
+An automatic classification system based on 12 Large Language Models (BERT) that
+can automatically tag documents in the legal field based on an extremely broad
+taxonomy.
+
+Decrease of tagging costs, homogeneous labeling of content regardless of the
+nature of the document and without bias. Enterprise asset used in other client
+products.
+
+The client is a publisher and provider of tools, management software, and
+information solutions in the legal field. It manages large quantities of legal
+documents that must be labeled according to a customer-defined reference
+taxonomy called the Berruti lemmary. This lemmary consists of about 12,000 nodes
+organized on 3 levels of specialization. The legal domain has been divided into
+10 subject areas represented by portions of the Berruti taxonomy. Each subject
+area is then identified by a subset of the nodes of the taxonomy with the number
+of nodes ranging from 300 to 5400. In order to speed up and thus reduce the cost
+of classifying new documents, the client needs a system that can support the
+user in making a choice by providing automatic classification of documents.The
+system created is based on an ensemble of 12 BERT models. The models were
+trained on manually tagged judgments by the client but then applied to new
+document types. Each model was able to predict tags with a weighted average
+F1-Score of 65%.The quality of the system output was validated by the editorial
+team by manually evaluating a set of test documents. The evaluation performed
+performed better than the KPI used to automatically evaluate the models by
+standing at 80% accuracy.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2022
+
+------------------------------------------------------------

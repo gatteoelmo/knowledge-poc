@@ -1,0 +1,59 @@
+A CUSTOMIZED INSURANCE PRODUCT CONFIGURATOR
+
+------------------------------------------------------------
+
+A customized insurance product configurator
+
+Immagina Benessere is a configurator of protection scenarios for Generali
+customers, capable of describing and proposing an integrated and personalized
+offer for the development of the most diverse life projects.The tool allows for
+a "playful" profiling of the customer and his interests, resulting in an
+idealization through fictitious testimonials, which will represent the customer
+himself.The tool then presents the ideal configuration that satisfies user's
+needs, still leaving the possibility of activating some sub-products, and
+possibly moving on to industrial systems for the creation of the policy.
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Financial Services • 2019
+
+------------------------------------------------------------
+
+A customized insurance product configurator
+
+The customer asked us to imagine, design and create a tool for use by the sales
+agent, which would help simplify the story of the complexity of a family of
+products.
+
+We have designed a digital tool which, through an interactive survey on the
+customer and his interests, offers a simplified but extremely personalized
+configuration.
+
+Almost 3,500 agents used the tool, proposing more than 10,000 configurations,
+many of which were then included in estimates in industrial systems.
+
+Immagina Benessere is a tool aimed at the entire agent population.The solution
+created is a responsive website that can be used both from desktop but also on
+the move, as a cloud service.The agent accesses through a direct link with
+authorization checks, and can therefore carry out a configuration of suggested
+product bundles starting from a survey based on his customer's interests. The
+result is saved and can possibly be sent to the customer in the form of a PDF
+linked in an email.Furthermore, the resulting configuration can be propagated to
+the SPRINT estimator.The logical subdivision of the responsive platform
+includes:The Front End that combines Responsive Templating and Data
+Visualization, as well as user survey collectionThe logical back-end that takes
+care of all the operations offered to the frontend via API, and which integrates
+with external systems (SSO, sending emails, SPRINT services).The dialogue
+between the two parties occurs through REST APIs defined in the backend. A
+backend component, used as a calculation engine, lives on a separate machine in
+the form of a Docker container.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Financial Services • 2019
+
+------------------------------------------------------------

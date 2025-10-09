@@ -1,0 +1,56 @@
+FORWARD, THE PLATFORM SUPPORTING THE CORPORATE PERFORMANCE MANAGEMENT PROCESS
+
+------------------------------------------------------------
+
+Forward, the platform supporting the corporate performance management process
+
+The client, a leader in the small appliances sector, asked us to support the
+company's performance management with a customised platform. The project
+included the design of the UX and UI of the new tool, ensuring consistency with
+the guidelines defined in the previous phase, which we designed. It also
+required collaboration with an external supplier for the technological
+implementation.
+
+CASE STUDY
+
+2
+
+Organization and culture • Consumer Goods, Food & Beverage • 2021
+
+------------------------------------------------------------
+
+Forward, the platform supporting the corporate performance management process
+
+Design a custom platform to support corporate performance management by working
+with an external technology implementation provider.
+
+Customised platform for corporate performance management, designed to meet the
+needs of employees, managers and human resources.
+
+Tailored and globally integrated corporate performance management platform.
+
+After designing the new process, we developed the UX and UI of the new platform
+to support the company's performance management process. The client had selected
+the provider for the technological development of the solution, who chose to
+develop the new platform using a defined framework, namely Material Design. A
+page and microservices architectural approach was chosen, which consists of
+breaking down the platform into its basic functions.The first phase includes the
+first two sprints of functionality implementation and launch (setting & personal
+profile, goals & growth plan), from the definition of flows to the declination
+of the design system and components. The second phase includes the release of
+the feedback functionality. The last phase concerns the final release of the
+portal, which includes all the functionalities of the second level.The workflow
+was divided into several iterative sprints. Each sprint involved the design and
+development of a single functionality in the portal. The design phase was
+developed using the Material Design visual language, including wireframes,
+interactive prototypes to validate the UX of the functionality, and a UI phase
+using the client's corporate guidelines. The project included a UAT testing
+phase and pilot launch.
+
+CASE STUDY
+
+3
+
+Organization and culture • Consumer Goods, Food & Beverage • 2021
+
+------------------------------------------------------------

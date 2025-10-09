@@ -1,0 +1,61 @@
+KPI INTELLIGENT REPORTING WITH GENERATIVE AI
+
+------------------------------------------------------------
+
+KPI Intelligent Reporting with Generative AI
+
+An innovative system capable of automatically calculating numerical indicators
+linked to ESG ratings from sustainability reports that contain heterogeneous
+data (by source, format, and complexity). The pipeline addresses the challenge
+of information fragmentation by searching data from text and tables and flagging
+information gaps. Using a structured approach and advanced NLP modules, the tool
+ensures accuracy and reliability, even in long and complex documents.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2023
+
+------------------------------------------------------------
+
+KPI Intelligent Reporting with Generative AI
+
+Extract specific information from sustainability reports and automatically
+calculate certain KPIs related to ESG ratings.
+
+A pipeline that integrates the capabilities of a traditional search engine with
+those of an LLM to achieve automatic calculation of ESG KPIs.
+
+A faster and more accurate process of analyzing ESG reports, with timely and
+verifiable information.
+
+The goal of this project is to extract precise information from sustainability
+reports and automatically calculate some KPIs related to ESG rating.Our system
+automates the process of calculating KPIs, solving the challenge of extracting
+relevant data from long and inhomogeneous documents.The pipeline consists of
+four main modules:
+
+Search: automatically locates the most relevant sections of documents with
+respect to the KPI to be calculated.
+
+Entity Extraction: extracts specific data using a GPT-based information
+extraction module.
+
+KPI calculation: calculates KPIs from the extracted information.
+
+Filtering: checks the results and reports any errors.
+
+The system operates accurately: correctly extracted information reaches 84% in
+the simplest cases.When a reliable answer cannot be provided, the tool flags it,
+reducing the risk of misleading results. This solution enables sustainability
+reports to be transformed into usable data for ESG assessments, improving
+transparency and efficiency.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2023
+
+------------------------------------------------------------

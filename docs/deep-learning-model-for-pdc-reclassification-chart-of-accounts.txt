@@ -1,0 +1,66 @@
+DEEP LEARNING MODEL FOR PDC RECLASSIFICATION (CHART OF ACCOUNTS)
+
+------------------------------------------------------------
+
+Deep Learning model for PDC reclassification (Chart of Accounts)
+
+An Italian company that produces software for professionals and businesses is
+evaluating the possibility of integrating Deep Learning modules for the
+classification of PDC items within a management system. The hypothesis of
+integration between model and management provides that the system provides a
+series of suggestions to the user to be used later to make the reclassification.
+
+The proposed solution, a suggester based on Deep Learning, provides 15
+alternatives of associations based on the standard items in the PDC, has been
+successfully simulated on the client's datasets and is being evaluated for
+integration into the systems.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Industrial (Logistics and Manufacturing) • 2021
+
+------------------------------------------------------------
+
+Deep Learning model for PDC reclassification (Chart of Accounts)
+
+The client needs an automated tool for standardizing and classifying user input
+budget sheet items against standard budget sheet items.
+
+A Google BERT-based Deep Learning system that, from a user-entered custom entry,
+generates the classification of a canonical entry in the Chart of Accounts.
+
+The suggester provides 15 association alternatives based on the standard entries
+in the PDC. The current goal is to integrate the system into the customer's
+internal management system.
+
+An Italian software house updates software solutions and develops collaboration
+and sharing web platforms for professional firms and associations that want to
+offer new services to companies, based on the digital innovation push brought by
+electronic invoicing.
+
+As part of the innovation of an internal management system, the client asked us
+for an automatic tool for the reclassification of PDC items (Piano Dei Conti,
+which means Chart of Accounts) entered by users, and therefore not standard,
+towards the canonical PDC items. Therefore, we decided to implement a suggester
+based on Google BERT that, starting from a custom entry inserted by the user, is
+able to generate the classification of a standard entry in the PDC.
+
+The solution has been simulated on a customer dataset, producing excellent
+results: the accuracy of the model varies according to the variation of the
+number of classes provided, producing satisfactory results with a total number
+of 15 alternatives.
+
+The system has not yet been integrated into the client's management system, but
+among the possible evolutions we have thought about the possible integration of
+a rule based module for the management of reclassification items and the
+application of specific language configurations to improve performance.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Industrial (Logistics and Manufacturing) • 2021
+
+------------------------------------------------------------

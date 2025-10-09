@@ -1,0 +1,73 @@
+DIGITAL TRANSFORMATION ROADMAP TO RETHINK CUSTOMER RELATIONSHIPS
+
+CATTOLICA
+
+------------------------------------------------------------
+
+Digital Transformation roadmap to rethink customer relationships
+
+Gruppo Cattolica, one of the biggest players in the Italian insurance market,
+needed to analyze and redefine its customer experience from 360° taking into
+account all touchpoints, both physical (agencies, brokers, Bancassurance,
+management) and digital (website, social, apps) with a holistic approach that
+took into consideration the internal context of the group, insurance
+competitors, and new entrants in the startup ecosystem.
+
+CATTOLICA
+
+CASE STUDY
+
+2
+
+Research and insights • Financial Services • 2018
+
+------------------------------------------------------------
+
+Digital Transformation roadmap to rethink customer relationships
+
+Cattolica needed to rethink its relationship with customers and its distribution
+networks, through an approach that put the client and their needs at the
+forefront.
+
+A research and analysis project with a 360° context to map needs, friction, and
+issues, from the point of view of all actors involved, to outline a strategic
+operations roadmap.
+
+A roadmap to transform operations with quick-win and structural actions in the
+medium- and long-term, to respond to every insight that emerged during the
+analysis.
+
+The project was carried out in several phases that lead to the formulation of
+the final roadmap.
+
+A phase of qualitative and quantitative research, which included interviews with
+40 internal stakeholders, a road trip to more than 20 agencies throughout Italy
+— from Bolzano to Palermo — field interviews with more than 20 clients with
+different characteristics, and web questionnaires provided to over 10,000
+contacts to validate and measure the critical issues mapped during the
+qualitative research.
+
+After the research, an analysis of all the critical issues emerged, combined
+with an examination of the Cattolica portfolio, double-checked with the group's
+CRM data. In parallel, startup scouting was conducted on the main development
+areas of the InsureTech sector. This allowed us to create personas using a data-
+driven methodology (unsupervised Random Forest clustering) mapped on the group's
+portfolio, so that we could associate specific actions and an estimate of the
+economic impact of each of them.
+
+A simulation model of the evolution of the portfolio in 20 years (Time Machine)
+and a model of propensity to cross-selling for each customer in the CRM were
+also created.
+
+The final outcome of the project was a strategic roadmap: a path of innovative
+interventions to be planned over a 3-5 year period.
+
+CATTOLICA
+
+CASE STUDY
+
+3
+
+Research and insights • Financial Services • 2018
+
+------------------------------------------------------------

@@ -1,0 +1,70 @@
+LEGALTOOL - A CHATBOT THAT GUIDES THE LAWYER THROUGH THE POST-SENTENCING
+PROCEDURES
+
+------------------------------------------------------------
+
+LegalTool - A chatbot that guides the lawyer through the post-sentencing
+procedures
+
+Once a person is sentenced, he or she does not necessarily enter prison
+immediately. In some cases the imprisonment order can be suspended, and
+depending on the crimes committed, the penalty and other variables, some
+alternative measures to imprisonment can be available. The combination of these
+elements, however, is complex to calculate, even for those who work in the
+field.
+
+An Italian publishing house therefore asked us to implement an automatic tool to
+support non-specialized professionals. The tool shall compute the suspensibility
+of the order, as well as provide the applicable alternative measures to the
+incarceration.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2021
+
+------------------------------------------------------------
+
+LegalTool - A chatbot that guides the lawyer through the post-sentencing
+procedures
+
+A conversational assistant integrated with the client's systems that can guide
+the generalist attorney to the suspension of the incarceration order and the
+provision of alternative measures.
+
+A QuestionBot with agent-driven interaction. Based on the information about the
+assisted person, the tool is able to deliver an appropriate response to the
+specific case.
+
+The conversational assistant was delivered on the client's website and is
+integrated with both the frontend and an internal database for specific crime
+recovery and recognition.
+
+In cases where a custodial sentence is to be enforced, the public prosecutor
+issues an enforcement order ordering the imprisonment of the person to whom the
+order is addressed. However, it may happen that the order is suspendable: the
+legal position of the person assisted, the title of the crime and the sentence
+to be served are just a few of the elements to be considered for the
+applicability of the suspension of the execution order.
+
+Given this premise, a publishing house asked us to implement a tool that could
+guide the generalist lawyer to the application of such a provision for the
+assisted person, possibly providing alternative measures to detention. We have
+developed a QuestionBot, a conversational assistant that guides the user in the
+flow of conversation by collecting the necessary information and it is able to
+compute the outcome of a specific legal case.
+
+The bot is delivered on the client's website and is integrated via REST API with
+a database of offenses, while the frontend provides the user with an up-to-date
+view of laws, legal provisions and useful information for the defence strategy.
+The tool allows the user to edit the entered information, save the interactions
+on a specific case history and eventually resume them at a later time.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2021
+
+------------------------------------------------------------

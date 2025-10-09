@@ -1,0 +1,52 @@
+VOICEMATH: PRODUCT DESCRIPTION
+
+------------------------------------------------------------
+
+VoiceMath: product description
+
+VoiceMath is a project in collaboration with the Polin Laboratory of the
+University of Turin and was funded by the CRT Foundation and the University of
+Turin.The goal of the project is to reduce the barriers that people with motor,
+hearing, visual, and DSA disabilities encounter in scientific studies.
+Specifically, the product was created as a tool to assist faculty in creating
+accessible and usable materials.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2022
+
+------------------------------------------------------------
+
+VoiceMath: product description
+
+A tool to create handouts from videos and pdfs produced during university
+lectures.
+
+A web application that shows video transcription and LaTeX transcription of pdfs
+with formulas in one screen and allows the transcribed content to be reprocessed
+to create a handout.
+
+The developed tool provides the user with all the tools to create a handout:
+video and pdf transcription, text editor, quick editing tools, and export to
+LaTex.
+
+After an initial development phase, in which we dealt with the implementation of
+a Speech-to-Text component for transcribing the teacher's voice into text form
+and an image processing module, for converting images of formulas into LaTeX
+format (from a video recording and pdf of a lecture) and an initial testing
+phase with a few users, the development of the prototype was continued,
+expanding its functionality.Now VoiceMath is a product available to some 20
+users in the University; the University of Turin's authentication system has
+been integrated so that users can log in using their own credentials. In
+addition, features of the application such as a text editor, quick editing
+tools, audio playback, pdf display, and export to LaTex have been expanded.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2022
+
+------------------------------------------------------------

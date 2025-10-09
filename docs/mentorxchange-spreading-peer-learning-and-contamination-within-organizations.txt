@@ -1,0 +1,75 @@
+MENTORXCHANGE: SPREADING PEER LEARNING AND CONTAMINATION WITHIN ORGANIZATIONS
+
+MENTORXCHANGE
+
+------------------------------------------------------------
+
+MentorXchange: spreading peer learning and contamination within organizations
+
+MentorXchange is an English startup that aims to facilitate peer learning within
+corporations, thanks to a digital mentoring platform.
+
+They asked us to help to define their concept, and ultimately their philosophy.
+
+We started by defining a powerful company identity, then designed the product
+and implemented it.
+
+Through research and design activities, their true vision and mission arose.
+After facilitating an extended workshop with the team, we worked on the product
+design process applying the principles of atomic design, and finally on its
+technical development.
+
+MENTORXCHANGE
+
+CASE STUDY
+
+2
+
+Organization and culture • Education, Publishing • 2020
+
+------------------------------------------------------------
+
+MentorXchange: spreading peer learning and contamination within organizations
+
+Redefine MentorXchange’s go-to-market strategy and redesign their product’s User
+Experience, to make it an effective vehicle, capable of spreading a new culture
+within organizations.
+
+Our proposal was a phased project, focused on the company’s competitor analysis,
+mission and branding, the product’s user experience, and its technical
+implementation.
+
+Starting from a branding rework (including logo, website, pitch deck, and
+presentation video), we created a product that conveyed a consistent identity
+and philosophy across several touch points.
+
+An end-to-end, in-depth transformation of the MentorXchange brand and company,
+this horizontal project brought together many different areas of our offering.
+The initial research and competitor analysis, rebranding, and startup
+repositioning workstream were essential for the project’s success. Building on a
+new, solid brand allowed us to precisely tune into the company's communication
+and to differentiate the product's features uniquely on the market. Using co-
+design methodologies, we facilitated an extensive generative workshop, focusing
+on all aspects of the brand: pitch deck, product teaser video, and visual
+identity among others. The platform enabled employees of organizations or
+corporate networks to create mentoring relationships for their professional
+growth. Users could offer their support based on their experiences, skills, and
+competencies, or look for topics they would like to improve on. They then
+spontaneously connected through new mentorship relationships, schedule sessions,
+and share structured feedback. Editorial articles were also available for the
+community, allowing a deep-dive on topics relevant to the organization. All
+interactions were registered in an intuitive HR dashboard, with metrics
+(including skill growth). Thanks to atomic design, UI components were responsive
+and modular. Our internal team setup allowed an agile design and implementation
+workflow. Creatives and coders worked on the product side by side, keeping the
+client on board at all times.
+
+MENTORXCHANGE
+
+CASE STUDY
+
+3
+
+Organization and culture • Education, Publishing • 2020
+
+------------------------------------------------------------

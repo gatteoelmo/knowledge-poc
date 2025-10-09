@@ -1,0 +1,67 @@
+CULTURAL HERITAGE MANAGEMENT THROUGH STATISTICAL MODELS
+
+FITZCARRALDO - CARIPLO
+
+------------------------------------------------------------
+
+Cultural heritage management through statistical models
+
+There are more than 18 thousand historic public buildings in Lombardia, but 67%
+of these are abandoned or unused. On a national scale, the problem is not much
+different. Because of the complexity of factors to be considered, the
+requalification of cultural assets is challenging, and the difficulties are
+further increased for decision-makers who have to prioritize and choose among
+various objectives and types of interventions.
+
+FITZCARRALDO - CARIPLO
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2022
+
+------------------------------------------------------------
+
+Cultural heritage management through statistical models
+
+The goal of the project is to build a statistical model that will enable
+decision-makers to evaluate different scenarios of cultural heritage
+intervention.
+
+After conducting data collection from various sources, 3 models that can provide
+insights into the buildings under analysis were tested.
+
+An automatic process has been developed that analyzes "historical" data by
+producing reports with model insights; in addition, the process is re-executable
+with new data collection.
+
+There are more than 18 thousand historic public buildings in Lombardia, but 67%
+of these are abandoned or unused. Through their calls for proposals IC_Cultural
+Innovation, CheFare, and CheFare2, the Fitzcarraldo and Cariplo Foundations
+asked us to design statistical models from data on cultural heritage
+characteristics, interventions, and territory. The ultimate goal of the project
+is to enable decision-makers to evaluate different scenarios of intervention in
+this regard.Initially, we took care together with Fondazione Fitzcarraldo to
+collect different data sources, which contained information about cultural
+heritage in Lombardy and contextual information about the territory. In
+addition, to investigate citizens' perceptions of cultural heritage, a chatbot
+was developed through CELI.dialog and web data were collected and analyzed with
+CELI.analytics. The collected datasets were used to develop 3 models, which
+allow different insights to be extracted from the data. The procedure works on a
+historical data pool and generates reports containing insights from the models.
+With the pool of data available to us and the use of approaches that take into
+account the specific characteristics of the dataset, it was possible to obtain
+models with adequate accuracy. The results are being analyzed to assess both the
+reliability on historical data and the applicability of the methodology to
+future decisions.
+
+FITZCARRALDO - CARIPLO
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2022
+
+------------------------------------------------------------

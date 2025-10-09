@@ -1,0 +1,68 @@
+SUPERVISED DEEP LEARNING CLASSIFIER FOR AUTOMATIC CLAIMS SORTING
+
+------------------------------------------------------------
+
+Supervised Deep Learning classifier for automatic claims sorting
+
+Customers of an energy service provider send complaints to a single certified
+mail (PEC) address. Each complaint must be forwarded to the appropriate office,
+which is able to properly handle the file.
+
+In order to make the operation more efficient, we have realized an automatic
+tool based on supervised Deep Learning able to redirect the complaint to the
+competent office, after the analysis of the subject, text in the mail body and
+possible attachments.
+
+The complaints not automatically sorted are manually validated and used as
+training data for the improvement of the system performance.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2019
+
+------------------------------------------------------------
+
+Supervised Deep Learning classifier for automatic claims sorting
+
+A tool that provides a classification of PEC mails associating them with the
+most likely recipient based on an analysis of subject, email body and
+attachments.
+
+An automatic classifier, through a PoC, that indexes, analyzes and classifies
+the approximately 8K PEC mails received, associating to each one the most
+probable office of competence.
+
+The supervised Deep Learning system makes the email classification process more
+efficient and faster, with subsequent sorting to the 15 relevant offices.
+
+An Italian multi-utility offering electricity, light and gas supply services
+needs to streamline the process of sorting complaints sent by customers to a
+single certified electronic mail (PEC) address.
+
+The emails must be classified and sent to 15 offices of competence according to
+the content of the emails, the subject and any attachments from different data
+sources (TXT, PDF, JPEG, XLS, etc.).
+
+In order to meet this need we proposed the implementation, through a pilot
+project, of an automatic classifier based on supervised Deep Learning techniques
+trained from the receivers associated with the emails provided as an example.
+
+Each complaint received is automatically redirected to the competent office,
+following the semantic analysis of the subject of the complaint, the textual
+content and any attachments. Complaints that are not sorted automatically are
+sorted manually and, subsequently, are used as training data to improve the
+efficiency of the automatic system.
+
+The system has been evaluated positively by the client, showing a satisfactory
+performance even in cases where there were attachments of a different nature to
+the PEC emails.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2019
+
+------------------------------------------------------------

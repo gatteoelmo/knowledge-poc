@@ -1,0 +1,59 @@
+TRAINING PROGRAMME FOR AN ELECTRICITY COMPANY
+
+------------------------------------------------------------
+
+Training programme for an electricity company
+
+The project involves the merging of five applications, currently in use, into a
+single system based on the Salesforce platform. The training programme involves
+about 7.000 employees who will have to be familiar with the features of the new
+platform and learn how to use it for their daily work.We have designed and
+delivered a training programme in which interactive online courses,
+communication and entertainment are set in a single narrative framework.
+
+CASE STUDY
+
+2
+
+Organization and culture • Energy Telco and Utilities • 2022
+
+------------------------------------------------------------
+
+Training programme for an electricity company
+
+Lead about 7,000 employees of the Network Commercial Operations function in the
+transition to a single system based on the Salesforce platform, in which 5
+applications converge.
+
+Digital training made up of training courses (scorm) and communication assets
+capable of conveying to end users all the information they need to use the new
+application in the best possible way.
+
+7.000 employees involved in training. 16 scorm courses to tell the user strands
+about the new platform features.
+
+The training programme we designed is embedded in a narrative framework that
+permeates all elements of the training programme through the story of 6
+characters that coincide with the 6 user strands of the applications. The
+narrative concept is characterised by 6 heroes (the characters), a mentor and
+7000 allies, i.e. the users following the training. The narrative framework is
+organised in three phases: prologue, unfolding, epilogue. In the prologue phase
+a teaser video introduces the characters and through the mentor the challenge is
+set. Then there is an unfolding phase in which characters and employees (allies)
+put themselves to the test by taking advantage of the courses dedicated to them.
+The programme ends with a final phase called epilogue in which the characters
+are in possession of all the tools to face this change, which coincides with the
+use of a single tool. The content structure is actually organised in three
+blocks that follow the evolution of the narrative framework. The user journey of
+the training programme consists of: an initial newsletter (with the teaser video
+inside), a block of introductory courses, a second newsletter with the character
+embodying the user strand, a series of specific scorm courses with test quizzes
+and a closing newsletter.
+
+CASE STUDY
+
+3
+
+Organization and culture • Energy Telco and Utilities • 2022
+
+------------------------------------------------------------

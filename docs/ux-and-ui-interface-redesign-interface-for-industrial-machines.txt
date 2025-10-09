@@ -1,0 +1,62 @@
+UX AND UI INTERFACE REDESIGN INTERFACE FOR INDUSTRIAL MACHINES
+
+------------------------------------------------------------
+
+UX and UI interface redesign interface for industrial machines
+
+The client is a company that designs and realizes special machines for General
+Industry and complete plants for the production and manufacturing of expanded
+polystyrene.
+
+The collaboration was born out of the need to make machine user interfaces more
+user-friendly, especially for the US market.
+
+After a series of interviews and a concept, the project objective was the
+complete design of the user interface of a cutting line that would serve as a
+guide for the development of the future interfaces.
+
+CASE STUDY
+
+2
+
+Brand experiences • Industrial (Logistics and Manufacturing) • 2021
+
+------------------------------------------------------------
+
+UX and UI interface redesign interface for industrial machines
+
+To redesign the machines user interfaces to making them easy and friendly to
+everyone, non-specialized users included, while being consistent with the
+corporate branding.
+
+Complete redesign of both the flows and the graphic interface, resulting from a
+series of interviews and collaborative study with the client.
+
+The deliverable was a document with all the screens produced, the conceptual and
+functional points of interest, and the style guide. We also shared the
+screenshots in InVision.
+
+The client is a company that designs and realizes special machines for General
+Industry and complete plants for production and manufacturing of expanded
+polystyrene
+
+The collaboration was born out of the need to make their user interfaces user
+friendly, especially for the American market, where turnover makes it impossible
+for workers to have a learning time.
+
+The project follows a series of interviews and a concept and aims at the
+complete design of the user interface of a cutting line, which will then serve
+as a guide for the development of all future interfaces.
+
+The main difficulties of the project were linked to the complexity of the pre-
+existing interface and the incredible modularity that the redesign must foresee:
+each machine produced by the company is actually a unique piece, with its
+modules, commands and special customer requests.
+
+CASE STUDY
+
+3
+
+Brand experiences • Industrial (Logistics and Manufacturing) • 2021
+
+------------------------------------------------------------

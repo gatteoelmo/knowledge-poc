@@ -1,0 +1,73 @@
+DESIGN AND DEVELOPMENT OF MAIA, THE AI CHATBOT FOR SYSTEMIC MASTOCYTOSIS
+MANAGEMENT
+
+BLUEPRINT MEDICINE ITALIA
+
+------------------------------------------------------------
+
+Design and Development of MAIA, the AI Chatbot for Systemic Mastocytosis
+Management
+
+The project, sponsored by Blueprint Medicines, has led to the creation of an
+advanced chatbot powered by artificial intelligence (RAG). MAIA is developed to
+support physicians—including specialists in allergology and hematology—in the
+management of systemic mastocytosis. The chatbot is designed to provide precise
+and timely responses to physician inquiries, thanks to a knowledge base
+validated by a scientific board of leading Italian experts. MAIA offers support
+for the diagnosis and treatment of the condition, improving the quality of
+clinical decisions, helping to train less-experienced specialists, and
+facilitating the referral process to qualified centers and specialists.
+
+BLUEPRINT MEDICINE ITALIA
+
+CASE STUDY
+
+2
+
+Brand experiences • Healthcare and Pharma • 2025
+
+------------------------------------------------------------
+
+Design and Development of MAIA, the AI Chatbot for Systemic Mastocytosis
+Management
+
+To create a digital assistant that supports specialist physicians in the
+management of systemic mastocytosis, improving access to updated scientific
+information and facilitating diagnosis.
+
+An AI chatbot, based on the CELI.dialog product, developed to respond precisely
+to physicians' questions about systemic mastocytosis, whose knowledge base is
+validated by a board of experts.
+
+Physician evaluations have revealed an accuracy rate exceeding 80%. MAIA
+supports the launch of a new drug for systemic mastocytosis.
+
+MAIA (Mastocytosis AI Assistant) addresses the growing need for physician
+support in managing systemic mastocytosis. The chatbot, based on Retrieval-
+Augmented Generation (RAG), provides physicians with information regarding the
+disease, its management, and its therapeutic and diagnostic pathways, but it is
+programmed not to mention specific drugs. It is equipped with a
+pharmacovigilance system to monitor any adverse events reported during
+conversations.After defining the key topics of interest in collaboration with an
+expert scientific board, a curated selection of scientific papers, guidelines,
+and recent studies was chosen to form the knowledge base that powers the RAG
+model. Since the knowledge base consists of documents in both Italian and
+English, the RAG model handles the translation of user queries into multiple
+languages. This allows it to retrieve the most relevant source(s), thereby
+limiting the risk of providing incorrect information. To prevent translation
+errors, the chatbot utilizes a domain-specific dictionary during response
+generation. To avoid responses containing drug names, an entity recognition
+system reformulates the answer to include only the therapeutic class of the
+cited drug. Finally, during the testing phase, physicians were involved in a co-
+creation process to establish the gold standard for evaluating the chatbot's
+performance and to identify their unmet needs.
+
+BLUEPRINT MEDICINE ITALIA
+
+CASE STUDY
+
+3
+
+Brand experiences • Healthcare and Pharma • 2025
+
+------------------------------------------------------------

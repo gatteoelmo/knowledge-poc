@@ -1,0 +1,67 @@
+A VR SIMULATOR TO TRAIN AND UP-SKILL UTILITY WORKERS SAFELY
+
+------------------------------------------------------------
+
+A VR Simulator to train and up-skill utility workers safely
+
+Gas and energy services are very risky by nature and therefore need a highly-
+trained workforce. Training efforts and costs are considerable, as they require
+re-creating potentially dangerous situations in a controlled environment.
+
+To make internal training operations more efficient, one of the main gas storage
+and distribution companies worldwide partnered with us to start a VR training
+program, shaping a new, safe, flexible, and efficient training strategy for
+employees.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2018
+
+------------------------------------------------------------
+
+A VR Simulator to train and up-skill utility workers safely
+
+Considering the risky and high-maintenance nature of their business, the new VR
+training program had to prepare employees to deal with any potential scenarios
+that might occur in real life.
+
+A flexible VR Training Simulator, allowing workers to safely practice procedures
+and take part in up-skilling programs, virtually performing the same tasks they
+would in real-life situations.
+
+The simulator was built to replicate every aspect of the real training, covering
+standardized procedures in a tightly-controlled environment and preserving
+worker's safety and security.
+
+The initial step in the project cleared both hardware and logistical
+requirements. Also, the first set of procedures to be simulated was defined.
+This allowed for a closer look at the details of interactions and scenarios to
+simulate. Visiting the physical locations involved in each procedure allowed us
+to design and storyboard each scenario in detail. Engineering and building both
+the 3D environments and interactions was the next step. Close collaboration and
+validation from the client was key to ensure the appropriate information was
+conveyed exactly as intended.
+
+Finally, the first Virtual Reality setups were put together and the first
+training experiences were deployed. The variety of interactions that were
+possible were impressive: screwing in screws, tying cables, attaching objects to
+name a few. But more importantly, data began to flow during each training
+session, including system records data about the performance of the workers and
+their adherence to prescribed procedures.
+
+To provide meaningful content for up-skilling, assistive user interfaces were
+activated to guide employees during the execution of a specific task. Science
+tells us that our learning is affected in stressful situations. Being able to
+control the environment to work in a safe VR space enhanced the experience even
+more by allowing the trainee to focus on operations without needing to worry
+about their safety.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2018
+
+------------------------------------------------------------

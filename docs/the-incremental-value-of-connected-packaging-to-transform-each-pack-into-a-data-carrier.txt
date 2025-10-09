@@ -1,0 +1,75 @@
+THE INCREMENTAL VALUE OF CONNECTED PACKAGING TO TRANSFORM EACH PACK INTO A DATA
+CARRIER
+
+------------------------------------------------------------
+
+The incremental value of connected packaging to transform each pack into a data
+carrier
+
+In 2018 a multinational food packaging company introduced Dynamic QR codes, the
+technology that virtually transforms each pack into a data carrier, opening up
+vast possibilities for consumer interaction and product tracking, and
+potentially reinforcing its position as a service provider.
+
+The organization was looking for innovative solutions to boost its smart
+packaging technology as customers were not grabbing the full value of consumer
+engagement with the connected package. 
+
+We helped the organization define its innovation perimeter, select the right
+partner, and develop a proof of concept.
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Industrial (Logistics and Manufacturing) •
+2020
+
+------------------------------------------------------------
+
+The incremental value of connected packaging to transform each pack into a data
+carrier
+
+Prove connected packaging's incremental value to customers by improving data
+interpretation, and helping the organization reinforce its position along the
+data driven value chain.
+
+Scouting, selection, and engagement of the innovative venture able to leverage,
+integrate, and transform data to provide actionable insights to the brands
+and/or the organization.
+
+The startup ran a successful 2-month’s PoC, leveraging Swiss dairy product
+company real marketing campaign data. The result was a data integration feature
+providing actionable consumer insights.
+
+To guarantee the project's success it was crucial to define the need correctly,
+as the technology developed by the organization was unique and new on the market
+and there were no comparable cases to be used as a “benchmark” to address the
+associated challenges. To do this, we organized an immersive co-design workshop
+during which the brand's stakeholders, guided by MAIZE, defined the innovation
+challenge perimeter to guide the startup scouting activity. During a three-
+month-scouting round, over 130 startups were evaluated, 11 ventures were
+presented to the organization, and 1 was selected for the PoC development.
+
+The selected venture worked closely with MAIZE, the brand and its partners — a
+Swiss dairy product company – to develop a PoC aimed at understanding how, by
+combining existing data from multiple sources, the brand can gain actionable
+insights from the connected package, and which additional data could be added to
+maximize insights.
+
+The startup used package scanning data from a real marketing campaign and
+integrated it with other data sources to construct a data integration, analysis,
+and visualization feature.
+
+The PoC received extremely positive feedback, proving the viability of the
+feature integration value and opening up the possibilities of creation of a
+predictive tool with real-time data.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Industrial (Logistics and Manufacturing) •
+2020
+
+------------------------------------------------------------

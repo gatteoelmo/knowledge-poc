@@ -1,0 +1,58 @@
+UX FOR THE NEW API SERVICE PROVIDED
+
+------------------------------------------------------------
+
+UX for the new API service provided
+
+The client, owner of a platform used as a daily work tool by all its customers
+and aware of the support it represents in their operations, decided to provide a
+large part of the numerous reports also via API. Maize was involved to study the
+UX of the new service that will allow users to download the information they
+need no longer manually, but via an automatic service. At the same time, we also
+provided support in prioritising the implementation of the API and identified
+the most suitable communication and support methods for the users at whom the
+service is aimed.
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Energy Telco and Utilities • 2023
+
+------------------------------------------------------------
+
+UX for the new API service provided
+
+Design the user experience of the new API Catalog, taking into consideration
+client's guidelines and define how to prioritize the implementation of APIs from
+the users' voice.
+
+A mini-site that could be the collector of everything related to the API
+catalog, modular and fed automatically.
+
+A user-centered user experience that is scalable to other initiatives and has a
+modular and sustainable implementation.
+
+In order to define the UX of the new API service, we identified 2 phases and 3
+activities: the first phase involved us in gathering information and studying
+similar services. The second phase, on the other hand, was the synthesis phase,
+which led us to the definition of the design concept and its sharing with
+project stakeholders.1. DISCOVERY:Workshop: this activity aimed to create a
+starting point for all participants to serve as a basis for dialogue with users.
+The areas to be investigated were many: we mapped all currently available
+reports and did an initial prioritization, then hypothesized communication and
+support channels, also going to define the ownership of each channel.Interviews:
+once the internal collection was conducted, we then pooled what emerged with the
+information gathered from direct dialogue with users. There were a total of 41
+interviews (12 clients) with users who came from different business divisions,
+including IT.2. SYNTHESISConcept: At this stage, we defined the experience,
+identifying as the optimal solution for users, a way forward that was not
+initially considered.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Energy Telco and Utilities • 2023
+
+------------------------------------------------------------

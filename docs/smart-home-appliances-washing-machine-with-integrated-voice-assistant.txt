@@ -1,0 +1,68 @@
+SMART HOME APPLIANCES: WASHING MACHINE WITH INTEGRATED VOICE ASSISTANT
+
+------------------------------------------------------------
+
+Smart home appliances: washing machine with integrated voice assistant
+
+Candy, an Italian home appliances manufacturer, is adapting to new technological
+trends by turning its products into IoT objects with conversational user
+interfaces.
+
+After the first phase of internal experimentation with standard and general-
+purpose tools such as the Google Assistant infrastructure, the client asked us
+to enhance the ambiguity management capabilities of the complex dialogues needed
+to operate and interact with the appliances. The user must be able to operate a
+washer by voice and ask general questions about garment handling.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Industrial (Logistics and Manufacturing) • 2020
+
+------------------------------------------------------------
+
+Smart home appliances: washing machine with integrated voice assistant
+
+To manage some commands in the Italian language with multiple parameters that
+lead to the activation of a washing machine prepared by the customer.
+
+The implementation of a virtual assistant integrated with CELI.dialog in order
+to leverage NLU's proprietary capabilities and ensure the recognition of complex
+commands.
+
+The demo phase took place in late 2020. The implemented solution allows handling
+«multi-intent» requests and resolving ambiguities, avoiding asking the user
+redundant questions.
+
+In the context of product innovation, Candy is interested in evaluating new
+solutions to enhance its smart products through voice commands.
+
+We have proposed the implementation of a PoC through two parallel development
+phases: in addition to the recognition of user commands, we included the design
+of a conversational flow, in order to allow the user to request all necessary
+parameters for command activation. The system to implement will automatically
+recognize any additional information presented by the user.
+
+The NLU proprietary component integrated into the proposed conversational
+assistant, allows the correct management of the different linguistic
+difficulties and ambiguities: «Come lavo la lana» and «Avvia lavaggio lana» are
+in fact two Italian linguistic expressions apparently similar but completely
+different in the meaning and can generate confusion in the systems available on
+the market.
+
+At the end of 2020, after completing the internal processes of implementation
+and testing, the demo phase of the PoC provided in SaaS mode on the
+infrastructure prepared by us took place.
+
+The assistant we developed is able both to recognize and differentiate complex
+commands and to ask the user for any missing information useful to complete the
+task.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Industrial (Logistics and Manufacturing) • 2020
+
+------------------------------------------------------------

@@ -1,0 +1,70 @@
+IN-HOUSE LARGE LANGUAGE MODELS
+
+MAIZE
+
+------------------------------------------------------------
+
+In-House Large Language Models
+
+A privately owned large language model (LLM), rather than being a service
+provided by a provider, can offer several advantages, such as full control over
+data, management of hardware resources, and model customization. The goal of
+this research was to assess the performance of models like LLaMA and Flan T5 on
+specific use cases in Italian. Despite the experimentation not yielding the
+expected results, it has allowed us to develop a robust perspective on the
+current capabilities of these models, which we now share with our clients.
+
+MAIZE
+
+CASE STUDY
+
+2
+
+Transformative innovation • Internal • 2023
+
+------------------------------------------------------------
+
+In-House Large Language Models
+
+A generalist model, meaning one that can perform multiple tasks using the
+customer's data without relying on external services.
+
+Three different tasks were selected, to try to see if with appropriate fine-
+tuning it is possible to have an LLM in house, with GPT-like performance.
+
+We did not achieve performance comparable to GPT, but we have gained more
+experience and a strong perspective, which allowed us to obtain accreditation
+for a client project.
+
+A proprietary LLM, rather than being provided as a service by a provider, offers
+many advantages: greater control over the data flow, control of hardware
+resources, model customization, and long-term cost reduction. The most
+noteworthy feature of these models is their generalization capability: we aim
+for a model capable of understanding what to do with the lowest possible number
+of examples (potentially zero).After thorough scouting, we rationalized existing
+models based on their size, capacity, licensing, model scope, and strengths.
+Additionally, after creating and refining various datasets taken from the
+literature, we attempted to train models like LLaMA and Flan T5. These models
+were then tested on various internal use cases:
+
+Banking/customer care: identifying the most relevant topics in customer
+comments.
+
+Publishing: expediting the production of editorial content related to products.
+
+The effectiveness of these models has not yet met a customer's expectations. But
+from this experimentation, we have learned that i) specific terminology imposes
+capacity constraints on the model's comprehension, ii) it is important to focus
+on curated data, diverse prompts, and outputs with stylistic coherence, and iii)
+techniques like reinforcement learning from human feedback can enable better
+model customization.
+
+MAIZE
+
+CASE STUDY
+
+3
+
+Transformative innovation • Internal • 2023
+
+------------------------------------------------------------

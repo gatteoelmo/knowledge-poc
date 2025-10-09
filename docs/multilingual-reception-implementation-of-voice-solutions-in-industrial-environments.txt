@@ -1,0 +1,70 @@
+MULTILINGUAL RECEPTION, IMPLEMENTATION OF VOICE SOLUTIONS IN INDUSTRIAL
+ENVIRONMENTS
+
+------------------------------------------------------------
+
+Multilingual reception, implementation of voice solutions in industrial
+environments
+
+In a production plant, everyday employees must interact with international
+transporters at several touchpoints.
+
+Lacking a common language, the reception desk for truck-drivers is the
+bottleneck of the acceptance process.
+
+With the aim of developing an automatic speech-to-speech simultaneous
+translation technology, the client asked us for help in evaluating the existing
+systems and their technological applicability.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Consumer Goods, Food & Beverage • 2020
+
+------------------------------------------------------------
+
+Multilingual reception, implementation of voice solutions in industrial
+environments
+
+Identify the best speech-to-speech simultaneous translation technology, in order
+to facilitate the acceptance process at the reception desk.
+
+Evaluation of the identified technological solution, with two different hardware
+configuration and in several production plant's touchpoints. Survey based
+analysis of the users' satisfaction.
+
+Project report containing pros and cons of the chosen solution, with scale-up
+recommendations.
+
+A multinational company with various production plants must effectively manage
+the conversations that take place between Italian employees and truck drivers
+who speak different languages.
+
+We analyzed some solutions available on the market that allow the simultaneous
+translation of speech from foreign languages ​​into Italian (and vice versa). We
+found that the best solution was the Google Interpreter service (integrated in
+Google Assistant), accessible via different devices (smartphone, smart speaker,
+tablet, etc.).
+
+We then tested the solution inside a production plant, asking users to use
+Google Interpreter (comparing two different devices). After the tests, a
+questionnaire was distributed to collect user opinions.
+
+Finally, we evaluated the solution according to some KPIs: covered languages,
+translator's performance, audio power, any visual support.
+
+The analysis highlighted the Google Interpreter as the best solution delivered
+through Smart Speaker with integrated display.
+
+The analysis and the collected recommendations were merged into a project
+report, used by the management to evaluate the industrialization of the
+solution.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Consumer Goods, Food & Beverage • 2020
+
+------------------------------------------------------------

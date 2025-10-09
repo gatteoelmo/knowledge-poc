@@ -1,0 +1,68 @@
+TEXT MINING FOR SERVICE QUALITY MEASUREMENT IN THE CAR RENTAL INDUSTRY
+
+ARVAL ITALIA
+
+------------------------------------------------------------
+
+Text mining for service quality measurement in the car rental industry
+
+The customer feedback team of Arval Italia, a long-term car rental company,
+submits various surveys to its customers, including a satisfaction inquiry with
+questionnaires aimed at detecting the Net Promoter Score (NPS) and collecting
+feedback. The sheer volume of responses collected makes it necessary to use an
+automated tool to extract insights and sentiment from the textual responses so
+that the company can take concrete action for improvement.
+
+To perform the analysis of the data resulting from the surveys, we provided the
+client with our text mining platform, CELI.analytics, in SaaS mode.
+
+ARVAL ITALIA
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2021
+
+------------------------------------------------------------
+
+Text mining for service quality measurement in the car rental industry
+
+The client needs to interpret the results of surveys in a human readable way, in
+order to determine actions to improve their processes and services.
+
+We provided the workbench (work area) and dashboard (for viewing results in a
+human readable way) for our text mining platform, CELI.analytics.
+
+CELI.analytics extracts value from textual data by identifying the most frequent
+and relevant themes within documents and classifying them.
+
+Aware of the importance of listening to the voice of customers, Arval Italia, a
+company specializing in long-term vehicle rental, conducts surveys to collect
+customer feedback expressed both in numerical values for the Net Promoter Score
+(NPS) and in natural language, i.e. responses to open-ended questions.
+
+Once this data is collected, careful analysis is required to extract actionable
+information for the business: measuring customer satisfaction, identifying
+strengths and areas of concern, anticipating needs and improving the customer
+experience.
+
+To perform these tasks, we provided Arval Italia with our text analytics
+platform in SaaS mode in all its components: the semantic text analysis
+workbench that allows analysts to manipulate data (survey results) to extract
+value, and the reporting dashboard, a continuous support in the graphical
+visualization of insights resulting from surveys.
+
+Thanks to the use of the CELI.analytics platform, Arval Italia is able to
+promptly implement all useful initiatives to improve the processes and services
+provided to clients.
+
+ARVAL ITALIA
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2021
+
+------------------------------------------------------------

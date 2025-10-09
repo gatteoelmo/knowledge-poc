@@ -1,0 +1,74 @@
+NATURAL LANGUAGE PROCESSING APPLICATIONS IN CASE-LAW TEXT PUBLISHING
+
+GIUFFRÈ FRANCIS LEFEBVRE
+
+------------------------------------------------------------
+
+Natural Language Processing applications in case-law text publishing
+
+Processing case-law contents for electronic publishing purposes is a time-
+consuming activity that encompasses several subtasks and usually involves adding
+annotations to the original text. On the other hand, recent trends in Artificial
+Intelligence and Natural Language Processing enable the automatic and efficient
+analysis of big textual data.
+
+A publishing house deals with online publications in the field of jurisprudence
+and provides several activities to analyze the text of each new judgment: from
+the annotation of normative references to the identification of similar
+judgments, to a classification by relevance and then by topic.
+
+GIUFFRÈ FRANCIS LEFEBVRE
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2020
+
+------------------------------------------------------------
+
+Natural Language Processing applications in case-law text publishing
+
+The client asked us to apply state of the art NLP techniques to produce specific
+analysis components for the Italian legal domain starting from an existing
+document database.
+
+A design proposal in 3 modules: annotation and extraction of principles,
+identification of similar judgments, a classification by relevance and one by
+theme, identification of relevant parts.
+
+The approach and technologies adopted provide an overall benefit in terms of
+information architecture, enabling uniform use of resources.
+
+In the field of law publishing, Giuffré Francis Lefebvre needs to analyze the
+texts of new published sentences through state-of-the-art NLP technologies. In
+order to meet these needs, we have created and engineered 3 analysis modules: a
+study of the normative references present in the dataset, training and tuning of
+models to identify similar sentences, a classification by degree of relevance
+and by theme to identify the significant parts for the purpose of drafting the
+maxim.
+
+To carry out these activities, we identified semantic and Machine Learning
+technologies as the key to achieving the desired results, since they provide
+standard tools and methodologies for the creation of reusable and articulable
+evolutions within a progressive evolution path.
+
+The solution integrates in the proprietary architecture Sophia Brain, an open-
+source Language Model with prior knowledge of Italian (Google BERT), able to
+capture the nuances and variants of the language and adapted to the legal
+domain.
+
+The developed models are delivered through services integrated in the normal
+editorial flow, giving the possibility to the human operator to review the
+analysis and the classifications produced by the machine, before proceeding with
+the publication.
+
+GIUFFRÈ FRANCIS LEFEBVRE
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2020
+
+------------------------------------------------------------

@@ -1,0 +1,66 @@
+PRICE BENCHMARKING & ANALYTICS FOR SALARY-BACKED LOANS
+
+------------------------------------------------------------
+
+Price Benchmarking & Analytics for Salary-backed Loans
+
+The client, one of the main Italian players in consumer credit, asked for our
+help with the goal of monitoring their price positioning against their
+competitors’ in the salary-backed loans, a fast-expanding sector where the
+competition moves aggressively.
+
+Our solution is based on a dashboard where the client can monitor the pricing
+data being gathered, receive alerts about moves from the competition, analyze
+their price positioning and simulate pricing changes, receiving real-time
+feedback on how positioning on online comparators would change.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2022
+
+------------------------------------------------------------
+
+Price Benchmarking & Analytics for Salary-backed Loans
+
+Monitoring price positioning with respect to competitors in a comprehensive,
+analytical and efficient way, as opposed to using a very limited number of
+manual readings.
+
+A Tableau Dashboard, fed by an analytics layer, where the client can monitor
+their pricing positioning, receive alerts and simulate changes in their offer.
+
+An automatized, interactive system that allows the client to elaborate their
+pricing strategy in a data-driven way, with a comprehensive vision on where they
+stand against the competition.
+
+Salary-backed loans is a market where the offering is very diversified and the
+price for the customer can depend on many factors: besides length and size of
+the loan, variables such as age, contract seniority, working sector (e.g.
+private, public or retirement) and type of contract also come into play.
+
+Data is acquired through an automated tool (a "crawler") provided by an external
+vendor, that gathers pricing data from the Prestitionline comparator: given the
+many variables in play, it is necessary to rotate throughout the offering along
+a period of time. We developed the optimal data gathering strategy based on
+data-driven evidence and insights from the client’s domain experts.
+
+We developed an analytics layer that computes various synthetic KPIs for
+monitoring the market (e.g. by detecting which variables each player uses the
+most to define the "shape" of their pricing model) and sends e-mail alerts about
+pricing variations made by the competition.
+
+Our solution is provided through a Tableau dashboard where the client can
+explore the data being gathered, analyze monitoring KPIs, evaluate their price
+positioning and simulate changes on their offer; the system provides real-time
+feedback on the effect of such changes in terms of spread and where the company
+would appear to a user in the ranking of results on the comparator.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2022
+
+------------------------------------------------------------

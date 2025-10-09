@@ -1,0 +1,66 @@
+VOICEMATH: ACCESSIBILITY TO SCIENTIFIC STUDIES, IN PRESENCE AND REMOTELY
+
+------------------------------------------------------------
+
+VoiceMath: accessibility to scientific studies, in presence and remotely
+
+Despite the high degree of development of assistive and compensatory
+technologies, the management of scientific content remains an open problem. The
+goal of the VoiceMath project, in collaboration with the Polin laboratory of the
+University of Turin and funded by the CRT Foundation and the University of
+Turin, is to reduce the barriers that people with motor, hearing, visual
+impairments and with DSA encounter in scientific studies.
+
+To achieve this goal we have implemented a Web App based on Machine Learning, in
+particular Speech-to-Text and Computer Vision.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2021
+
+------------------------------------------------------------
+
+VoiceMath: accessibility to scientific studies, in presence and remotely
+
+A system that, through the latest voice and image recognition techniques,
+facilitates access to scientific content for people with disabilities and
+learning disorders.
+
+A software for transcribing university lecture recordings with mathematical
+formulas into text + LaTeX, useful for people with motor and hearing
+disabilities and with DSA.
+
+A positive qualitative analysis has been done on the STT and Computer Vision
+modules. The VoiceMath project has been presented at the Milano Digital Week and
+then shown at the GARR 2021 Conference.
+
+The Polin Laboratory is part of the Department of Mathematics "G.Peano" of the
+University of Turin and operates in the field of research and experimentation of
+new assistive technologies for the study of STEM (Science, Technology,
+Engineering and Mathematics).
+
+In order to allow the full fruition of the lessons of scientific disciplines to
+people with hearing, visual and DSA disabilities, we have created a system that,
+starting from the video recordings of the lessons and presentations containing
+mathematical expressions, automatically generates a document fully accessible by
+browsers with assistive technologies. Starting from a video recording of a
+Mathematics lesson, and corresponding images of the text handwritten by the
+teacher, we dealt with the implementation of two components: an STT module for
+transcribing the teacher's voice into textual form, and an image processing
+module, for converting images of formulas into LaTeX format. The Web App allows
+to upload the data and then start and review automatic transcripts.
+
+With the spread of Covid-19, distance learning can be predominant and lecture
+recording is a major player. Therefore, it is more necessary than ever to work
+to ensure that this content is usable without barriers by students with
+disabilities and DSA.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2021
+
+------------------------------------------------------------

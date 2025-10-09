@@ -1,0 +1,71 @@
+AUDI SENSORY URBANISM: CORTINA E-PORTRAIT
+
+AUDI
+
+------------------------------------------------------------
+
+Audi Sensory Urbanism: Cortina e-Portrait
+
+Our sensory multimodality is rarely addressed in descriptions of a city:
+traditional mapping and drawing techniques are in fact rooted in the visual
+field. Together with the municipality of Cortina, Audi has activated a plan to
+promote sustainable economic development, combining high quality of life and
+wise management of natural resources.
+
+With the aim of demonstrating how technological innovation can restore value to
+society and respond to human needs, we used Artificial Intelligence techniques
+to analyze the data collected on the territory and insert them into
+environmental comfort models.
+
+AUDI
+
+CASE STUDY
+
+2
+
+Transformative innovation • Transportation and Mobility • 2020
+
+------------------------------------------------------------
+
+Audi Sensory Urbanism: Cortina e-Portrait
+
+Audi needed to calculate environmental comfort indicators using weather, noise
+and visibility data collected by special sensors located in the city of Cortina.
+
+In order to synthesize environmental comfort indicators, environmental data
+collected in the area were analyzed and cross-referenced with other data sources
+representing the Municipality of Cortina.
+
+Statistical models were developed to synthesize indicators of environmental
+comfort, which were later represented through installations built in the city.
+
+The urban environment is an experience for all the senses, which must be
+involved in our urban experience. Audi, together with the Municipality of
+Cortina, has implemented a project to raise awareness and enhance the territory:
+Digital Islands, benches containing sensors capable of capturing daily data on
+weather conditions, noise levels and the degree of visibility, have been
+installed in the city.
+
+After two years of collection, the time series collected were analyzed to
+capture trends and any anomalies with respect to usual behavior. In a first
+phase, additional data sources were also researched and analyzed to
+contextualize the Digital Island data. Finally, the time series of temperature,
+precipitation, noise, visibility, tourist flows and events were represented in
+Cortina through special installations. In the second phase, the profiles of the
+people living in Cortina were defined and contextualized: visitors (further
+divided into summer and winter), drivers and residents.
+
+The data collected by the sensors of the Digital Islands can contribute to
+outline an urban sensorium of the city. Through the analysis of different future
+scenarios it is possible to assess in advance the impact of certain policies on
+the territory and to identify the best actions to be taken to promote the city.
+
+AUDI
+
+CASE STUDY
+
+3
+
+Transformative innovation • Transportation and Mobility • 2020
+
+------------------------------------------------------------

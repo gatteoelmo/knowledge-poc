@@ -1,0 +1,66 @@
+A DASHBOARD FOR TRAFFIC KPIS
+
+------------------------------------------------------------
+
+A dashboard for traffic KPIs
+
+An important Italian holding company operating in the infrastructure sector
+across three continents asked for our help to automate its time-consuming and
+error-prone procedure of traffic KPI reporting – an activity that was previously
+carried out manually – to calculate data and send it to internal stakeholders
+and the global stock market.
+
+To meet the needs of the customer we created an interactive dashboard that
+allows users to explore and analyze these KPIs, relying on the holding company’s
+new data lake. ﻿In doing so, we also laid the foundations to unlock additional
+data applications and maximize the value of collected data.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Transportation and Mobility • 2021
+
+------------------------------------------------------------
+
+A dashboard for traffic KPIs
+
+Automate the entire process of weekly traffic monitoring (in more than 50
+different highways and 3 airports) through an interactive dashboard.
+
+A co-design workshop followed by an agile development sprint to create the
+optimal MVP. The deliverable is an interactive dashboard, with related ETL
+procedures and documentation.
+
+Reduction of effort from 24 hours of long, error-prone manual operations on
+spreadsheets to 2-3 hours of interactive navigation. Now the user simply
+validates the results, doesn't calculate them.
+
+A major Italian holding company operating in the infrastructure sector asked for
+our help to automate its reporting procedure of traffic KPIs related to its
+concessions. The traffic monitoring activity of more than 50 motorways on three
+continents and 3 European airports used to be carried out manually, requiring 3
+days of work of an experienced analyst every week.
+
+The client asked us to enhance its new data lake: a single access point for all
+traffic data, which initially came from 14 distinct companies.
+
+To meet its needs, we created an automatic, interactive dashboard capable of
+measuring different traffic KPIs. Our solution has allowed us to drastically
+reduce the margin of error of the manual procedure, the time required to
+complete it, and the reliance on the few analysts who possess the know-how to
+carry it out. The dashboard also laid the foundations for developing new data-
+driven applications and maximizing the value of the collected data. 
+
+We have achieved these results through the Agile methodology, intensive
+coworking with the client, and our data-aware approach: maximum attention has
+been paid to data processing and the analysis necessary to calculate the
+fundamental KPIs.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Transportation and Mobility • 2021
+
+------------------------------------------------------------

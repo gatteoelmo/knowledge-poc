@@ -1,0 +1,93 @@
+LEI: CONDUCTING A FEASIBILITY STUDY OF A CHATBOT FOR PSYCHOTHERAPY
+
+------------------------------------------------------------
+
+LEI: conducting a feasibility study of a chatbot for psychotherapy
+
+The client wanted to create a voice assistant to support people with
+psychological issues, accessible through a mobile app. We conducted a
+feasibility study with the following steps:
+
+desk research of services already on the market
+
+post deployment go-to-market analysis
+
+architectural design of the solution
+
+project plan with timelines and costs
+
+Finally, we also developed a proof of concept chatbot with the following
+features:
+
+memory management
+
+human-machine interaction management
+
+automatic recognition of a specific disorder
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Healthcare and Pharma • 2022
+
+------------------------------------------------------------
+
+LEI: conducting a feasibility study of a chatbot for psychotherapy
+
+The client’s goal was to create a voice assistant to help people with
+psychological issues, accessible via mobile app.
+
+We conducted a feasibility study through:
+
+desk research of services already on the market
+
+post deployment go-to-market analysis
+
+architectural design
+
+project plan with time and cost
+
+We provided the customer with
+
+A proof-of-concept chatbot
+
+the comprehensive information needed to decide whether to continue with the
+project.
+
+The study focused on several use cases:
+
+supporting the therapist in communicating with the patient and suggesting
+competent specialists
+
+support the patient with information to support and/or prepare for dialogue with
+the specialist
+
+support therapy with immersive virtual reality images during sessions.
+
+We co-designed a profile for the assistant’s tone of voice. We analyzed some
+similar services:
+
+do-it-yourself exercise and meditation platforms
+
+applications for addressing psychological problems
+
+applications to support psychologists and hospitals
+
+We also provided information regarding the potential market, in terms of:
+
+digital trends and in particular conversational assistants in healthcare
+
+statistics of patients, disorders and professionals
+
+Therefore, we conducted a functional analysis aimed at supporting interactions
+with text, voice, image and video mediums, and in virtual reality, with time and
+cost estimates.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Healthcare and Pharma • 2022
+
+------------------------------------------------------------

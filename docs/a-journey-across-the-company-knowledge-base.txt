@@ -1,0 +1,64 @@
+A JOURNEY ACROSS THE COMPANY KNOWLEDGE BASE
+
+------------------------------------------------------------
+
+A journey across the company knowledge base
+
+Our Journey is a digital tool designed to facilitate the onboarding process and
+stimulate the discovery and the sense of belonging among Luxottica employees.
+The application has been designed to be accessible to anyone within the Company,
+drawing on visual imagery and a familiar browsing experience. As in a subway, in
+the Luxottica content network, each of the main corporate themes represents a
+line of meaning; each content of this line is an ideal stop. The stops in this
+network are also hubs between one line of content and another and allow anyone
+to build their own journey into Luxottica's world.
+
+CASE STUDY
+
+2
+
+Organization and culture • Fashion and Apparel • 2020
+
+------------------------------------------------------------
+
+A journey across the company knowledge base
+
+Luxottica needs to digitize the onboarding process, through a solution
+accessible to all employees, old and new.
+
+Designing a memorable, personalized onboarding tool, useful to engage newcomers
+and every employee all over the world. The solution must be a seamless,
+multilevel, digital experience.
+
+The deep dive into company content has involved many many people. The tool has
+supported newcomers for years and the development of a sense of belonging in
+every plant and store, locally and globally.
+
+Our Journey is both a native iOS App for iPad and iPhone and a web-based
+platform designed to facilitate the onboarding process and stimulate the
+discovery of corporate content and the sense of belonging among Luxottica
+employees. The application has been designed to be accessible to anyone within
+the company - in the office or production lines - even in the lack of internet
+connection, drawing on visual imagery and a familiar browsing experience. The
+concept of the subway has driven the launch campaign development and the
+experience design at large. As in the subway, in the Luxottica content network
+each of the main corporate themes represents a line of meaning, a path of
+knowledge to be undertaken; each content of this line is an ideal stop. In a
+context so rich in experiences, stories, and processes, navigation must be
+fluid, stimulating and unconstrained. The stops in this network also represent
+the junctions between one content line and another and allow everyone to build
+and resume their journey at any time. The creation of a an easy-to-use and
+useful experience for more than 70.000 persons worldwide requires a huge work of
+content prioritization and clustering and a completely user-driven design
+approach. A custom CMS allows to manage content visibilities both at a country
+and a business level. Our Journey provides employees all over the world with a
+seamless experience across internal channels and applications by using a SSO
+approach.
+
+CASE STUDY
+
+3
+
+Organization and culture • Fashion and Apparel • 2020
+
+------------------------------------------------------------

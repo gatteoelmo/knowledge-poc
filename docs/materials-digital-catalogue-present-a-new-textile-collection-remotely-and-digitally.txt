@@ -1,0 +1,62 @@
+MATERIALS DIGITAL CATALOGUE, PRESENT A NEW TEXTILE COLLECTION REMOTELY AND
+DIGITALLY
+
+------------------------------------------------------------
+
+Materials Digital Catalogue, present a new textile collection remotely and
+digitally
+
+The client is a historic Venetian company that works in the textile field since
+1861. Each season, the client has the need to present its new textile collection
+to its worldwide buyers. This process has always taken place in-person to give
+clients the possibility to see and touch the samples.
+
+In 2020, these presentation moments needed to be transformed into a web-
+navigable digital catalog.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Fashion and Apparel • 2021
+
+------------------------------------------------------------
+
+Materials Digital Catalogue, present a new textile collection remotely and
+digitally
+
+To turn the in-person collections and samples show into a digital experience,
+accessible remotely and worldwide.
+
+An online digital catalog that contains the new collections of textiles
+products, with digital applications on virtual models and objects.
+
+20 digital material samples, with 4 virtual applications for each material, all
+of them shown in an online landing page for the final client's buyer.
+
+To replace the meetings with buyers, it was necessary, as a first step, to scan
+the fabric samples selected by Lanificio for the new winter collection. 
+
+The scanned images were used as textures for the final shader. The shader, a set
+of physical properties that act as an interpreter for a given material (for
+example, the roughness index of a fabric), is then applied to a 3D model. From
+the 3D model, the scene is composed, with background elements and light
+settings, so as to produce a render, i.e. a static image, which is the one then
+presented in the catalog.
+
+For each material 4 applications were chosen to be shown in the catalog: a macro
+photo of the fabric weave, a simulation of the fabric on a spherical element, a
+real application on a model and finally a more creative solution, on a teddy
+bear, so as to convey the message that the material, once digitized, can
+potentially be applied to anything.
+
+The renders were collected and cataloged into a web page that was then used by
+the end client during their online meetings.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Fashion and Apparel • 2021
+
+------------------------------------------------------------

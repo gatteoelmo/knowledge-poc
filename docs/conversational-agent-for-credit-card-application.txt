@@ -1,0 +1,55 @@
+CONVERSATIONAL AGENT FOR CREDIT CARD APPLICATION
+
+------------------------------------------------------------
+
+Conversational agent for credit card application
+
+The client wants to enable users whose records it already has to sign up for a
+new credit card easily and dynamically. Instead of the online-form standard
+experience, the client wants to provide its users with a conversational
+experience: converse in a natural way and obtain the card. The system—an RPA
+bot—then goes on to write the collected information directly into the official
+form page. The biggest advantage is the elimination of large drop-down menus in
+exchange for the user being able to express directly the option they are
+interested in.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2022
+
+------------------------------------------------------------
+
+Conversational agent for credit card application
+
+A chatbot that conversationally helps an already known user fill out a credit
+card application form
+
+The chatbot collects information via dialogue and fills in the form on behalf
+the user
+
+The system has been released into production and is being tested by a group of
+selected users
+
+The goal is to create a system that allows people who are already customers to
+apply for a new credit card without having to go all the way through the
+subscription form (which is complicated, hence the nickname “snake”). The
+solution consists in a chatbot hosted on an ad hoc page with controlled access
+(in fact, the system must be tested by selected users). The chatbot is not
+integrated with the client's systems—who preferred not to involve IT—but instead
+writes on the online form simulating the input of the collected information as
+if it were an end user.The chatbot collects all the information requested by the
+form, and reads the information already in the system. The biggest advantage is
+that it allows the user to skip some of the “snake” steps thanks to natural
+language interpretation: e.g., in the form, users have to navigate numerous
+drop-down menus to select his profession; in the chatbot, they can just to write
+“I'm a hairdresser”, and the chatbot selects the correct option autonomously.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2022
+
+------------------------------------------------------------

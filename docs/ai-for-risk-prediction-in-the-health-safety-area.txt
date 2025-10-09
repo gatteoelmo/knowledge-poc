@@ -1,0 +1,73 @@
+AI FOR RISK PREDICTION IN THE HEALTH & SAFETY AREA
+
+ENI
+
+------------------------------------------------------------
+
+AI for risk prediction in the Health & Safety area
+
+A large multinational, leader in the energy sector, asked us to develop an
+artificial intelligence capable of using all available data to prevent work-
+related injuries.
+
+Because key data were collected as (multi-language) free text, our expertise in
+Natural Language Processing allowed us to develop a prototype that, after a
+pilot phase, has been implemented in a new application for health and safety,
+capable of monitoring sites worldwide.
+
+ENI
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2021
+
+------------------------------------------------------------
+
+AI for risk prediction in the Health & Safety area
+
+Identify the most relevant and frequent causes of accidents, in order to prevent
+future ones, by analyzing reports about unsafe conditions or acts (called weak
+signals).
+
+Machine learning algorithms that extract keywords from the reports, aggregate
+them in patterns (frequent dangerous situations) and detect sites at higher
+risk, through a statistical Indicator.
+
+We detected tens of latent dangerous situations worldwide and showed AI
+capabilities. New health and safety working procedures, based on Machine
+Learning, have been initiated by the client.
+
+In the field of occupational safety, it is crucial to identify the most relevant
+and frequent causes of accidents, in order to prevent them in the future.
+Available data present an important distinction: serious accidents are rare and
+well documented, while dangerous conditions and behaviors (weak signals) are
+collected in the form of an abundant unstructured report in free text.
+Premonitory signs of accidents must be identified in the weak signals and used
+to produce an accurate risk scenario.
+
+Our AI solution, intended for Safety Managers, was developed in Agile/Scrum
+mode, with a mixed  MAIZE team (Data Scientists and Computational Linguists) and
+client (Data Scientists and Occupational Safety Experts).
+
+Through multi-language NLP, the general type of risk (eg. "contact with moving
+part") is extracted from the weak signals, together with keywords that denote
+the dangerous areas or objects (eg. "grinder") and the human factors involved
+(eg. "distraction"). The component of pattern mining, efficient and scalable,
+compares the weak signals with the accident history to identify recurring risk
+patterns, that is, combinations of keywords that could again lead to an
+accident.
+
+The resulting predictive model combines all the information available to produce
+a synthetic risk score at the level of a single site or geographical area.
+
+ENI
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2021
+
+------------------------------------------------------------

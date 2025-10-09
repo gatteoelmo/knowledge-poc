@@ -1,0 +1,68 @@
+A PREDICTIVE MODEL FOR THE SIMULATION AND PROJECTION OF THE CUSTOMER BASE
+
+------------------------------------------------------------
+
+A predictive model for the simulation and projection of the customer base
+
+One of the largest Italian insurance companies gave us the objective of
+analyzing the geographic distribution of its customers, with a focus on
+millennials, based on key characteristics of the territory, assessing how
+compatible it is with the new coverage models assumed and carrying out a series
+of projections of the customer base over time, to simulate different scenarios
+based on the entry of new policyholders.
+
+The proposed solution was based on the enrichment of customer analytics data
+with statistical indicators from public databases for the development of data-
+driven models to simulate the evolution of the customer base.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2018
+
+------------------------------------------------------------
+
+A predictive model for the simulation and projection of the customer base
+
+Analyze the current geographical distribution of the customer base and simulate
+its evolution over time on the Italian territory based on the entry of
+millennial customers.
+
+Enrichment of customer analytics data with statistical indicators from public
+databases, for the development of statistical models to simulate the evolution
+of the customer base.
+
+A system based on statistical models through which the customer can act on
+different parameters to simulate scenarios of evolution over time of the
+customer base in the Italian provinces.
+
+In the context of launching a new product, expanding into new markets or
+targeting new demographics, it is crucial to include in the forecast analysis
+information on who is buying what and where, in a more extensive way than the
+data contained in CRM.
+
+The project carried out for one of the largest Italian insurance companies was
+divided into two main phases: the enrichment of customer data through
+territorial statistical indicators and the development of data-driven simulation
+models. The first step took place by collecting over 200 statistical micro-
+indicators from 8 public databases. The micro-indicators describe
+characteristics of the Italian territory (e.g. youth employment rate, per capita
+income, etc.) and have been condensed through mathematical methods into macro-
+indicators that briefly describe the positioning of each Italian province in
+terms of 6 key characteristics: attractiveness, competition, innovation,
+mobility, wealth and security. The enriched data was used in phase 2 to develop
+statistical models able to describe and simulate the purchasing behavior of a
+customer.
+
+The tool, based on statistical models and always configurable autonoumously,
+allows to simulate scenarios of evolution of the customer base on the territory,
+with particular focus on the acquisition of millennial customers.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2018
+
+------------------------------------------------------------

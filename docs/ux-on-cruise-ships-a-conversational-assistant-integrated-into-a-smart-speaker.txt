@@ -1,0 +1,70 @@
+UX ON CRUISE SHIPS: A CONVERSATIONAL ASSISTANT INTEGRATED INTO A SMART SPEAKER
+
+------------------------------------------------------------
+
+UX on cruise ships: a conversational assistant integrated into a smart speaker
+
+A cruise line wants to adapt to the new User Experience trends and therefore
+decides to introduce smart speakers in all common areas and cabins of its cruise
+ships, offering passengers the possibility to get all information through voice.
+
+However, standard smart speakers in commerce are not able to handle all the
+typical situations of a pleasure cruise trip.
+
+For this reason, we proposed to optimize the functionality of the customer's
+smart speaker through ad hoc customization and multi-localization of the intents
+related to the expected situations to be handled.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Luxury, Beauty, Travel & Hospitality • 2020
+
+------------------------------------------------------------
+
+UX on cruise ships: a conversational assistant integrated into a smart speaker
+
+Provide innovative, multi-lingual UX to cruise ship passengers. The assistant
+must handle interactions on onboard activities, cabin information and trip
+schedule.
+
+Personalization, optimization and localization of about 200 intents, giving
+passengers the opportunity to interact with new technologies using natural
+language.
+
+The solution increases the independence of passengers, partially reduces the
+work of info points and offers travelers an innovative and interesting User
+Experience.
+
+Voice technologies are becoming an increasingly common way we interact with
+technology on a regular basis. Using voice to search and obtain information is
+becoming an increasingly common practice among users who expect a UX that is
+increasingly in line with their needs.
+
+With the aim of following this trend, a shipping company dedicated to the
+intercontinental cruise market wants to equip cabins with a multilingual virtual
+assistant integrated in a smart speaker.
+
+The system had to be customised ad hoc and optimised, in order to offer users
+both information on on-board activities and the itinerary, and instructions on
+the management of services and furnishings in the cabin.
+
+We made available our expertise in NLP, enhancing the recognition of about 200
+intent in American and British English, French, German, Spanish, Portuguese and
+Chinese. Specifically, Specifically, we coordinated linguists with expertise in
+the native languages in question, we checked the semantic relevance of the
+generated commands and reduced the variations in the intents containing more
+than a thousand training examples.
+
+The result of this work has produced an assistant that provides an innovative UX
+to travelers, increasing their independence on board and at the same time
+reducing the workload on the cruise ship info points.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Luxury, Beauty, Travel & Hospitality • 2020
+
+------------------------------------------------------------

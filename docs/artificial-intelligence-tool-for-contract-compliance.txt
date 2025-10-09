@@ -1,0 +1,68 @@
+ARTIFICIAL INTELLIGENCE TOOL FOR CONTRACT COMPLIANCE
+
+------------------------------------------------------------
+
+Artificial Intelligence tool for contract compliance
+
+The analysis of technical and/or administrative documentation requires specific
+skills that are invaluable to organizations.
+
+Checking whether an acquisition, outsourcing or service contract contains all
+the information necessary to be approved, is an operation that often has to be
+carried out in a short timeframe and involves high risks.
+
+An important player in the Fintech sector has entrusted us with the task of
+creating a tool to automatically analyze such documentation, in order to
+indicate a compliance index and offer operators a useful tool for content
+checks.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2021
+
+------------------------------------------------------------
+
+Artificial Intelligence tool for contract compliance
+
+Automate the process of identifying technical documentation that complies with
+company policy.
+
+Implementation of a tool, based on CELI.search, that allows the analysis of
+compliance of technical/administrative documentation through minimal
+configurations.
+
+The usage of the application has reduced documentation analysis time by up to
+50% allowing evaluators to immediately focus on the most critical cases.
+
+Companies often find themselves having to carry out compliance checks on
+technical and/or administrative documentation. The process must be carried out
+in a short time and often involves risks: on the one hand there is the
+documentation to be analyzed, often consisting of dozens and dozens of pages; on
+the other hand there are the policies, often complex, with which this must be
+analyzed.
+
+In order to fill the knowledge gap, often encoded only in the minds of technical
+evaluators, we have used a tool based on Transformer Bert using a Deep Learning
+approach.
+
+The tool simply needs to provide a few examples (from a few units to a few
+dozen) in order to infer, through a linguistic model, the meaning of what to
+look for within the documentation.
+
+The documents thus analyzed are then accompanied by an index of compliance and
+offered to the evaluator through a navigation interface that identifies the
+salient parts of the documentation on which to focus the checks.
+
+This tool allows assessors to focus on documents with low compliance ratings.
+Combined with this, the documentation navigator avoids wasting time on low-value
+portions of documentation.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2021
+
+------------------------------------------------------------

@@ -1,0 +1,73 @@
+TEXT ANALYTICS FOR MONITORING EXPERIMENTAL INITIATIVES IN SCHOOLS
+
+SAVE THE CHILDREN ITALIA
+
+------------------------------------------------------------
+
+Text analytics for monitoring experimental initiatives in schools
+
+Fuoriclasse in Movimento was born in 2017 as a collective action promoted by
+Save The Children Italy in over 170 schools throughout the country. The goal of
+the organization is to promote school wellbeing to guarantee the right to
+quality education. The initiative is subject to the monitoring of changes
+promoted through an annual questionnaire given to teachers.
+
+The Onlus needs to process the data resulting from the surveys through a textual
+analysis aimed at identifying the main thematic axes underlying the answers and
+a statistical analysis useful to identify correlations between the emerging
+themes.
+
+SAVE THE CHILDREN ITALIA
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2018
+
+------------------------------------------------------------
+
+Text analytics for monitoring experimental initiatives in schools
+
+An analysis of textual elements characteristic of questionnaires delivered
+annually to teachers. The goal is to extract and represent recurring topics from
+the text.
+
+Our CELI.analytics-based text mining platform that allows you to analyze data
+while providing a mode of representation for graphical synthesis of the data.
+
+A structured analysis of textual data combined with the delivery of reports
+following each questionnaire. The resulting reports describe the most
+significant detected phenomena.
+
+As part of the Fuoriclasse in Movimento project, a national initiative whose
+objective is to promote school well-being as a guarantee of the right to quality
+education for all, Save The Children Italy is providing text questionnaires to
+the teachers involved. The ambition of the intervention is to contribute to the
+renewal of methodologies and tools with which to address the phenomenon of early
+school leaving in Italy.
+
+Regarding the monitoring activities of the project, the Onlus asked us to
+generate an analysis model for a joint reading of the results from the surveys.
+We used our text analytics platform for the extraction of recurrent topics,
+characteristic of certain teachers compared to others. The goal was to match the
+topics with both characteristic domain expressions related to dropout and
+characteristic documents that address the topic in question.
+
+We have also provided a mode of representation useful for reading the results:
+for example, through clouds of keywords (constituted by the topics or
+expressions) characteristic of groups of teachers, the reading of the results is
+clear and intuitive.
+
+After the analysis of the questionnaires, we produced reports describing the
+most significant phenomena detected.
+
+SAVE THE CHILDREN ITALIA
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2018
+
+------------------------------------------------------------

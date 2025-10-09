@@ -1,0 +1,72 @@
+# General structure
+
+1. Structure
+
+Each case presentation follows a clear three-part structure:
+
+Opening / Context (what the project is about, who the client is, what challenge was addressed).
+Objectives / Approach (what was the goal, how it was tackled, key steps or methodology).
+Results / Impact (what was delivered, outcomes, measurable impact, future use).
+
+This tripartite structure is consistent across all cases, even if not explicitly labeled.
+
+2. Flow of the Narration
+
+The narration typically flows like this:
+
+Title: Always a descriptive, narrative title — written almost like a newspaper headline.
+Client / Sector framing: Short introduction naming the client (if possible) and situating the challenge in its industry context.
+Objective(s): High-level articulation of what the project set out to achieve.
+Approach / Process: Explanation of the methodology, broken into steps, phases, or design choices.
+
+Challenge / Need: Brief explanation of the client’s initial problem or question.
+Solution / Deliverables: The tangible things created (tools, dashboards, events, platforms, etc.).
+Impact / Outcomes: Concrete results (numbers, adoption, business change, feedback).
+
+# Guideline for Opening Paragraphs
+
+The opening paragraph introduces the reader to the project at a glance. It establishes context and relevance before diving into objectives and methods.
+
+It must be 60 to 80 words long
+
+Characteristics:
+
+- Concise: 4–6 sentences maximum.
+- Neutral tone: Informative, not promotional.
+- Narrative: Written in plain prose (not bullet points).
+- Client-centered: Mentions the client or organization (if shareable) and situates them in their industry.
+- Challenge or Opportunity: Highlights the problem, question, or ambition the client brought forward.
+- Why now?: Often hints at the broader context (market shifts, internal needs, innovation goals).
+
+The storytelling always moves from problem → goal → process → result.
+
+--------------------------------------------
+
+# Structure of the Main Content
+
+The main content must be nop longer than 180-200 words, it serves as the “core narrative” section of the case history.
+The goal is to explain concretely what was done for the client, showing both how the project was carried out and what impact it produced. The structure is outlined below.
+
+## Initial Conditions / Setup
+
+What had to be in place before the real work could start. Example: “After hardware and logistical requirements were established…” / “From the collaboration of our AI technology experts…” / “Sofidel approached us to launch a training project…”
+
+## Process / Approach
+
+Step-by-step description of what was done. Sometimes written as a chronological narrative (first → next → finally). Sometimes organized as phases/modules with names or bullet points. Example: design & storyboard → build 3D environments → client validation OR Lift Up → Use Case Definition → Deep Dive.
+
+## Collaboration / Interaction
+
+Highlighting the interplay between experts and the client. Example: “Close collaboration and validation from the client…” / “open discussion to investigate what issues were most relevant…”
+
+## Outcomes / Results
+
+What the client gained or what was enabled. Example: “instant way of accessing a complete catalog of training experiences” / “gain awareness and navigate opportunities” / “strengthened strategic and operational skills.”
+
+# Executive summary
+
+This is built in 3 brief sections, each of about 20 words
+
+- Challenge: Brief explanation of the client’s initial problem or question.
+- Solution: The tangible things created (tools, dashboards, events, platforms, etc.).
+- Impact: Concrete results (numbers, adoption, business change, feedback).

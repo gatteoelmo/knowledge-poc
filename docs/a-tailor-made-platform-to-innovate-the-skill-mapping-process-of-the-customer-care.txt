@@ -1,0 +1,67 @@
+A TAILOR-MADE PLATFORM TO INNOVATE THE SKILL MAPPING PROCESS OF THE CUSTOMER
+CARE
+
+------------------------------------------------------------
+
+A tailor-made platform to innovate the skill mapping process of the Customer
+Care
+
+A leading telecommunications company asked us to help them in reviewing the
+Skill mapping process of their customer care operators, with the aim of defining
+effective growth paths and supporting the skills-based routing process.After a
+detailed analysis of the current situation, we defined a new activity flow and
+developed an ad hoc platform capable of supporting the entire skill mapping
+process, from the definition of a skills matrix to the detection of knowledge
+and the activation of the different training initiatives.
+
+CASE STUDY
+
+2
+
+Organization and culture • Media and Entertainment • 2022
+
+------------------------------------------------------------
+
+A tailor-made platform to innovate the skill mapping process of the Customer
+Care
+
+Redesign the Skill Mapping process of Customer Care operators to make it faster
+and more effective in detecting training gaps and defining growth paths.
+
+A multi-tenant platform that helps the HR team to map and assess Customer Care
+skills.
+
+New skill mapping process in place and the MVP of the platform currently used by
+the Customer Care population.
+
+A well-known Telco company asked us to help them in reviewing the skill mapping
+process of their customer care operators, as it was ineffective in defining
+targeted growth paths, and supporting the skills-based routing process.
+
+Through interviews with key stakeholders, we reconstructed the current skill
+mapping process and identified the main critical issues. From this mapping, we
+then redesigned the entire experience, focusing on defining a common methodology
+and tools.
+
+Then we designed and developed a multi-tenant platform consisting of two main
+parts: a staff section dedicated to the HR team that manage the skill mapping,
+and an operator section dedicated to each person involved in knowledge mapping.
+
+Within the staff section, the HR team can classify the skills present in
+Customer Care, create work teams and define a skill-set for each of these to be
+tested, design and deliver evaluation quizzes and finally analyze the results of
+skill mapping through a dedicated dashboard.
+
+In the operator area each person can take evaluation quizzes, view the result
+history and access training content useful to close their gaps.
+
+The intervention helped to reduce the duration of each skill mapping cycle from
+8 months to 3 months.
+
+CASE STUDY
+
+3
+
+Organization and culture • Media and Entertainment • 2022
+
+------------------------------------------------------------

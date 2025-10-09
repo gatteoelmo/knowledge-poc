@@ -1,0 +1,73 @@
+CANP, CONVERSATIONAL ASSISTANTS FOR HOSPITAL PATIENTS
+
+REGIONE PIEMONTE
+
+------------------------------------------------------------
+
+CANP, conversational assistants for hospital patients
+
+The La Casa nel Parco R&I project (CANP) is part of the "E-health,
+Bioinformatics and ICT for health research" technological field of the POR-FESR
+call for the Health and Wellbeing Technological Platform of the Piedmont Region
+and in the field of application home care.
+
+In this context, we created two different conversational agents to assist
+patients and caregivers. One agent is voice-based and is delivered via an Alexa
+skill, while the other is a written agent delivered via a customized web app.
+
+REGIONE PIEMONTE
+
+CASE STUDY
+
+2
+
+Transformative innovation • Public Administration & No Profit • 2021
+
+------------------------------------------------------------
+
+CANP, conversational assistants for hospital patients
+
+Develop two different innovative agents according to the needs of the various
+stakeholders (patients, caregivers, medical staff), in a funded research
+project.
+
+We designed and developed two conversational interfaces, a voice assistant and a
+chatbot: the first dedicated to Molinette home hospitalized patients, and the
+second on to Novara ALS patients.
+
+Both agents are currently undergoing clinical trials at the two hospitals in
+order to measure their usability and effects on patients.
+
+We developed two different conversational agents to assist patients and
+caregivers.
+
+The first one is dedicated to patients who have been home hospitalized. Their
+caregiver needs to access educational materials and medical information via an
+easy-to-use tool, possibly by voice and with the aid of videos. They have to
+perform medical procedures that are usually carried out by nurses. In their
+home, the caregiver need to know for example how to measure blood glucose or how
+to insert an IV drip. The voice assistant guide users in following these
+procedures by answering voice requests and can also show video tutorials via the
+Alexa screen-enabled device.
+
+The second one is dedicated to ALS patients in the Novara hospital. ALS patients
+need to follow a prescribed diet. However, the physicians can only see patients
+every 3-4 months and during that time they have no way of checking patient
+compliance to the diet scheme. The written chatbot asks user how much they have
+eaten of a certain prescribed food daily.
+
+The data is immediately transmitted to the physician who can monitor their
+patients from afar. The choice of a written interface was motivated by the
+pathology. ALS patients tend to lose mobility and therefore the agent should be
+easy to use and did not have to involve vocal communication (since ALS patients
+lose the ability to speak over time).
+
+REGIONE PIEMONTE
+
+CASE STUDY
+
+3
+
+Transformative innovation • Public Administration & No Profit • 2021
+
+------------------------------------------------------------

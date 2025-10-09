@@ -1,0 +1,59 @@
+AUTOMATIC IDENTIFICATION OF SIMILARITY BETWEEN LEGAL JUDGMENTS
+
+------------------------------------------------------------
+
+Automatic identification of similarity between legal judgments
+
+The client wants to provide its users a new way to explore the database, which
+consists of different types of documents, mainly judgments, by providing
+correlated judgments. Correlated documents aim at supporting lawyers in the
+study of the case by enabling a new way of navigating the document database.
+Therefore, it was developed a service that could automatically correlate
+different sentences with each other, allowing the end user to discover the
+relationships between them, to have automatic correlates, and allowing the
+editorial team to not set up correlations manually.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Education, Publishing • 2021
+
+------------------------------------------------------------
+
+Automatic identification of similarity between legal judgments
+
+A tool capable of correlating legal judgments similar to a given one, using
+text, in order to create a new way to navigate the document database.
+
+A system capable of correlating judgments without human supervision. The system
+returns a predetermined number of similar legal judgments given an input
+judgment.
+
+Document discovery, research service improvement, cost reduction for editorial
+correlation creation. Cost optimization and client positioning.
+
+The client is a publisher and provider of tools, management software and
+information solutions in the legal field. As such, it has at its disposal a
+large amount of documents, files, and judgments in the legal field. Its clients
+are legal, tax, professional and business professionals. In order to support its
+clients in studying a legal case, they wanted to enable a new way of exploring
+the document database by correlating judgments. To enable this new way of
+navigation and make it sustainable it needed a tool capable of linking judgments
+to each other, based only on the text of those judgments.Therefore, it was
+designed and developed a service capable of, given a judgment, return a number
+of judgments similar to that, with the aim of outlining a solid and supportive
+context for lawyers. Correlation between documents was achieved through a
+service capable of correlating judgments without supervision of the drafting
+team. The system was designed and implemented using Apache Solr as the inference
+engine, augmented by our morphosyntactic resources combined with a MapReduce
+algorithm. Data exchange between the editorial environment and the service is
+done asynchronously using Topic Apache Kafka.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Education, Publishing • 2021
+
+------------------------------------------------------------

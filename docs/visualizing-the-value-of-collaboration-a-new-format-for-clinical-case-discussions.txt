@@ -1,0 +1,74 @@
+VISUALIZING THE VALUE OF COLLABORATION: A NEW FORMAT FOR CLINICAL CASE
+DISCUSSIONS
+
+------------------------------------------------------------
+
+Visualizing the Value of Collaboration: a new format for clinical case
+discussions
+
+With the goal of introducing a new mode of interaction within a “traditional”
+event, the project focused on two key moments
+
+Group discussion: aiming to enable table moderators to systematically and
+structurally collect the information and insights shared by clinicians;
+
+Preparation and feedback of the discussion: selecting the most interesting
+insights and leveraging the power of data visualization to share them
+effectively with the audience.
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Healthcare and Pharma • 2024
+
+------------------------------------------------------------
+
+Visualizing the Value of Collaboration: a new format for clinical case
+discussions
+
+To design an innovative format for a training event focused on clinical case
+discussions to support 85 clinicians in the field of oncology view the value of
+collaboration under a new light.
+
+An Excel data collection file that serves as a database for creating data
+visualization dashboards through a semi-automated Figma file used for presenting
+the results.
+
+The format sparked curiosity among participants not only during the event but
+also afterward, leading the board to propose presenting the findings in a
+scientific publication.
+
+With the aim to emphasize the value of the interactions and the factors at play
+— such as roles and timing — that led to those decisions, the project, carefully
+designed in close collaboration with the scientific board, unfolded in 5 stages:
+
+Designing the data collection file and pre-event questionnaire: We began with a
+brainstorming session alongside the board to identify the key information to
+track, based on an analysis of clinical cases and the critical decision points
+expected to shape the discussion. We also pinpointed relevant demographic data
+to be gathered through a survey of all participants.
+
+Visual model proposals and Figma design: We explored various ways to visualize
+the data and developed a Figma file to enable semi-automated data entry during
+the event.
+
+Data collection: Throughout the discussions, moderators at each table were
+supported in filling out an Excel file to record information in real time.
+
+Initial analysis and deck creation: Early visualizations were shared and
+patterns were identified regarding interaction styles, specialties most likely
+to lead the discussion, and timing. These insights were compiled into a
+presentation deck.
+
+Pre-feedback alignment with the board: The storytelling was refined with the
+scientific board, and key insights were articulated clearly alongside the data
+visualizations to prepare for the final report.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Healthcare and Pharma • 2024
+
+------------------------------------------------------------

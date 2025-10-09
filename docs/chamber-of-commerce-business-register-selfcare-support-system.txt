@@ -1,0 +1,70 @@
+CHAMBER OF COMMERCE BUSINESS REGISTER: SELFCARE SUPPORT SYSTEM
+
+INFOCAMERE
+
+------------------------------------------------------------
+
+Chamber of Commerce Business Register: selfcare support system
+
+The amount of information related to the requirements to be filed for the
+Business Registry office is quite extensive and any in-depth information may
+vary between different Chambers of Commerce. The presence of a self-care tool,
+available to businesses and professionals, reduces the workload of inbound
+requests to the call center.
+
+InfoCamere, the company of the Italian Chambers of Commerce, asked us  to create
+a Knowledge Management System integrated with a Semantic Search & Classification
+Platform.
+
+INFOCAMERE
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2021
+
+------------------------------------------------------------
+
+Chamber of Commerce Business Register: selfcare support system
+
+In the last years the end-users of the Business Registry office increased
+continuously. InfoCamere needed to keep under control the specialistic
+assistance costs.
+
+A Knowledge Management System for the management of metadata associated with
+Chamber records, a pipeline for reading, analyzing, and indexing documents and a
+Solr-based search engine.
+
+The project allowed to reduce assistance costs by 30-40%. The new infrastructure
+constitutes an added value for the client in strategic-evolutionary terms.
+
+InfoCamere is the company of the Italian Chambers of Commerce for digital
+innovation. Starting with the governance of the Business Register - the national
+economic registry - the company creates services to support its members in order
+to meet the needs of entrepreneurs, professionals and citizens in the face of
+the continuous evolution of economic and regulatory systems.
+
+Given these premises, the client asked us for a self-care tool, available to
+businesses and professionals, that would allow them to reduce the workload of
+inbound requests to the call center.
+
+To meet this need, we proposed the development of a Knowledge Management System
+with an integrated search engine based on a customized version of Solr that uses
+a series of proprietary components for linguistic analysis and configurations
+specifically designed for this use case in order to improve the searchability of
+the information of interest by the end users.
+
+Through the platform it is also possible to monitor the correct functioning of
+both the indexing components and the search engine in order to analyze their
+performance with a view to continuous improvement.
+
+INFOCAMERE
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2021
+
+------------------------------------------------------------

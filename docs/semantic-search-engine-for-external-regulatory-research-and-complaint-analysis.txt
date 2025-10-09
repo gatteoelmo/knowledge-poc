@@ -1,0 +1,72 @@
+SEMANTIC SEARCH ENGINE FOR EXTERNAL REGULATORY RESEARCH AND COMPLAINT ANALYSIS
+
+BANCA SELLA
+
+------------------------------------------------------------
+
+Semantic search engine for external regulatory research and complaint analysis
+
+Banking, financial and insurance institutions are subject to national and
+international regulations (European Union, Bank of Italy, etc.) to which they
+must adapt policies and internal processes.
+
+In this context, Banca Sella contacted us for the development and integration
+into its systems of a tool useful to accomplish two tasks: on the one hand to
+facilitate the searchability of regulatory requirements and on the other hand to
+analyze the complaints received from its customers sorted by priority and
+severity.
+
+BANCA SELLA
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2018
+
+------------------------------------------------------------
+
+Semantic search engine for external regulatory research and complaint analysis
+
+A software component integrated into customer systems to perform two different
+tasks: searching and navigating regulations and analyzing customer complaints
+about services and products.
+
+A semantic search engine with similarity detection algorithm for external
+regulatory research and customizable ranking for sorting and analyzing claims.
+
+The application allows, on the one hand, to find regulations similar to one's
+own research through semantic similarity and, on the other hand, to handle
+claims within a thematic analysis perimeter.
+
+Banca Sella, an Italian bank, contacted us for the development and integration
+into its systems of a software solution with semantic capabilities able to meet
+two needs: on the one hand to improve the searchability of regulatory elements,
+and on the other hand the analysis of customer complaints about its services and
+products.
+
+We have therefore created a semantic search engine with two main components: a
+similarity detection algorithm to ensure greater affinity in the search of
+regulatory paragraphs and a customizable ranking algorithm for sorting
+complaints in order of priority and severity.
+
+The application improves the searchability of a regulatory requirement (old or
+new) and, through semantic similarity, shows which paragraphs of the internal
+regulations are similar to the searched topic, making possible a gap analysis
+and relative adequacy of a solution compared to the regulation;
+
+The system also makes it possible to manage complaints according to the ranking
+(average weight) of the criteria established for the individual analysis,
+through the definition of a series of criteria of importance and the assignment
+of a weight to each of them for the realization of a thematic and/or temporal
+scope of analysis.
+
+BANCA SELLA
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2018
+
+------------------------------------------------------------

@@ -1,0 +1,70 @@
+IPZS: SEARCH ENGINE FOR ITALIAN NORMATIVE ACTS
+
+ISTITUTO POLIGRAFICO E ZECCA DELLO STATO
+
+------------------------------------------------------------
+
+IPZS: search engine for italian normative acts
+
+The search for documentation on normative and legal issues is often difficult or
+even impossible for non-expert personnel.
+
+The Istituto Poligrafico della Zecca dello Stato (IPZS) needs a tool that
+facilitates the use of such documentation by expert and non-expert personnel.
+Given this need, we proposed a semantic search engine able to transform users'
+sentences into complex queries. In this way the laws and acts, classified
+through metadata and grouped in a simple and intuitive format, become accessible
+even to unskilled users.
+
+ISTITUTO POLIGRAFICO E ZECCA DELLO STATO
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2020
+
+------------------------------------------------------------
+
+IPZS: search engine for italian normative acts
+
+A system that facilitates the use and searchability of legal documentation even
+to non-expert personnel by interpreting the unskilled language.
+
+We have developed a semantic search engine that transforms user input into
+complex queries thereby facilitating the retrieval of otherwise inaccessible
+information.
+
+Since its release in the production area, the engine has undergone continuous
+technical improvements. The searchability of regulatory acts has become simple,
+intuitive and at the same time efficient.
+
+The activity of IPZS is oriented towards a growing partnership with the PA and
+is aimed at providing products and services to the citizen both in the creation
+of high security and high technology documents, and in multimedia innovation, in
+the design and implementation of portals, integrated systems and databases, in
+the delivery of web applications.
+
+Given the difficulty of searching for documentation on legal issues by non-
+expert personnel, the IPZS asked us to develop a system capable of interpreting
+the language of non-experts in the source domain. Starting from this need, we
+developed a semantic search engine that allows the user to search in natural
+language or through keywords all the information in the documentation. The
+system is able to interpret the normative details and provide the user with the
+results by act/law, together with a classification based on metadata. The search
+engine also has a suggester feature based on language expansions that makes
+searches easier for users.
+
+User inputs are interpreted and automatically transformed into complex queries
+in order to retrieve information that would otherwise only be available to
+experienced practitioners.
+
+ISTITUTO POLIGRAFICO E ZECCA DELLO STATO
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2020
+
+------------------------------------------------------------

@@ -1,0 +1,72 @@
+MULTILINGUAL SEMANTIC SEARCH ENGINE FOR FINDING DIFFERENT DATA SOURCES
+
+ITALGAS
+
+------------------------------------------------------------
+
+Multilingual semantic search engine for finding different data sources
+
+Italgas interfaces with different interlocutors through a large number of
+digital tools, which is destined to grow very fast in the coming years.
+
+In this scenario, the need has emerged to create a digital ecosystem in which
+information must be found quickly and efficiently by users. We have therefore
+integrated, within the official web portal, a multilingual semantic search
+engine able to effectively search among the different data sources available to
+the customer, making them available to users quickly and efficiently.
+
+ITALGAS
+
+CASE STUDY
+
+2
+
+Transformative innovation • Energy Telco and Utilities • 2021
+
+------------------------------------------------------------
+
+Multilingual semantic search engine for finding different data sources
+
+The client needed a tool that would optimize the searchability of different
+content, both in Italian and English, on the website. The results also needed to
+be sorted by relevance.
+
+A multilingual semantic search engine based on the CELI.search product
+integrated on the client's website and based on specific configurations
+depending on the data source to be interpreted.
+
+The system has greatly improved the searchability of content, both through free
+text searches and through the filters section in the shoulder at the side of the
+page.
+
+In the scenario in which digital tools become fundamental for the management of
+the relationship with customers, Italgas expressed the need to create a digital
+ecosystem that has the dual purpose of representing the brand, so that it is
+always recognizable, making the development and maintenance of all digital tools
+more efficient.
+
+In particular, the client asked us to integrate on the official web portal a
+semantic search engine in Italian and English that would make it easier for
+users to search for different types of content. The tool we created is based on
+the CELI.search product and, thanks to ad hoc implemented services, it best
+manages various data sources: web pages, news, documents, videos, events. It is
+possible to carry out effective searches through free text queries, thanks to
+advanced linguistic features such as morphological analysis, management of
+synonyms and expansions and spell checks. Facet filters on dates,
+classifications and other document types are also applicable. The results
+obtained are also sorted by relevance: the sorting algorithm has been specially
+designed to give greater prominence to certain types of content, concepts and
+specific pages.
+
+The search engine, thanks to the generation of custom microservices, is also an
+entry point for some relevant satellite sites.
+
+ITALGAS
+
+CASE STUDY
+
+3
+
+Transformative innovation • Energy Telco and Utilities • 2021
+
+------------------------------------------------------------

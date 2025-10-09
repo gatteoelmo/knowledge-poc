@@ -1,0 +1,54 @@
+UNDERSTANDING FLU, A DASHBOARD TO OBSERVE FLU-LIKE SYNDROMES IN ITALY.
+
+------------------------------------------------------------
+
+Understanding flu, a dashboard to observe flu-like syndromes in Italy.
+
+A leading player in the pharmaceutical sector asked us to create an interactive
+dashboard that would provide aggregated data on the flu situation in Italy
+starting from the 2023-2024 winter season, mapping a lot of useful information
+and designed to be easily usable and readable by a wide and non-specialised
+audience. The solution was also designed to be usable from mobile devices.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Healthcare and Pharma • 2023
+
+------------------------------------------------------------
+
+Understanding flu, a dashboard to observe flu-like syndromes in Italy.
+
+Realise a mobile-friendly dashboard, easy to use and read, that can provide a
+good level of depth of data analysis while maintaining a simple and user-
+friendly level of interaction.
+
+An interactive dashboard that would answer the goal of making flu trend data
+starting with the 2023/2024 flu season accessible to any kind of audience.
+
+The dashboard gives the opportunity to easily interact with the data provided by
+the ISS Infectious Diseases Department, which are updated weekly during the
+survey period.
+
+Data on flu syndromes have parameters of measurement that are not widely known
+to the non-expert, which is why we have provided an introduction page, which
+preceeded access to the dashboard and provides an anticipation of the topics
+covered and sources used.The need to be understood by a wide range of users
+guided the choice of visual templates and language used, giving preference to a
+popular and non-technical approach and favouring easy-to-understand and commonly
+used charts, enriching the depth of reading thanks to interactivity. The data
+were then divided into 3 categories and thus different views representing:- a
+regional and age-group cross-section based on the last week's data- the trend of
+the last 12 months filtered by age group - a 10-year historical comparison with
+weekly detail.Each has been enriched with filters and interactions that allow
+the user to interact with the data, deepen it and compare it, according to user
+interest and availability.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Healthcare and Pharma • 2023
+
+------------------------------------------------------------

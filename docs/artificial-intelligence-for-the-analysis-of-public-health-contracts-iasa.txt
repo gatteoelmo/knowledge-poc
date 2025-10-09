@@ -1,0 +1,74 @@
+ARTIFICIAL INTELLIGENCE FOR THE ANALYSIS OF PUBLIC HEALTH CONTRACTS (IASA)
+
+REGIONE PIEMONTE
+
+------------------------------------------------------------
+
+Artificial Intelligence for the analysis of public health contracts (IASA)
+
+The project "Artificial Intelligence for the analysis of SAlute's public
+contracts", realized in partnership with Synapta, has as its ultimate goal the
+realization of a Business Intelligence platform through Big Data technologies to
+transform integrated documents (in this case public contracts in the health
+sector) into actionable knowledge in business decisions.
+
+In this phase, in order to perform the analysis of the unstructured data we
+employed state-of-the-art NLP techniques for entity recognition and relation
+extraction, tools to perform cross-database queries and Linked Data
+technologies.
+
+REGIONE PIEMONTE
+
+CASE STUDY
+
+2
+
+Transformative innovation • Public Administration & No Profit • 2021
+
+------------------------------------------------------------
+
+Artificial Intelligence for the analysis of public health contracts (IASA)
+
+Analysis and organization of unstructured data from the database of over fifty
+million public contracts accessible on the Synapta platform -
+ContrattiPubblici.org.
+
+Elaboration of a technology aimed at extracting data on unit prices of drugs
+purchased by the PA, associating them to the unique codes (AIC) assigned to each
+product by AIFA.
+
+The extraction of Named Entities and relations from contracts achieves high
+accuracy performance. The models can already be used with the supervision of a
+manual operator.
+
+The IASA project (Artificial Intelligence for the Analysis of SAlute's Public
+Contracts) completed in 2021, is the first experiment - successful - of analysis
+and organization of unstructured data from the database of over fifty million
+public contracts accessible on Synapta's proprietary platform
+ContrattiPubblici.org.
+
+The goal of the project is to extract useful information (specifically drug
+names, prices of products with unique identifiers provided by AIFA and the
+relationships between them) from unstructured data, in our case public contracts
+in the health sector.
+
+To do this, together with Synapta and with the scientific supervision of the
+LINKS Foundation, we put into practice our expertise in NLP in order to define
+the taxonomy of the entities and relationships to be identified, to develop
+useful features for the annotation in the Doccano tool and to prepare the
+training of the Machine Learning model at the base of the system.
+
+The result achieved was a tool capable of analyzing large amounts of data and
+extracting structured information from text, be it tables immersed in text or
+natural language, with a satisfactory accuracy rate. In this context, following
+further fine tuning, the models produced can be used in total autonomy.
+
+REGIONE PIEMONTE
+
+CASE STUDY
+
+3
+
+Transformative innovation • Public Administration & No Profit • 2021
+
+------------------------------------------------------------

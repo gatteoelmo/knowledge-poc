@@ -1,0 +1,57 @@
+GENERATIVE AI FOR THE EDITORIAL STAFF
+
+------------------------------------------------------------
+
+Generative AI for the editorial staff
+
+A company in the insurance field wants to streamline the time it takes to
+research and edit content for their intranet. It wants to have a system that,
+given input business and legal documents, automatically produces headlines and
+abstracts while respecting content accuracy and corporate tone-of-voice. The
+system, hosted on MAIZE infrastructure, is exposed via an interface. The client
+team evaluated the system output, improving its performance, and has access to
+the interface. This tool makes it possible to significantly speed up the
+editorial team's work time.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Financial Services • 2023
+
+------------------------------------------------------------
+
+Generative AI for the editorial staff
+
+Automate some time-consuming editorial tasks (e.g., text summarization,
+representative image search) through the use of generative artificial
+intelligence.
+
+The project created an interface that generates titles and abstracts of legal
+and business circulars by exploiting GPT-4.
+
+The client collaborated in the validation of the system output. This tool saves
+the company considerable time in terms of content writing.
+
+An insurance company has embarked on a path aimed at optimizing the intranet
+dedicated to the sales network. The platform provides procedures, technical and
+business documents.To date, drafting these materials requires very high effort
+in terms of time and activity to analyze and synthesize existing content into
+more agile, understandable and persuasive formats.Therefore, the need is to
+automate some time-consuming editorial tasks (e.g., text summarization,
+representative image search) through the use of generative Artificial
+Intelligence (Large Language Models).The goal is to obtain a standalone tool
+that can be integrated into existing editorial processes in order to speed up
+people's work and allow them to devote more attention to higher value-added
+activities.The project has created an interface that generates titles and
+abstracts of legal and business documents. The interface is accessible by the
+client. The client collaborated in validating the output of the system. This
+tool saves the company considerable time in terms of content writing.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Financial Services • 2023
+
+------------------------------------------------------------

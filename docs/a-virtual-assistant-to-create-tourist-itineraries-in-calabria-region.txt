@@ -1,0 +1,69 @@
+A VIRTUAL ASSISTANT TO CREATE TOURIST ITINERARIES IN CALABRIA REGION
+
+REGIONE CALABRIA
+
+------------------------------------------------------------
+
+A virtual assistant to create tourist itineraries in Calabria region
+
+In the ASSD research project - Semantic Social Driven Accelerators for the
+generation of glocal tourist itineraries - we had 2 main objectives:- social
+media analytics and detection of Point of interest in tourism; - the realization
+of a multilingual chatbot that helps users to generate personalized touristic
+itineraries for the Calabrian territory;
+
+From the point of view of territorial development, the aim of the project is to
+increase innovation in the tourism sector in Calabria.
+
+REGIONE CALABRIA
+
+CASE STUDY
+
+2
+
+Transformative innovation • Public Administration & No Profit • 2020
+
+------------------------------------------------------------
+
+A virtual assistant to create tourist itineraries in Calabria region
+
+Design and develop a chatbot that helps users to fill out a form to collect
+information to generate a personalized travel itinerary in an interactive way.
+
+We have developed a multilingual chatbot (in Italian, English and partially
+Chinese) capable of satisfying the travel preferences of each individual user.
+
+The virtual assistant, released into production in 2020, was deployed on the
+project's two main channels: the website and the app. The project was completed
+in December 2021.
+
+Planning an itinerary for a vacation can take a lot of time, money and energy.
+We need to search the web for all the main points of interest in a given
+location, choose those most relevant to our interests and research how far apart
+they are, in order to optimize time and organize a sensible itinerary. We could
+also rely on a travel agency, but how much would that cost?
+
+That's why the ASSD project has as a key component a free, fast and efficient
+virtual assistant. You simply need to describe your interests, the duration and
+type of trip you would like to take and you get a detailed customized itinerary
+tailored to your needs. It's the ideal solution both for young people looking
+for Instagrammable locations and for the worker who has half a day to get to
+know the territory.
+
+The chatbot speaks Italian, English and partially Chinese, making an holiday in
+Calabria more attractive to foreign tourists as well. For the implementation of
+multilingual paths, we implemented both language-independent modules for the
+execution of commands and custom components for the recognition of specific
+language patterns. After the design and development phases, we delivered the
+chatbot in production and on multiple channels starting from 2020. The project
+was completed in 2021.
+
+REGIONE CALABRIA
+
+CASE STUDY
+
+3
+
+Transformative innovation • Public Administration & No Profit • 2020
+
+------------------------------------------------------------

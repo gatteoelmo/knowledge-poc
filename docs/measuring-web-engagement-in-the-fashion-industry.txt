@@ -1,0 +1,64 @@
+MEASURING WEB ENGAGEMENT IN THE FASHION INDUSTRY
+
+------------------------------------------------------------
+
+Measuring web engagement in the fashion industry
+
+Fashion, like and more than other sectors, has been invested in recent years by
+the digital transformation: the end customer, in fact, today evaluates their
+purchases online by watching videos and consulting reviews of those who have
+already purchased. For this reason, monitoring user engagement from web content
+is becoming increasingly important in the fashion industry.
+
+A popular online magazine asked us to perform a semantic analysis of the
+contents of articles, through the identification of the main themes, in order to
+analyze their performance and drive the production of new content.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Fashion and Apparel • 2016
+
+------------------------------------------------------------
+
+Measuring web engagement in the fashion industry
+
+An analysis of how much traffic online article topics move, with generation of a
+specific taxonomy in the consumer fashion domain.
+
+A cluster analysis experiment on online articles via API with CELI.analytics. We
+also integrated ad hoc algorithms for the use case at hand.
+
+Our dashboard allows to work on user preferences, in relation with
+CELI.analytics dimensions and metrics. Topics with high engagement but low
+coverage were detected, such as specific haircut styles.
+
+The new frontier of fashion is increasingly digitized. Operations such as
+profiling the customer base, identifying the levers that move traffic and
+mapping web and social engagement are increasingly important for brands.
+
+We carried out an analysis of articles from an online fashion magazine, with the
+aim of obtaining a summary of the contents that generate the most user
+engagement. Through a Machine Learning experiment supervised via CELI.analytics,
+we performed a cluster analysis that led us to identify brands, celebrities and
+topics from the articles from which we generated a taxonomy.
+
+This operation allowed us to perform specific analyses, such as identifying the
+best brand for the hair topic, the topic in which a certain brand performs best,
+and what percentage that topic represents of total visits.
+
+A phenomenon of interest for publishing, that we can study, is the divergence
+between the number of articles on a topic and web visits to them: if, in
+correspondence of many articles there is little traffic, it is likely that the
+editorial staff is investing too much on a certain topic. From the point of view
+of sponsored articles, to little treated topics that generate many visits will
+be instead attributed greater value.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Fashion and Apparel • 2016
+
+------------------------------------------------------------

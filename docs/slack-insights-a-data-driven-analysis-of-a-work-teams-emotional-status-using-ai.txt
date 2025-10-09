@@ -1,0 +1,77 @@
+SLACK INSIGHTS: A DATA-DRIVEN ANALYSIS OF A WORK TEAM'S EMOTIONAL STATUS USING
+AI
+
+MAIZE
+
+------------------------------------------------------------
+
+Slack Insights: a data-driven analysis of a work team's emotional status using
+AI
+
+The massive introduction of smart working has meant the intensification of the
+use of corporate social networks (Slack, Microsoft Teams, etc.) and therefore
+the disappearance of all those situations in presence for which it was possible
+to perceive the mood and the states of mind of colleagues.
+
+To overcome this lack, in an R&D context, we performed a data-driven analysis of
+anonymized messages from 4 manually validated Slack channels and identified with
+AI work-specific emotions, then cross-referenced with project events. The
+results of the analysis were graphically represented with ad-hoc designed
+charts.
+
+MAIZE
+
+CASE STUDY
+
+2
+
+Crew 2021 • Internal • 2021
+
+------------------------------------------------------------
+
+Slack Insights: a data-driven analysis of a work team's emotional status using
+AI
+
+Create a dashboard to graphically represent the general mood of a team in a
+Slack channel and cross-reference it with a project timeline (kickoffs,
+deadlines, deliverables).
+
+Data-driven analysis and validation of a sample of messages taken from 4 Slack
+channels, training of a neural network for deriving emotion identification and
+production of infographics and KPIs.
+
+Design and implementation of charts that allow you to graphically monitor the
+results of the analysis, with a focus on the progress of a project and the
+identification of any moments of difficulty.
+
+We've become increasingly accustomed to working remotely since the pandemic
+legitimized this mode of collaboration. It's not easy to have the situation
+under control, when several useful information about the emotional state of a
+work team are hardly accessible in the corporate instant messaging channels.
+
+Hence, in an R&D context, we had the idea to use our expertise in analyzing
+linguistic-numerical data with AI, putting it at the service of work teams in
+order to detect emotions related to working conditions (e.g. enthusiasm, stress,
+calm, dissatisfaction, etc.) and monitor their evolution over time. The KPI
+extracted by the tool allows project managers to detect emotional distress and
+enhance the team cohesion. Our final objective was to create a dashboard to
+represent the general mood of a channel and cross it with the timeline of a
+project (kickoff, deadlines, deliveries).
+
+We therefore performed a data-driven analysis and validation of a sample of
+messages taken from 4 Slack channels, trained a neural network to recognize the
+resulting emotions (frustration, anxiety, stall, enthusiasm, serenity, empathy)
+and operated the results graphically through ad-hoc implemented infographics.
+
+We learned that the timeliness of having some aggregate information is of great
+help in managing projects remotely and with tight schedules.
+
+MAIZE
+
+CASE STUDY
+
+3
+
+Crew 2021 • Internal • 2021
+
+------------------------------------------------------------

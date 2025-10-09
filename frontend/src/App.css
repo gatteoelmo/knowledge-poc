@@ -1,0 +1,166 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 50px 50px;
+}
+
+.messages-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.message-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 20px;
+}
+
+.message-row-user {
+  flex-direction: row-reverse;
+}
+
+.message-bubble {
+  max-width: 70%;
+  padding: 12px 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+
+.message-bubble-user {
+  color: white;
+  border: transparent;
+}
+
+.message-bubble-assistant {
+  color: #ffffff;
+  border: transparent;
+  font-weight: 400;
+  text-align: left;
+}
+
+.message-content {
+  white-space: pre-wrap;
+}
+
+.loading-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 20px;
+}
+
+.loading-bubble {
+  padding: 12px 16px;
+  border-radius: 18px;
+  border: 1px solid transparent;
+  font-size: 15px;
+}
+
+.loading-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.loading-dot {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.loading-dot-2 {
+  animation: pulse 1.5s ease-in-out 0.5s infinite;
+}
+
+.loading-dot-3 {
+  animation: pulse 1.5s ease-in-out 1s infinite;
+}
+
+.input-form {
+  padding: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: right;
+}
+
+.input-field {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #dddddd00;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: #aaaaaa;
+  text-align: right;
+  font-size: 20px;
+}
+
+.input-field-normal {
+  background: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  font-size: 20px;
+  text-align: right;
+}
+
+.input-field-waiting {
+  background: rgba(255, 255, 255, 0);
+  color: #ffffff;
+  font-size: 20px;
+  text-align: right;
+}
+
+.send-button {
+  border-radius: 50%;
+  background-color: black;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.send-button-active {
+  cursor: pointer;
+}
+
+.send-button-disabled {
+  cursor: not-allowed;
+}
+
+.digest-section-title {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 35px 0px 10px;
+}
+
+.digest-section-content {
+  text-align: left;
+}
+
+.digest-main-item {
+  margin-bottom: 8px;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+/* Effetto typing cursor */
+.typing-cursor {
+  color: #ffffff;
+  animation: blink 1s infinite;
+  font-weight: normal;
+  margin-left: 1px;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}

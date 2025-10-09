@@ -1,0 +1,69 @@
+ECONYL SHOP | A SHOPIFY HEADLESS E-COMMERCE BASED ON WORDPRESS
+
+------------------------------------------------------------
+
+Econyl shop | a Shopify headless e-commerce based on WordPress
+
+An important international player in the production of recycled nylon fibers
+asked us to develop an e-commerce platform with products from different brands
+using its ecological yarns.
+
+The first step was creating a platform where the items are not directly
+purchasable and the consumer is led to finalize the purchase in the online
+stores of the respective brands.
+
+The second step involves the implementation of the checkout directly within the
+customer's e-commerce platform. We have built an efficient e-commerce and
+graphically renewed the website, enriching it with additional sections.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Fashion and Apparel • 2021
+
+------------------------------------------------------------
+
+Econyl shop | a Shopify headless e-commerce based on WordPress
+
+A multi-brand e-commerce able to track purchases conveyed to external sites with
+Adform tracking. Next, the scalability of e-commerce to a direct sales model.
+
+For the catalog we used Shopify, setting up the option that leads to purchases
+in external sites. The front end of the shop was built with the WordPress CMS,
+customizing a pre-existing template.
+
+We have provided a stable e-commerce by defining an acquisition model between
+the catalog on Shopify and a site based on WordPress.
+
+An important international player in the field of recycled nylon fiber
+production asked us to create an e-commerce platform.
+
+The first step was to create a catalog with products from different partner
+companies that use its ecological yarns. The client asked for e-commerce to be
+able to direct buyers to the online shops of the respective brands to finalize
+the purchase.
+
+To meet this requirement, we have created a new e-commerce section within the
+customer's site using the Shopify platform. The buyer is led to finalize the
+purchase on the external online stores of the respective brands with a flow
+traced via Adform technology.
+
+Together with the new e-commerce section we have introduced a new graphic layout
+on the site and created additional sections: not only product archives, category
+archives, and single product templates, but also new editorial pages with extra
+content, a new magazine company, a space for weekly spotlights, and a press
+area.
+
+Thanks to the new settings, product warehouse data can be uploaded by the
+customer to a Shopify instance and synchronized daily with the site via Cron
+Job. The synchronization scripts, fully customizable and scalable, were
+developed by us.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Fashion and Apparel • 2021
+
+------------------------------------------------------------

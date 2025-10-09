@@ -1,0 +1,68 @@
+A VIRTUAL ASSISTANT TO INCREASE INDEPENDENCE FOR REHABILITATION PATIENTS
+
+REGIONE PIEMONTE E I.R.C.C.S. FONDAZIONE OSPEDALE SAN CAMILLO
+
+------------------------------------------------------------
+
+A virtual assistant to increase independence for rehabilitation patients
+
+Post-stroke patients at San Camillo Hospital in Venice have to follow constant
+rehabilitation to recover the use of their upper limbs, but it is not always
+possible to go to the hospital. Patients must therefore perform the
+rehabilitation therapy on their own, without someone to check the correct
+execution of the exercises.
+
+The RiMotivAzione research project has allowed us to develop a virtual assistant
+that increases the independence of patients within a comprehensive and cutting-
+edge platform that integrates different technologies.
+
+REGIONE PIEMONTE E I.R.C.C.S. FONDAZIONE OSPEDALE SAN CAMILLO
+
+CASE STUDY
+
+2
+
+Transformative innovation • Internal • 2019
+
+------------------------------------------------------------
+
+A virtual assistant to increase independence for rehabilitation patients
+
+We developed a solution that would allow patients to both rehabilitate remotely
+without the need to travel to the hospital and receive proper monitoring.
+
+An app-integrated voice assistant that communicates with patients via voice,
+providing all the instructions about exercises to carry out their
+rehabilitation.
+
+The research project concluded with the publication of two papers presented at
+the conferences: LREC - Language Resources and Evaluation Conference and CLiC-
+it.
+
+RiMotivAzione was an industrial research and experimental development project of
+the POR FESR Piemonte 2014-2020 plan, European Regional Development Fund,
+reserved for companies associated with the Innovation Poles of the Piedmont
+Region (in particular, the ICT Innovation Pole).
+
+The joint work of several companies led to the creation of a platform able to
+assist patients during their rehabilitation at home. The developed
+conversational assistant has been integrated in an app and communicates through
+natural language with the patients, indicating the exercises to be performed,
+motivating and warning them in case an exercise has been performed incorrectly.
+
+This is possible thanks to a smart bracelet that is worn by the patient and
+sends to the app all the necessary information for the correct execution of the
+rehabilitation.
+
+The solution increases patients' independence and significantly decreases the
+dropout rates of remote rehabilitation therapy.
+
+REGIONE PIEMONTE E I.R.C.C.S. FONDAZIONE OSPEDALE SAN CAMILLO
+
+CASE STUDY
+
+3
+
+Transformative innovation • Internal • 2019
+
+------------------------------------------------------------

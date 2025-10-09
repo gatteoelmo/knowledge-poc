@@ -1,0 +1,54 @@
+DESIGN & PROTOTYPING OF NETWORK STRATEGY TEAM'S USE CASES
+
+------------------------------------------------------------
+
+Design & prototyping of Network Strategy Team's use cases
+
+The client, a leading telecommunications provider, requested support in
+translating high-level use cases into interactive digital prototypes for
+internal testing with the aim of building a tool that allows the Network
+Strategy Team making strategic decisions basing on data.The proposed solution
+included the design and development of prototypes with a particular focus on
+data visualization and user experience, with iterations based on internal
+feedback to optimize effectiveness.
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Energy Telco and Utilities • 2025
+
+------------------------------------------------------------
+
+Design & prototyping of Network Strategy Team's use cases
+
+Support the client in translating hight-level use cases into digital prototypes.
+These prototypes will be used to assess internally the user experiences and
+gather insights for potential improvements.
+
+Design and development of interactive prototypes using Figma, focusing on user
+experience, and data visualization, iterating based on internal feedback.
+
+Creation of high-fidelity prototypes that improved interaction and understanding
+of internal use cases, ensuring an optimized user experience for stakeholders.
+
+The project started with the goal of translating complex use cases into high-
+fidelity digital prototypes, used internally to assess the user experience and
+gather insights for improvement.The team collaborated with internal stakeholders
+from the Network Strategy Team to analyze and structure the use cases and select
+the 3 ones to be prototyped.The process involved several phases, starting with
+defining the functional requirements for each use case, followed by the creation
+of wireframes and interactive prototypes in Figma, adhering to accessibility and
+usability principles. After sharing the prototypes with stakeholders, feedback
+was collected and changes were made, continuously improving the quality of the
+solutions.The iterative approach ensured continuous optimization of the user
+experience, with a strong focus on user testing to further refine the flows and
+functionalities.
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Energy Telco and Utilities • 2025
+
+------------------------------------------------------------

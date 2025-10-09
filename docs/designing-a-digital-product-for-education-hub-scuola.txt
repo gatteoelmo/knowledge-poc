@@ -1,0 +1,67 @@
+DESIGNING A DIGITAL PRODUCT FOR EDUCATION – HUB SCUOLA
+
+MONDADORI EDUCATION
+
+------------------------------------------------------------
+
+Designing a digital product for education – HUB Scuola
+
+HUB Scuola is a digital ecosystem for school from publishing group Mondadori
+Education where users can find digital content for their textbooks and a series
+of tools designed to address the needs of teachers and students.With the
+addition of DeaScuola to the group, our client needed to make their own digital
+offerings come together and coexist; seizing this opportunity, they asked us for
+a complete redesign of HUB Scuola that would address the needs of teachers,
+students and all the publishers involved, paying particular attention to the
+aspect of digital accessibility.
+
+MONDADORI EDUCATION
+
+CASE STUDY
+
+2
+
+Ventures, products and services • Education, Publishing • 2024
+
+------------------------------------------------------------
+
+Designing a digital product for education – HUB Scuola
+
+The challenge was to completely redesign HUB Scuola, the digital platform for
+school from the publishing group Mondadori Education, especially after their
+acquisition of publisher DeaScuola.
+
+We proposed a significant redesign, one that would not disrupt the experience of
+the previous HUB Scuola, but that would give it a leap forward in terms of
+usability and overall quality.
+
+The project involved three major publishers with an estimated 3 million users.
+It went online in September 2024, one year after its inception.
+
+We started by doing some design research as we interviewed teachers, school
+managers, students and parents, with the goal of outlining the needs of all of
+our targets. The teachers' customer journey was mapped more thoroughly in order
+to capture their "lifecycle", from prospects to adopters.We then revisited the
+brand image of HUB Scuola; we didn't overhaul it, but we have rather reinforced
+its visual identity thanks to more vibrant, digital colours and a playful,
+recognisable and highly readable typographical duo. It was decided to enrich the
+appearance of some areas with custom-made, hand-drawn illustrations.The third
+phase saw the UX/UI design of all the sections of HUB Scuola (including the
+newest Aree docenti) and its user flows, for example the merging of accounts for
+those who had both (Mondadori Education and DeaScuola), the navigation of
+digital content contextual to the browsing of textbooks, and the preparation and
+simulation of tests and examinations. We also produced a design system
+containing the visual and design foundations, the icon and pictogram systems,
+the component library, and the style guidelines.Finally, we also developed the
+foundations of the frontend, before handing them over to the client as they
+completed the development.
+
+MONDADORI EDUCATION
+
+CASE STUDY
+
+3
+
+Ventures, products and services • Education, Publishing • 2024
+
+------------------------------------------------------------

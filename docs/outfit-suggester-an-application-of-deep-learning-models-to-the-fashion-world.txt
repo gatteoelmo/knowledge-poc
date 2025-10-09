@@ -1,0 +1,72 @@
+OUTFIT SUGGESTER: AN APPLICATION OF DEEP LEARNING MODELS TO THE FASHION WORLD
+
+OVS
+
+------------------------------------------------------------
+
+Outfit suggester: an application of Deep Learning models to the fashion world
+
+In the fashion industry, consulting a product catalog or checking the
+availability of a product in a store is a strategic way of contacting customers.
+Image search can be a fundamental tool to allow users to access content in a
+simpler and more effective way.
+
+As part of the iMaterialist Challenge research and development initiative, we
+implemented a system capable of classifying images of clothing and providing an
+outfit suggestion to the user. The bot, through a PoC, was subsequently
+presented to OVS.
+
+OVS
+
+CASE STUDY
+
+2
+
+Transformative innovation • Fashion and Apparel • 2019
+
+------------------------------------------------------------
+
+Outfit suggester: an application of Deep Learning models to the fashion world
+
+An image classifier to be applied to an internal catalog of over 54000 products
+and 133000 images that, starting from user input, was able to deliver products
+of interest.
+
+The suggester is able to dispense in response a series of outfits or products
+similar to the one sent by the user, recognizing people's gender, colors and
+even fabrics of the garments.
+
+The PoC was submitted to OVS following an internal qualitative analysis that
+showed satisfactory system accuracy. The bot is currently off and evolutions are
+on standby.
+
+Given the growing popularity of the e-commerce industry, having products in
+photos automatically classified would solve a large amount of problems for
+apparel retailers. However, automatic product recognition is difficult because
+for the same product, a photo may be taken with different lighting, angles,
+backgrounds, and occlusion levels. Many of today's generic recognition machines
+simply cannot perceive these subtle differences between photos, yet these
+differences could be important to purchase decisions.
+
+Given the requirements, as part of the iMaterialist Challenge initiative, we
+implemented a system that can provide outfits, based on user-submitted input
+images. The bot has been developed by initially applying a Deep Learning model
+to a dataset of images for gender and age identification; then a feature
+exraction operation is performed on the OVS product catalog using Solr. The bot
+was delivered on Telegram. For each proposed image, a satisfaction feedback of
+the provided suggestion is requested, through which the system is able to
+improve its performance.
+
+The bot, after a qualitative analysis of satisfactory performance, was presented
+to the client at the end of 2019. Evolutions have been defined, but are
+currently on standby.
+
+OVS
+
+CASE STUDY
+
+3
+
+Transformative innovation • Fashion and Apparel • 2019
+
+------------------------------------------------------------

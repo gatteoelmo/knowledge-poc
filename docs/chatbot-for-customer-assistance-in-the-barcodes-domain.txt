@@ -1,0 +1,65 @@
+CHATBOT FOR CUSTOMER ASSISTANCE IN THE BARCODES DOMAIN
+
+------------------------------------------------------------
+
+Chatbot for customer assistance in the barcodes domain
+
+An italian organization is part of the global consortium that manages barcodes
+and labeling standards to identify and commercialize products. In order for a
+world-wide standard to work, our client has to establish shared practices and
+rules that every seller need to follow: from a single pen to tons of products,
+each unit must be labeled correctly.
+
+Producer and sellers are often confused by the number of regulations and
+different standards. This is why we developed a chatbot that supports our client
+to find the information they are looking for.
+
+CASE STUDY
+
+2
+
+Transformative innovation • Public Administration & No Profit • 2019
+
+------------------------------------------------------------
+
+Chatbot for customer assistance in the barcodes domain
+
+Develop a chatbot that answers frequently asked questions and helps users find
+the specific information they need, in a rapid and efficient way.
+
+We developed an AnswerBot, a virtual assistant that has knowledge of hundred of
+possible questions and interacts with dozens of users daily.
+
+Since production release, the bot has handled requests from over 13K unique
+users. We monitor the conversations in order to extract unforeseen questions and
+integrate them into the knowledge base.
+
+Our customer manages one of the most useful but complicated standard in the
+world: barcodes. That includes all bidimensional labels that “tag” something,
+like QRcodes. In order for them to work everywhere in the world, barcodes need
+to be compliant to certain rules and to contain the information required both by
+the law and by the international sellers.
+
+All the information about barcodes is available in the website… but nobody has
+the time or the patience to read the whole content of a website. Users want
+specific answers and they would rather not call a customer assistance service
+and waste a lot of time waiting for an operator to pick their call.
+
+For this reason, we created a chatbot that leverages our internal technologies:
+the proprietary rule-based algorithms to handle NLU capabilities and, on the
+other hand, a machine learning model that allows the chatbot to continuously
+learn. We injected into the virtual assistant a considerable amount of FAQs in
+the barcodes domain and we also reshaped their condiguration in order to be
+compliant with the linguistic variety of the users.
+
+The virtual assistant is available 24/7, with no need to wait for an operator.
+It also deals with hundreds of users per month, answering their doubts and
+gathering their feedback about the service provided.
+
+CASE STUDY
+
+3
+
+Transformative innovation • Public Administration & No Profit • 2019
+
+------------------------------------------------------------
