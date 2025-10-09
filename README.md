@@ -8,8 +8,7 @@ cd knowledge-poc
 ollama pull mistral
 ```
 ```bash
-ollama  
-pull mxbai-embed-large
+ollama pull mxbai-embed-large
 ```
 ```bash
 ollama run
