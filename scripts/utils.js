@@ -16,7 +16,7 @@ function dot(a,b){ return a.reduce((s,x,i)=> s + x*b[i], 0); }
 function norm(a){ return Math.sqrt(a.reduce((s,x)=> s + x*x, 0)); }
 function cosine(a,b){ return dot(a,b) / (norm(a)*norm(b) + 1e-10); }
 
-// k: numero di documenti da ritornare e su cui basare la risposta
+// k: number of top documents to retrieve
 export async function getTopKDocs(query, k=3){
   const qEmbArr = await emb.embedQuery(query);
   const qEmb = Array.isArray(qEmbArr) ? qEmbArr : qEmbArr[0];

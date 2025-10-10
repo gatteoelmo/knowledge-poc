@@ -6,7 +6,7 @@ import { OllamaEmbeddings } from "@langchain/community/embeddings/ollama";
 const docsDir = path.resolve("./docs");
 const outFile = path.resolve("./vectorstore.json");
 
-const emb = new OllamaEmbeddings({ model: "mxbai-embed-large" }); // modello locale Ollama
+const emb = new OllamaEmbeddings({ model: "mxbai-embed-large", baseUrl: "http://localhost:11434" }); // modello locale Ollama
 
 async function main(){
   const files = await fs.readdir(docsDir);
