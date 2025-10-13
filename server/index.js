@@ -26,7 +26,7 @@ app.post("/api/chat", async (req, res) => {
     if (!query) return res.status(400).json({ error: "Missing query" });
 
     // retrieval
-    const top = await getTopKDocs(query, 3);
+    const top = await getTopKDocs(query, 5);
     const context = top.map(d => `Source: ${d.metadata.source}\n${d.content}`).join("\n\n---\n\n");
 
     // prompt for natural response
@@ -45,6 +45,7 @@ INSTRUCTIONS:
 - Provide concrete and specific information from the projects
 - Keep the response concise but complete (100-150 words)
 - Respond in the same language as the question
+- try to use last document as it is often the most relevant (like 2024 and 2025 projects)
 `;
 
     const out = await llm.invoke(prompt);

@@ -17,7 +17,7 @@ function norm(a){ return Math.sqrt(a.reduce((s,x)=> s + x*x, 0)); }
 function cosine(a,b){ return dot(a,b) / (norm(a)*norm(b) + 1e-10); }
 
 // k: number of top documents to retrieve
-export async function getTopKDocs(query, k=3){
+export async function getTopKDocs(query, k=5){
   const qEmbArr = await emb.embedQuery(query);
   const qEmb = Array.isArray(qEmbArr) ? qEmbArr : qEmbArr[0];
   const raw = JSON.parse(await fs.readFile(VECTOR_FILE, "utf8"));

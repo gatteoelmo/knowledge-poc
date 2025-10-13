@@ -3,6 +3,7 @@
   text-align: center;
   width: 100%;
   padding: 50px 50px;
+  overflow-x: hidden;
 }
 
 .messages-container {

@@ -1,3 +1,5 @@
 node_modules
 docs
+docs_not_txt
+txt_output
 vectorstore.json
