@@ -132,7 +132,7 @@ export const useMessageHandler = (typingFunctions) => {
       if (data.error) {
         addTypingAssistantMessage(`Sorry, I encountered an error: ${data.error}`, { isError: true });
       } else {
-        // Prima mostra la risposta naturale con effetto typing
+        // Prima mostra la risposta naturale con effetto typing, includendo le sources
         addTypingAssistantMessageWithCallback(data.response, () => {
           // Questo viene eseguito quando il primo messaggio ha finito di essere scritto
           setTimeout(() => {
@@ -140,7 +140,7 @@ export const useMessageHandler = (typingFunctions) => {
             setWaitingForDigestConfirm(true);
             setPendingQuery(userMessage);
           }, 2000); // 2 secondi DOPO che il primo messaggio è finito
-        });
+        }, { sources: data.sources });
       }
     } catch (error) {
       console.error("Error processing request:", error);

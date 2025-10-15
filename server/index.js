@@ -43,9 +43,9 @@ INSTRUCTIONS:
 - Respond naturally and conversationally based EXCLUSIVELY on the relevant documents
 - Use a professional but friendly tone
 - Provide concrete and specific information from the projects
-- Keep the response concise but complete (100-150 words)
-- Respond in the same language as the question
-- try to use last document as it is often the most relevant (like 2024 and 2025 projects)
+- Keep the response concise but complete (150-200 words)
+- try to use last document as it is often the most relevant
+- if the query is in Italian respond in Italian
 `;
 
     const out = await llm.invoke(prompt);
@@ -97,7 +97,7 @@ INSTRUCTIONS:
 - Do not add any text outside the JSON.
 - Ensure all three sections are fully populated with meaningful content.
 - Make sure to include concrete details from the relevant documents.
-- Respond in the same language as the question
+- if the query is in Italian respond in Italian
 
 Example format:
 {

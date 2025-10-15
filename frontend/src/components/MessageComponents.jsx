@@ -58,6 +58,18 @@ export function MessageBubble({ message, typingMessages }) {
         ) : (
           <div className="message-content">
             {message.content}
+            {message.sources && message.sources.length > 0 && (
+              <div className="message-sources">
+                <div className="sources-label">Sources:</div>
+                <div className="sources-list">
+                  {message.sources.map((source, index) => (
+                    <span key={index} className="source-tag">
+                      {eliminateTxtExtension(source)}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -78,4 +90,8 @@ export function LoadingIndicator() {
       </div>
     </div>
   );
+}
+
+function eliminateTxtExtension(filename) {
+  return filename.replace(/\.txt$/i, '');
 }
