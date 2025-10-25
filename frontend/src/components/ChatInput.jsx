@@ -4,18 +4,12 @@ export function ChatInput({
   inputValue, 
   setInputValue, 
   onSubmit, 
-  loading, 
-  waitingForWordConfirm, 
-  waitingForDigestConfirm,
+  loading,
   inputRef 
 }) {
   const getPlaceholder = () => {
-    if (waitingForWordConfirm) return PLACEHOLDERS.WORD_CONFIRM;
-    if (waitingForDigestConfirm) return PLACEHOLDERS.DIGEST_CONFIRM;
     return PLACEHOLDERS.NORMAL;
   };
-
-  const isWaiting = waitingForWordConfirm || waitingForDigestConfirm;
 
   return (
     <form onSubmit={onSubmit} className="input-form">
@@ -25,7 +19,7 @@ export function ChatInput({
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         placeholder={getPlaceholder()}
-        className={`input-field ${isWaiting ? "input-field-waiting" : "input-field-normal"}`}
+        className="input-field input-field-normal"
         disabled={loading}
         autoFocus
       />

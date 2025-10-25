@@ -26,14 +26,12 @@ function App() {
   const typingAnimation = useTypingAnimation();
   const { 
     loading, 
-    waitingForWordConfirm, 
-    waitingForDigestConfirm, 
-    handleSendMessage 
+    handleSendMessage,
+    resetConversation,
+    hasActiveSession
   } = useMessageHandler({
     addTypingAssistantMessage: (content, extraProps) => 
-      typingAnimation.addTypingAssistantMessage(content, setMessages, extraProps),
-    addTypingAssistantMessageWithCallback: (content, callback, extraProps) => 
-      typingAnimation.addTypingAssistantMessageWithCallback(content, setMessages, callback, extraProps)
+      typingAnimation.addTypingAssistantMessage(content, setMessages, extraProps)
   });
 
   // === UTILITY FUNCTIONS ===
@@ -75,14 +73,31 @@ function App() {
         <div ref={messagesEndRef} />
       </div>
 
+      {/* === RESET CONVERSATION === */}
+      {hasActiveSession && (
+        <div className="reset-container">
+          <button 
+            onClick={() => {
+              resetConversation();
+              setMessages([{
+                type: "assistant",
+                content: INITIAL_MESSAGE,
+              }]);
+            }}
+            className="reset-button"
+            disabled={loading}
+          >
+            🔄 New Conversation
+          </button>
+        </div>
+      )}
+
       {/* === AREA INPUT === */}
       <ChatInput
         inputValue={inputValue}
         setInputValue={setInputValue}
         onSubmit={handleSubmit}
         loading={loading}
-        waitingForWordConfirm={waitingForWordConfirm}
-        waitingForDigestConfirm={waitingForDigestConfirm}
         inputRef={inputRef}
       />
     </div>

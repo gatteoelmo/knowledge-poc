@@ -11,7 +11,8 @@ import tone from "../src/tone.json" assert { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const STYLE_GUIDE = await fs.readFile(path.join(__dirname, "../src/style_guidelines.txt"), "utf8");
+const COMPANY_PROFILE = await fs.readFile(path.join(__dirname, "../src/company_profile.txt"), "utf8");
+const INSTRUCTIONS = await fs.readFile(path.join(__dirname, "../src/content_structure.txt"), "utf8");
 
 const llm = new Ollama({ model: "mistral" }); 
 
@@ -19,43 +20,118 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json({ limit: "1mb" }));
 
+// In-memory storage for conversation sessions
+const conversationSessions = new Map();
+
 // Endpoint for natural response
 app.post("/api/chat", async (req, res) => {
   try{
-    const { query } = req.body;
+    const { query, sessionId, conversationHistory } = req.body;
     if (!query) return res.status(400).json({ error: "Missing query" });
 
+    // Generate or use existing session ID
+    const currentSessionId = sessionId || Date.now().toString();
+    
+    // Get or create conversation history
+    let history = conversationHistory || [];
+    if (sessionId && conversationSessions.has(sessionId)) {
+      history = conversationSessions.get(sessionId);
+    }
+
+    // Add current query to history
+    history.push({ role: "user", content: query });
+
     // retrieval
-    const top = await getTopKDocs(query, 5);
+    const top = await getTopKDocs(query, 3);
     const context = top.map(d => `Source: ${d.metadata.source}\n${d.content}`).join("\n\n---\n\n");
 
-    // prompt for natural response
-    const prompt = `
-You are a MAIZE expert assistant who responds in a natural and conversational way.
+    // Build conversation context
+    const conversationContext = history
+      .slice(-6) // Keep last 6 messages (3 exchanges) to avoid token limit
+      .filter(msg => msg.role === "user" || msg.role === "assistant")
+      .map(msg => `${msg.role.toUpperCase()}: ${msg.content}`)
+      .join("\n");
 
-RELEVANT DOCUMENTS:
+    // prompt for natural response with conversation context
+    const prompt = `
+Rispondi sempre in italiano, con tono naturale, fluido e riflessivo.
+Tu sei MAIZE Collective Intelligence — la voce collettiva e riflessiva di MAIZE. In particolare, questa è la company profile di MAIZE:
+${COMPANY_PROFILE}
+
+Il tuo compito non è descrivere o riassumere i documenti, ma rispondere alla domanda in modo diretto e situato, attingendo all’intelligenza collettiva che emerge dai materiali MAIZE.
+Devi parlare come se fossimo noi — con la consapevolezza di chi ha vissuto i progetti, le sfide e le relazioni.
+Ogni risposta deve suonare vera, concreta, e radicata nell’esperienza.
+
+CONTESTO
+
+DOCUMENTI RILEVANTI:
 ${context}
 
-QUESTION:
+STORIA DELLA CONVERSAZIONE:
+${conversationContext}
+
+DOMANDA ATTUALE:
 ${query}
 
-INSTRUCTIONS:
-- Respond naturally and conversationally based EXCLUSIVELY on the relevant documents
-- Use a professional but friendly tone
-- Provide concrete and specific information from the projects
-- Keep the response concise but complete (150-200 words)
-- try to use last document as it is often the most relevant
-- if the query is in Italian respond in Italian
+TONO E STILE
+
+Parla come “noi”, non come “io”.
+Tono riflessivo, professionale e umano — come tra colleghi che ragionano dopo un progetto.
+Evita toni accademici o astratti. Ogni frase deve esprimere un pensiero reale, nato da ciò che abbiamo imparato sul campo.
+Puoi essere leggermente ironico o divertito, se questo aiuta a dire una verità più profonda.
+
+STRUTTURA DELLA RISPOSTA
+
+Apertura (4–6 frasi, 40–60 parole): entra subito nel tema, mostrando la tensione o la domanda che anima il pensiero.
+Corpo (80–120 parole): racconta come MAIZE agisce o accompagna quel tipo di sfida: che metodo usa, che tipo di relazione costruisce, come traduce la strategia in innovazione e risultati.
+Conclusione implicita: lascia aperta una riflessione o una domanda, non chiudere in modo formale.
+
+CONTENUTO E APPROCCIO
+
+Mostra sempre come MAIZE collega:
+
+Strategia → Innovazione → Implementazione → Risultati.
+Descrivi dinamiche di lavoro, modalità di collaborazione con i clienti, e ciò che impariamo facendo.
+Non parlare “del testo”: usa i documenti per esprimere la voce viva di MAIZE — ciò che sappiamo perché lo abbiamo vissuto.
+
+Se la domanda è ampia (es. “come supportare un team di innovation”), spiega in modo concreto come lo facciamo:
+le leve culturali, i momenti chiave, il modo in cui aiutiamo i team a passare dal pensiero all’azione.
+
+RISULTATO ATTESO
+
+La risposta finale deve:
+
+rispondere in modo diretto e sostanziale alla domanda,
+
+essere densa di significato e di esperienza,
+
+durare circa 150–180 parole,
+
+sembrare scritta da chi ha lavorato davvero dentro MAIZE, non da un osservatore esterno.
+
+Non descrivere i documenti.
+Non dire “il testo parla di…”.
+Parla come MAIZE, e rispondi davvero.
+
+💬 Nota per il modello
+Se la domanda riguarda “come MAIZE fa qualcosa”, rispondi spiegando come lo facciamo davvero, con esempi di approccio, mindset o pratiche concrete.
+Non dare definizioni generiche, ma prospettive utili, nate dall’esperienza.
 `;
 
     const out = await llm.invoke(prompt);
     const response = typeof out === "string" ? out : out[0]?.text ?? String(out);
 
+    // Add assistant response to history
+    history.push({ role: "assistant", content: response });
+    
+    // Store updated history in session
+    conversationSessions.set(currentSessionId, history);
+
     return res.json({ 
       ok: true, 
       response, 
       sources: top.map(t => t.metadata.source),
-      hasDigestOption: true 
+      sessionId: currentSessionId
     });
   } catch(err){
     console.error(err);
@@ -63,158 +139,17 @@ INSTRUCTIONS:
   }
 });
 
-app.post("/api/digest", async (req, res) => {
-  try{
-    const { query } = req.body;
-    if (!query) return res.status(400).json({ error: "Missing query" });
-
-    // retrieval
-    const top = await getTopKDocs(query, 5);
-    const context = top.map(d => `Source: ${d.metadata.source}\n${d.content}`).join("\n\n---\n\n");
-
-    // prompt: request JSON output for easy parsing
-    const prompt = `
-You are a corporate writer who creates project cases following the MAIZE style.
-
-STYLE GUIDELINES:
-${STYLE_GUIDE}
-
-TONE PROFILE:
-${JSON.stringify(tone, null, 2)}
-
-RELEVANT DOCUMENTS:
-${context}
-
-QUERY:
-${query}
-
-INSTRUCTIONS: 
-- Respond EXCLUSIVELY based on information in the Relevant Documents.
-- Produce ONLY valid JSON with three keys: "executive", "opening", "main".
-  * executive: three brief sentences (Challenge / Solution / Impact), each ~20 words.
-  * opening: narrative paragraph of 60-80 words, 4-6 sentences max.
-  * main: text of 180-200 words organized as: Initial Conditions, Process, Collaboration, Outcomes.
-- Do not add any text outside the JSON.
-- Ensure all three sections are fully populated with meaningful content.
-- Make sure to include concrete details from the relevant documents.
-- if the query is in Italian respond in Italian
-
-Example format:
-{
-  "executive": "Challenge sentence about the problem. Solution sentence about our approach. Impact sentence about the results achieved.",
-  "opening": "Detailed opening paragraph that sets the context and introduces the project narrative...",
-  "main": "Initial Conditions: Description of starting situation. Process: How we approached the work. Collaboration: How teams worked together. Outcomes: What was achieved and delivered."
-}
-`;
-
-    // chiamata LLM
-    const out = await llm.invoke(prompt);
-    // llm.invoke può ritornare un object o stringa; ottieni la stringa:
-    const raw = typeof out === "string" ? out : out[0]?.text ?? JSON.stringify(out);
-
-    // proviamo a parsare JSON (il modello è istruito a restituire JSON)
-    let parsed;
-    try { parsed = JSON.parse(raw); }
-    catch(e){
-      // fallback: invia la raw stringa per debug
-      return res.json({ error: "Invalid JSON from model", raw });
+// Endpoint to reset conversation
+app.post("/api/reset-conversation", async (req, res) => {
+  try {
+    const { sessionId } = req.body;
+    if (sessionId && conversationSessions.has(sessionId)) {
+      conversationSessions.delete(sessionId);
     }
-
-    return res.json({ ok: true, result: parsed, sources: top.map(t => t.metadata.source) });
-  } catch(err){
+    res.json({ ok: true, message: "Conversation reset successfully" });
+  } catch (err) {
     console.error(err);
     res.status(500).json({ error: err.message || String(err) });
-  }
-});
-
-// /api/export -> receives JSON (executive, opening, main) and returns docx
-app.post("/api/export", async (req, res) => {
-  try{
-    const { executive, opening, main } = req.body;
-    
-    if (!executive && !opening && !main) {
-      return res.status(400).json({ error: "No content to export" });
-    }
-
-    const children = [];
-
-    // Add Executive Summary section
-    if (executive) {
-      children.push(
-        new Paragraph({ 
-          text: "Executive Summary", 
-          heading: HeadingLevel.HEADING_1,
-          spacing: { after: 200 }
-        })
-      );
-      
-      // Split text by newlines and create paragraphs
-      const executiveParagraphs = executive.split('\n').filter(p => p.trim());
-      executiveParagraphs.forEach(p => {
-        children.push(new Paragraph({ 
-          text: p.trim(),
-          spacing: { after: 120 }
-        }));
-      });
-      
-      children.push(new Paragraph({ text: "", spacing: { after: 240 } })); // Extra space
-    }
-
-    // Add Opening section  
-    if (opening) {
-      children.push(
-        new Paragraph({ 
-          text: "Opening", 
-          heading: HeadingLevel.HEADING_1,
-          spacing: { after: 200 }
-        })
-      );
-      
-      const openingParagraphs = opening.split('\n').filter(p => p.trim());
-      openingParagraphs.forEach(p => {
-        children.push(new Paragraph({ 
-          text: p.trim(),
-          spacing: { after: 120 }
-        }));
-      });
-      
-      children.push(new Paragraph({ text: "", spacing: { after: 240 } })); // Extra space
-    }
-
-    // Add Main Content section
-    if (main) {
-      children.push(
-        new Paragraph({ 
-          text: "Main Content", 
-          heading: HeadingLevel.HEADING_1,
-          spacing: { after: 200 }
-        })
-      );
-      
-      const mainParagraphs = main.split('\n').filter(p => p.trim());
-      mainParagraphs.forEach(p => {
-        children.push(new Paragraph({ 
-          text: p.trim(),
-          spacing: { after: 120 }
-        }));
-      });
-    }
-
-    const doc = new Document({
-      sections: [{
-        children: children
-      }]
-    });
-
-    const buffer = await Packer.toBuffer(doc);
-
-    res.setHeader("Content-Type", "application/vnd.openxmlformats-officedocument.wordprocessingml.document");
-    res.setHeader("Content-Disposition", "attachment; filename=maize_digest.docx");
-    res.send(buffer);
-    
-  } catch(err){
-    console.error("Export error:", err);
-    res.status(500).json({ error: "Failed to generate Word document: " + err.message });
   }
 });
 

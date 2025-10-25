@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const emb = new OllamaEmbeddings({ 
-  model: "mxbai-embed-large",
+  model: "nomic-embed-text",
   baseUrl: "http://localhost:11434"
 });
 const VECTOR_FILE = path.join(__dirname, "../vectorstore.json");
