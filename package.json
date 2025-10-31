@@ -15,7 +15,7 @@
     "build": "npm run setup && npm run start",
     "full-start": "npm run setup && concurrently \"npm run start\" \"npm run frontend\"",
     "quick-start": "concurrently \"npm run start\" \"npm run frontend\"",
-    "security-check": "./security-check.sh",
+    "security-check": "./scripts/shell/security-check.sh",
     "precommit": "npm run security-check"
   },
   "keywords": [],

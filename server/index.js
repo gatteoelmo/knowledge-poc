@@ -46,7 +46,7 @@ const SYSTEM_PROMPT_BASE = await fs.readFile(
 
 const SYSTEM_PROMPT = `${SYSTEM_PROMPT_BASE}
 
-In particolare, questa è la company profile di MAIZE:
+Provide responses that are natural, conversational, and strictly rooted in relevant documentation, maintaining a professional yet friendly tone as specified in the company profile:
 ${COMPANY_PROFILE}`; 
 
 // ============================================================================

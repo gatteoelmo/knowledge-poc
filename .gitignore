@@ -14,8 +14,11 @@
 # Backup del vecchio server
 server/index-old.js
 
-# README vecchi
+# README vecchi e corrotti
 README-old.md
+README-corrupted.md
+*-old.md
+*-backup.md
 
 # ============================================================================
 # DOCUMENTI E DATI
