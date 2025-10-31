@@ -24,7 +24,10 @@ README-corrupted.md
 # DOCUMENTI E DATI
 # ============================================================================
 
-# Documenti sorgente (possono contenere dati riservati)
+# Cartella dati con file riservati
+data/
+
+# Vecchie cartelle (deprecate)
 docs/
 docs_not_txt/
 txt_output/

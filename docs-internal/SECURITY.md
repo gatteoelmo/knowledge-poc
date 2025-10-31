@@ -5,7 +5,7 @@
 ### ❌ MAI committare su GitHub:
 
 1. **`.env`** - Contiene API keys e segreti
-2. **`docs/`** - Documenti riservati dell'azienda
+2. **`data/`** - Documenti riservati dell'azienda (source + converted)
 3. **`vectorstore.json`** - Contiene embeddings dei documenti riservati
 4. **Chiavi API** - Nessuna chiave in plain text nel codice
 

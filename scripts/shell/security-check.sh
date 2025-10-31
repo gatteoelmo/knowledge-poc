@@ -21,14 +21,14 @@ else
 fi
 echo ""
 
-# Check 2: Verifica docs/
-echo "📋 Check 2/5: Verifica cartella docs/..."
-if git ls-files | grep -q "^docs/"; then
-    echo "❌ ERRORE: File nella cartella docs/ sono tracciati!"
-    echo "   Rimuovili con: git rm --cached -r docs/"
+# Check 2: Verifica data/
+echo "📋 Check 2/5: Verifica cartella data/..."
+if git ls-files | grep -q "^data/"; then
+    echo "❌ ERRORE: File nella cartella data/ sono tracciati!"
+    echo "   Rimuovili con: git rm --cached -r data/"
     ISSUES_FOUND=$((ISSUES_FOUND + 1))
 else
-    echo "✅ OK: docs/ non è tracciata"
+    echo "✅ OK: data/ non è tracciata"
 fi
 echo ""
 
@@ -57,7 +57,7 @@ echo ""
 
 # Check 5: Verifica file staged
 echo "📋 Check 5/5: Verifica file staged..."
-STAGED_SENSITIVE=$(git diff --cached --name-only | grep -E "\\.env$|^docs/|vectorstore\\.json")
+STAGED_SENSITIVE=$(git diff --cached --name-only | grep -E "\\.env$|^data/|^docs/|vectorstore\\.json")
 if [ -n "$STAGED_SENSITIVE" ]; then
     echo "❌ ERRORE: File sensibili in staging!"
     echo "$STAGED_SENSITIVE"

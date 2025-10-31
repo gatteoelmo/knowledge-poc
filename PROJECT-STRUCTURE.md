@@ -40,8 +40,10 @@ knowledge-poc/
 │   ├── load_docs.mjs            # 📚 Generazione vectorstore
 │   └── utils.js                 # 🔍 Utility RAG (embeddings)
 │
-├── 📁 docs/                       # Documenti sorgente (gitignored)
-│   └── *.txt, *.pdf, *.pptx     # File aziendali riservati
+├── 📁 data/                       # Dati del progetto (gitignored)
+│   ├── source/                  # File originali (PDF, PPTX, KEY, DOCX)
+│   ├── converted/               # File TXT convertiti
+│   └── README.md                # Guida struttura dati
 │
 ├── ⚙️  Configurazione
 │   ├── .env                      # Variables d'ambiente (gitignored)
@@ -52,9 +54,7 @@ knowledge-poc/
 │   └── package-lock.json        # Lock file npm
 │
 ├── 📊 Dati Generati (gitignored)
-│   ├── vectorstore.json         # Embeddings documenti
-│   ├── docs_not_txt/            # Documenti originali
-│   └── txt_output/              # Output conversione
+│   └── vectorstore.json         # Embeddings documenti
 │
 └── 📖 Documentazione Root
     └── README.md                # README principale (overview)
@@ -98,10 +98,8 @@ Questi file **NON** vengono committati su GitHub (`.gitignore`):
 
 ```
 ❌ .env                    # API keys e secrets
-❌ docs/                   # Documenti riservati
+❌ data/                   # Dati riservati (source + converted)
 ❌ vectorstore.json        # Embeddings documenti
-❌ docs_not_txt/           # File originali
-❌ txt_output/             # Output conversione
 ❌ node_modules/           # Dependencies
 ❌ *.log                   # File di log
 ```
@@ -160,8 +158,8 @@ Questi file **possono** essere committati:
 
 ### Aggiungere Nuovi Documenti
 ```
-1. Aggiungi file in docs/
-2. npm run convert  → txt_output/
+1. Aggiungi file in data/source/
+2. npm run convert  → data/converted/
 3. npm run load     → vectorstore.json
 4. Riavvia server
 ```
@@ -186,13 +184,13 @@ Questi file **possono** essere committati:
 
 ✅ **Mantieni separati**:
 - Codice sorgente (`src/`, `server/`, `frontend/`)
-- Dati (`docs/`, `vectorstore.json`)
+- Dati (`data/`, `vectorstore.json`)
 - Documentazione (`docs-internal/`)
 - Script (`scripts/shell/`)
 
 ✅ **Mai committare**:
 - File `.env` con API keys
-- Cartella `docs/` con dati riservati
+- Cartella `data/` con dati riservati
 - File `vectorstore.json` con embeddings
 
 ✅ **Sempre verificare** prima di commit:

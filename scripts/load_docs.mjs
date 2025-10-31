@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 import { OllamaEmbeddings } from "@langchain/community/embeddings/ollama";
 
-const docsDir = path.resolve("./docs");
+const docsDir = path.resolve("./data/converted");
 const outFile = path.resolve("./vectorstore.json");
 
 // Modalità turbo: usa --turbo come argomento per andare al massimo della velocità
@@ -14,7 +14,7 @@ if (turboMode) {
 
 const emb = new OllamaEmbeddings({ model: "nomic-embed-text", baseUrl: "http://localhost:11434" }); // modello più veloce
 
-// Funzione per delay tra richieste
+// Funzione per delay tra richieste (usato solo in casi eccezionali)
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -162,17 +162,6 @@ async function processProblematicFile(filename, items, totalChunks) {
     for (let i = 0; i < chunks.length; i++) {
       const chunk = chunks[i];
       
-      // Delay adattivo per file problematici
-      if (!turboMode && i > 0) {
-        await delay(500); // Ridotto a 500ms in modalità normale
-      }
-      
-      // Pausa adattiva ogni 50 chunks
-      if (!turboMode && i > 0 && i % 50 === 0) {
-        console.log(`   🛑 Quick break after ${i} chunks...`);
-        await delay(2000); // Ridotto a 2s
-      }
-      
       console.log(`   🔄 Processing chunk ${i + 1}/${chunks.length}...`);
       const embedding = await embedWithConservativeRetry(chunk);
       
@@ -240,14 +229,6 @@ async function processFileWithFallback(filename, items, totalChunks) {
 
     for (let i = 0; i < chunks.length; i++) {
       const chunk = chunks[i];
-      
-      // Delay ottimizzato
-      if (!turboMode && totalChunks > 0 && totalChunks % 100 === 0) {
-        console.log(`   🛑 Quick break after ${totalChunks} chunks...`);
-        await delay(2000);
-      } else if (!turboMode && totalChunks > 0) {
-        await delay(100);
-      }
       
       const embedding = await embedWithRetry(chunk);
       const chunkId = chunks.length === 1 ? filename : `${filename}#chunk${i + 1}`;

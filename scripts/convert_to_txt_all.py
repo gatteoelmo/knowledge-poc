@@ -108,13 +108,30 @@ def convert_all_in_folder(input_folder, output_root):
 
 # --- Esecuzione ---
 if __name__ == "__main__":
+    # Struttura cartelle:
+    # data/
+    # ├── source/      (file originali: PDF, PPTX, KEY, DOCX)
+    # └── converted/   (file TXT convertiti)
+    
+    # Cartella base per i dati
+    data_folder = os.path.abspath("./data")
+    
     # Cartella con i file da convertire
-    input_folder = os.path.abspath("./docs_not_txt")
+    input_folder = os.path.join(data_folder, "source")
+    
+    # Cartella di output per i file convertiti
+    output_folder = os.path.join(data_folder, "converted")
+    
+    # Crea le cartelle se non esistono
+    os.makedirs(input_folder, exist_ok=True)
+    os.makedirs(output_folder, exist_ok=True)
+    
     if not os.path.isdir(input_folder):
-        print(f"Cartella non trovata: {input_folder}")
+        print(f"❌ Cartella non trovata: {input_folder}")
+        print(f"💡 Crea la cartella e metti i file da convertire dentro: {input_folder}")
     else:
-        # Cartella di output
-        # Ricorda di aggiungere i file convertiti in doc/
-        output_root = os.path.join(input_folder, "../txt_output")
-        convert_all_in_folder(input_folder, output_root)
-        print(f"\n📁 Tutti i file convertiti sono in: {output_root}")
+        print(f"📂 Input:  {input_folder}")
+        print(f"📂 Output: {output_folder}\n")
+        
+        convert_all_in_folder(input_folder, output_folder)
+        print(f"\n✅ Tutti i file convertiti sono in: {output_folder}")
