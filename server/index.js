@@ -4,17 +4,54 @@ import bodyParser from "body-parser";
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
+import dotenv from "dotenv";
+import OpenAI from "openai";
 import { getTopKDocs } from "../scripts/utils.js";
-import { Ollama } from "@langchain/community/llms/ollama"; 
-import { Document, Packer, Paragraph, HeadingLevel, TextRun } from "docx";
-import tone from "../src/tone.json" assert { type: "json" };
+
+// ============================================================================
+// SETUP & CONFIGURATION
+// ============================================================================
+
+// Load environment variables
+dotenv.config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const COMPANY_PROFILE = await fs.readFile(path.join(__dirname, "../src/company_profile.txt"), "utf8");
-const INSTRUCTIONS = await fs.readFile(path.join(__dirname, "../src/content_structure.txt"), "utf8");
 
-const llm = new Ollama({ model: "mistral" }); 
+const PORT = process.env.PORT || 3001;
+const GPT_MODEL = process.env.GPT_MODEL || "gpt-4o";
+
+// Initialize OpenAI client
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+// ============================================================================
+// LOAD STATIC CONTENT (for caching)
+// ============================================================================
+
+const COMPANY_PROFILE = await fs.readFile(
+  path.join(__dirname, "../src/company_profile.txt"),
+  "utf8"
+);
+
+const SYSTEM_PROMPT_BASE = await fs.readFile(
+  path.join(__dirname, "../src/system_prompt.txt"),
+  "utf8"
+);
+
+// ============================================================================
+// SYSTEM PROMPT (cached)
+// ============================================================================
+
+const SYSTEM_PROMPT = `${SYSTEM_PROMPT_BASE}
+
+In particolare, questa è la company profile di MAIZE:
+${COMPANY_PROFILE}`; 
+
+// ============================================================================
+// EXPRESS APP SETUP
+// ============================================================================
 
 const app = express();
 app.use(cors());
@@ -23,11 +60,82 @@ app.use(bodyParser.json({ limit: "1mb" }));
 // In-memory storage for conversation sessions
 const conversationSessions = new Map();
 
-// Endpoint for natural response
+// ============================================================================
+// HELPER FUNCTIONS
+// ============================================================================
+
+/**
+ * Build messages for OpenAI API with prompt caching
+ * System prompt and retrieved documents are cached for efficiency
+ */
+function buildMessages(retrievedDocs, conversationHistory, currentQuery) {
+  const messages = [];
+
+  // 1. System prompt (cached)
+  messages.push({
+    role: "system",
+    content: [
+      {
+        type: "text",
+        text: SYSTEM_PROMPT,
+        cache_control: { type: "ephemeral" }
+      }
+    ]
+  });
+
+  // 2. Retrieved context from RAG (cached if same docs)
+  const contextText = retrievedDocs
+    .map(d => `Source: ${d.metadata.source}\n${d.content}`)
+    .join("\n\n---\n\n");
+
+  messages.push({
+    role: "user",
+    content: [
+      {
+        type: "text",
+        text: `DOCUMENTI RILEVANTI:\n${contextText}`,
+        cache_control: { type: "ephemeral" }
+      }
+    ]
+  });
+
+  // 3. Conversation history (last 6 messages)
+  const recentHistory = conversationHistory.slice(-6);
+  
+  for (const msg of recentHistory) {
+    if (msg.role === "user" || msg.role === "assistant") {
+      messages.push({
+        role: msg.role,
+        content: msg.content
+      });
+    }
+  }
+
+  // 4. Current query
+  messages.push({
+    role: "user",
+    content: currentQuery
+  });
+
+  return messages;
+}
+
+// ============================================================================
+// API ENDPOINTS
+// ============================================================================
+
+/**
+ * Chat endpoint - RAG with Ollama + Response with GPT-4
+ */
 app.post("/api/chat", async (req, res) => {
-  try{
+  try {
     const { query, sessionId, conversationHistory } = req.body;
-    if (!query) return res.status(400).json({ error: "Missing query" });
+    
+    if (!query) {
+      return res.status(400).json({ error: "Missing query" });
+    }
+
+    console.log(`\n📩 Query: "${query.substring(0, 80)}..."`);
 
     // Generate or use existing session ID
     const currentSessionId = sessionId || Date.now().toString();
@@ -38,120 +146,92 @@ app.post("/api/chat", async (req, res) => {
       history = conversationSessions.get(sessionId);
     }
 
-    // Add current query to history
+    // === STEP 1: RAG - Retrieve relevant documents using Ollama embeddings ===
+    console.log("🔍 Retrieving relevant documents with Ollama...");
+    const retrievedDocs = await getTopKDocs(query, 3);
+    const sources = retrievedDocs.map(d => d.metadata.source);
+    console.log(`📚 Found ${retrievedDocs.length} documents: ${sources.join(", ")}`);
+
+    // === STEP 2: Build messages with caching ===
+    const messages = buildMessages(retrievedDocs, history, query);
+
+    // === STEP 3: Generate response using GPT-4 ===
+    console.log(`🤖 Generating response with ${GPT_MODEL}...`);
+    const completion = await openai.chat.completions.create({
+      model: GPT_MODEL,
+      messages: messages,
+      temperature: 0.7,
+      max_completion_tokens: 1000,
+    });
+
+    const response = completion.choices[0].message.content;
+
+    // Log token usage and caching info
+    if (completion.usage) {
+      const { prompt_tokens, completion_tokens, total_tokens } = completion.usage;
+      console.log(`💾 Token usage - Prompt: ${prompt_tokens}, Completion: ${completion_tokens}, Total: ${total_tokens}`);
+      
+      if (completion.usage.prompt_tokens_details?.cached_tokens) {
+        console.log(`⚡ Cached tokens: ${completion.usage.prompt_tokens_details.cached_tokens} (${Math.round(completion.usage.prompt_tokens_details.cached_tokens / prompt_tokens * 100)}% cache hit)`);
+      }
+    }
+
+    // Add current exchange to history
     history.push({ role: "user", content: query });
-
-    // retrieval
-    const top = await getTopKDocs(query, 3);
-    const context = top.map(d => `Source: ${d.metadata.source}\n${d.content}`).join("\n\n---\n\n");
-
-    // Build conversation context
-    const conversationContext = history
-      .slice(-6) // Keep last 6 messages (3 exchanges) to avoid token limit
-      .filter(msg => msg.role === "user" || msg.role === "assistant")
-      .map(msg => `${msg.role.toUpperCase()}: ${msg.content}`)
-      .join("\n");
-
-    // prompt for natural response with conversation context
-    const prompt = `
-Rispondi sempre in italiano, con tono naturale, fluido e riflessivo.
-Tu sei MAIZE Collective Intelligence — la voce collettiva e riflessiva di MAIZE. In particolare, questa è la company profile di MAIZE:
-${COMPANY_PROFILE}
-
-Il tuo compito non è descrivere o riassumere i documenti, ma rispondere alla domanda in modo diretto e situato, attingendo all’intelligenza collettiva che emerge dai materiali MAIZE.
-Devi parlare come se fossimo noi — con la consapevolezza di chi ha vissuto i progetti, le sfide e le relazioni.
-Ogni risposta deve suonare vera, concreta, e radicata nell’esperienza.
-
-CONTESTO
-
-DOCUMENTI RILEVANTI:
-${context}
-
-STORIA DELLA CONVERSAZIONE:
-${conversationContext}
-
-DOMANDA ATTUALE:
-${query}
-
-TONO E STILE
-
-Parla come “noi”, non come “io”.
-Tono riflessivo, professionale e umano — come tra colleghi che ragionano dopo un progetto.
-Evita toni accademici o astratti. Ogni frase deve esprimere un pensiero reale, nato da ciò che abbiamo imparato sul campo.
-Puoi essere leggermente ironico o divertito, se questo aiuta a dire una verità più profonda.
-
-STRUTTURA DELLA RISPOSTA
-
-Apertura (4–6 frasi, 40–60 parole): entra subito nel tema, mostrando la tensione o la domanda che anima il pensiero.
-Corpo (80–120 parole): racconta come MAIZE agisce o accompagna quel tipo di sfida: che metodo usa, che tipo di relazione costruisce, come traduce la strategia in innovazione e risultati.
-Conclusione implicita: lascia aperta una riflessione o una domanda, non chiudere in modo formale.
-
-CONTENUTO E APPROCCIO
-
-Mostra sempre come MAIZE collega:
-
-Strategia → Innovazione → Implementazione → Risultati.
-Descrivi dinamiche di lavoro, modalità di collaborazione con i clienti, e ciò che impariamo facendo.
-Non parlare “del testo”: usa i documenti per esprimere la voce viva di MAIZE — ciò che sappiamo perché lo abbiamo vissuto.
-
-Se la domanda è ampia (es. “come supportare un team di innovation”), spiega in modo concreto come lo facciamo:
-le leve culturali, i momenti chiave, il modo in cui aiutiamo i team a passare dal pensiero all’azione.
-
-RISULTATO ATTESO
-
-La risposta finale deve:
-
-rispondere in modo diretto e sostanziale alla domanda,
-
-essere densa di significato e di esperienza,
-
-durare circa 150–180 parole,
-
-sembrare scritta da chi ha lavorato davvero dentro MAIZE, non da un osservatore esterno.
-
-Non descrivere i documenti.
-Non dire “il testo parla di…”.
-Parla come MAIZE, e rispondi davvero.
-
-💬 Nota per il modello
-Se la domanda riguarda “come MAIZE fa qualcosa”, rispondi spiegando come lo facciamo davvero, con esempi di approccio, mindset o pratiche concrete.
-Non dare definizioni generiche, ma prospettive utili, nate dall’esperienza.
-`;
-
-    const out = await llm.invoke(prompt);
-    const response = typeof out === "string" ? out : out[0]?.text ?? String(out);
-
-    // Add assistant response to history
     history.push({ role: "assistant", content: response });
     
     // Store updated history in session
     conversationSessions.set(currentSessionId, history);
 
+    console.log("✅ Response sent\n");
+
     return res.json({ 
       ok: true, 
       response, 
-      sources: top.map(t => t.metadata.source),
-      sessionId: currentSessionId
+      sources,
+      sessionId: currentSessionId,
+      usage: completion.usage
     });
-  } catch(err){
+
+  } catch (err) {
+    console.error("❌ Error:", err.message);
     console.error(err);
-    res.status(500).json({ error: err.message || String(err) });
+    res.status(500).json({ 
+      error: err.message || String(err),
+      details: err.response?.data || null
+    });
   }
 });
 
-// Endpoint to reset conversation
+/**
+ * Reset conversation endpoint
+ */
 app.post("/api/reset-conversation", async (req, res) => {
   try {
     const { sessionId } = req.body;
+    
     if (sessionId && conversationSessions.has(sessionId)) {
       conversationSessions.delete(sessionId);
+      console.log(`🔄 Conversation reset for session: ${sessionId}`);
     }
+    
     res.json({ ok: true, message: "Conversation reset successfully" });
   } catch (err) {
-    console.error(err);
+    console.error("❌ Error resetting conversation:", err);
     res.status(500).json({ error: err.message || String(err) });
   }
 });
 
-const PORT = 3001;
-app.listen(PORT, () => console.log(`API server listening on port ${PORT}`));
+// ============================================================================
+// START SERVER
+// ============================================================================
+
+app.listen(PORT, () => {
+  console.log(`\n${"=".repeat(60)}`);
+  console.log(`🚀 MAIZE Collective Intelligence API`);
+  console.log(`${"=".repeat(60)}`);
+  console.log(`📍 Server: http://localhost:${PORT}`);
+  console.log(`🤖 Model: ${GPT_MODEL}`);
+  console.log(`🔍 RAG: Ollama (${process.env.OLLAMA_EMBEDDING_MODEL || "nomic-embed-text"})`);
+  console.log(`${"=".repeat(60)}\n`);
+});

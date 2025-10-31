@@ -6,21 +6,35 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "dev": "npm run start",
+    "frontend": "cd frontend && npm run dev",
+    "setup": "npm run convert && npm run load",
+    "convert": "python3 scripts/convert_to_txt_all.py",
+    "load": "node scripts/load_docs.mjs",
+    "build": "npm run setup && npm run start",
+    "full-start": "npm run setup && concurrently \"npm run start\" \"npm run frontend\"",
+    "quick-start": "concurrently \"npm run start\" \"npm run frontend\"",
+    "security-check": "./security-check.sh",
+    "precommit": "npm run security-check"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@langchain/community": "^0.3.35",
+    "@langchain/core": "^0.3.35",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "docx": "^9.5.1",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "express": "^5.1.0",
     "fs-extra": "^11.3.2",
     "langchain": "^0.3.35",
     "ollama": "^0.6.0",
-    "@langchain/community": "^0.3.35",
-    "@langchain/core": "^0.3.35"
+    "openai": "^6.7.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   }
 }
