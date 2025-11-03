@@ -222,6 +222,21 @@ app.post("/api/reset-conversation", async (req, res) => {
   }
 });
 
+/**
+ * Health check endpoint for load balancers / monitoring
+ * Returns basic service status and model info
+ */
+app.get("/health", (req, res) => {
+  res.json({
+    status: "ok",
+    model: GPT_MODEL,
+    port: PORT,
+    sessions: conversationSessions.size,
+    embeddingModel: process.env.OLLAMA_EMBEDDING_MODEL || "nomic-embed-text",
+    time: new Date().toISOString()
+  });
+});
+
 // ============================================================================
 // START SERVER
 // ============================================================================
