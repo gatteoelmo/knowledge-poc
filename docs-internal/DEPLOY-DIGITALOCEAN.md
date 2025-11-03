@@ -1,4 +1,4 @@
-# Deploy su DigitalOcean (Backend + Frontend + Embeddings)
+# Deploy su DigitalOcean (Backend + Frontend + Embeddings + Nginx)
 
 Questa guida ti porta da zero (droplet appena creato) a istanza funzionante accessibile via browser.
 
@@ -16,6 +16,7 @@ Questa guida ti porta da zero (droplet appena creato) a istanza funzionante acce
 5. SSH Key: seleziona la tua
 6. Hostname: knowledge-poc
 7. Crea e annota l'indirizzo IP pubblico
+8. (Consigliato) Usa un utente non-root per la gestione e il path: `~/knowledge-poc`
 
 ## 3. Accesso al Droplet
 ```bash
@@ -23,11 +24,11 @@ ssh root@YOUR_DROPLET_IP
 ```
 
 ## 4. Inizializzazione automatica (consigliata)
-Copia il file `scripts/shell/droplet-init.sh` localmente se non è ancora sul droplet. Se hai già clonato la repo manualmente puoi saltare al punto 5.
+Copia il file `scripts/shell/droplet-init.sh` se presente oppure esegui manualmente i passi sotto. Se preferisci personalizzare tutto passa al punto 5.
 
-Oppure esegui direttamente (se hai messo lo script su un gist o lo copi a mano):
+Esempio (per percorso home):
 ```bash
-bash scripts/shell/droplet-init.sh https://github.com/gatteoelmo/knowledge-poc.git /var/www/knowledge-poc sk-OPENAI_KEY
+bash scripts/shell/droplet-init.sh https://github.com/gatteoelmo/knowledge-poc.git "$HOME/knowledge-poc" sk-OPENAI_KEY
 ```
 
 Lo script fa:
@@ -53,8 +54,8 @@ npm install -g pm2
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull nomic-embed-text
 
-git clone https://github.com/gatteoelmo/knowledge-poc.git /var/www/knowledge-poc
-cd /var/www/knowledge-poc
+git clone https://github.com/gatteoelmo/knowledge-poc.git "$HOME/knowledge-poc"
+cd "$HOME/knowledge-poc"
 cp .env.production.example .env
 nano .env   # Inserisci OPENAI_API_KEY
 npm install --production
@@ -77,28 +78,41 @@ pm2 logs ollama
 ```
 
 ## 7. Nginx (reverse proxy + static)
-Config esempio: `deploy/nginx.conf.example`.
-Copialo:
+Obiettivo: servire il frontend su porta 80 e proxy `/api` verso backend (3001) e `/health`.
+
+Due opzioni:
+
+### 7.1 Script automatico
 ```bash
-cp deploy/nginx.conf.example /etc/nginx/sites-available/knowledge-poc
-ln -s /etc/nginx/sites-available/knowledge-poc /etc/nginx/sites-enabled/knowledge-poc
+cd "$HOME/knowledge-poc"
+bash scripts/setup-nginx.sh
+```
+Con basic auth:
+```bash
+cd "$HOME/knowledge-poc"
+BASIC_AUTH_USER=utente BASIC_AUTH_PASS=supersegreto bash scripts/setup-nginx.sh
+```
+Verifica:
+```bash
+curl -I http://YOUR_DROPLET_IP
+curl -I http://YOUR_DROPLET_IP/health
+```
+
+### 7.2 Manuale
+```bash
+cp nginx.conf.example /etc/nginx/sites-available/knowledge-poc.conf
+ln -s /etc/nginx/sites-available/knowledge-poc.conf /etc/nginx/sites-enabled/knowledge-poc.conf
 nginx -t && systemctl reload nginx
 ```
-Accesso (senza porte):
-```
-http://YOUR_DROPLET_IP
-```
-Health check:
-```
-http://YOUR_DROPLET_IP/health
-```
+Accesso: http://YOUR_DROPLET_IP
+Health: http://YOUR_DROPLET_IP/health
 
 ## 8. Aggiornare il deploy
 Da locale:
 ```bash
 git pull origin main
-rsync -av --exclude node_modules --exclude .git ./ root@YOUR_DROPLET_IP:/var/www/knowledge-poc/
-ssh root@YOUR_DROPLET_IP "cd /var/www/knowledge-poc && npm install --production && cd frontend && npm install --production && npm run build && pm2 restart all"
+rsync -av --exclude node_modules --exclude .git ./ root@YOUR_DROPLET_IP:~/knowledge-poc/
+ssh root@YOUR_DROPLET_IP "cd ~/knowledge-poc && npm install --production && cd frontend && npm install --production && npm run build && pm2 restart all"
 ```
 
 ## 9. Sicurezza base
@@ -124,13 +138,19 @@ systemctl restart sshd
 ```
 
 ## 10. SSL (dominio opzionale)
-Se hai un dominio puntato all'IP:
+Script: `scripts/setup-ssl.sh`
+```bash
+cd ~/knowledge-poc
+DOMAIN=tuo-dominio.com bash scripts/setup-ssl.sh
+```
+Multi-domini:
+```bash
+DOMAIN="tuo-dominio.com,www.tuo-dominio.com" bash scripts/setup-ssl.sh
+```
+Manuale:
 ```bash
 apt-get install -y certbot python3-certbot-nginx
 certbot --nginx -d tuo-dominio.com -d www.tuo-dominio.com
-```
-Certificati auto-rinnovo:
-```bash
 certbot renew --dry-run
 ```
 
@@ -144,7 +164,7 @@ certbot renew --dry-run
 |----------|-----------|
 | 404 su frontend | Assicurati build e Nginx `try_files` corretti |
 | API non risponde | Controlla `pm2 logs knowledge-backend` |
-| Embeddings falliscono | Verifica `ollama serve` processo avviato |
+| Embeddings falliscono | Verifica `ollama serve` processo avviato (se lo usi sul server) |
 | Porta bloccata | `ufw status` e regole corrette |
 | OPENAI key assente | Modifica `.env` e `pm2 restart knowledge-backend` |
 
@@ -158,4 +178,4 @@ pm2 start ecosystem.config.cjs
 Copia `vectorstore.json` (non versionato) in un bucket o storage esterno se critico.
 
 ---
-Fine guida. Ora condividi l'IP con il team: `http://YOUR_DROPLET_IP`.
+Fine guida. Condividi l'IP: `http://YOUR_DROPLET_IP` oppure il dominio `https://tuo-dominio.com`. Per accesso interno riservato attiva BASIC_AUTH nello script Nginx.
