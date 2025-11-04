@@ -40,14 +40,6 @@ echo "✅ Node: $(node -v) | NPM: $(npm -v)"
 echo "📦 Installing PM2 process manager..."
 npm install -g pm2
 
-# --- Install Ollama ---
-echo "📦 Installing Ollama..."
-curl -fsSL https://ollama.com/install.sh | sh || echo "⚠️ Ollama install script exited with non-zero status; continuing"
-
-# Pull embedding model
-echo "📦 Pulling embedding model (nomic-embed-text)..."
-ollama pull nomic-embed-text || echo "⚠️ Ollama model pull failed; ensure ollama service running"
-
 # --- Clone repository ---
 echo "📁 Cloning repository into $TARGET_DIR ..."
 mkdir -p "$TARGET_DIR"

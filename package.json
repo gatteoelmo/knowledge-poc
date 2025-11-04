@@ -26,17 +26,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@langchain/community": "^0.3.35",
-    "@langchain/core": "^0.3.35",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "docx": "^9.5.1",
     "dotenv": "^16.6.1",
     "express": "^5.1.0",
     "fs-extra": "^11.3.2",
-    "langchain": "^0.3.35",
-    "ollama": "^0.6.0",
-    "openai": "^6.7.0"
+    "openai": "^6.8.0",
+    "p-limit": "^7.2.0"
   },
   "devDependencies": {
     "concurrently": "^9.2.1"

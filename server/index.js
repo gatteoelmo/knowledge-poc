@@ -124,9 +124,6 @@ function buildMessages(retrievedDocs, conversationHistory, currentQuery) {
 // API ENDPOINTS
 // ============================================================================
 
-/**
- * Chat endpoint - RAG with Ollama + Response with GPT-4
- */
 app.post("/api/chat", async (req, res) => {
   try {
     const { query, sessionId, conversationHistory } = req.body;
@@ -146,8 +143,8 @@ app.post("/api/chat", async (req, res) => {
       history = conversationSessions.get(sessionId);
     }
 
-    // === STEP 1: RAG - Retrieve relevant documents using Ollama embeddings ===
-    console.log("🔍 Retrieving relevant documents with Ollama...");
+    // === STEP 1: RAG - Retrieve relevant documents using OpenAI embeddings ===
+    console.log("🔍 Retrieving relevant documents with OpenAI...");
     const retrievedDocs = await getTopKDocs(query, 3);
     const sources = retrievedDocs.map(d => d.metadata.source);
     console.log(`📚 Found ${retrievedDocs.length} documents: ${sources.join(", ")}`);
@@ -232,7 +229,7 @@ app.get("/health", (req, res) => {
     model: GPT_MODEL,
     port: PORT,
     sessions: conversationSessions.size,
-    embeddingModel: process.env.OLLAMA_EMBEDDING_MODEL || "nomic-embed-text",
+    embeddingModel: "text-embedding-3-small",
     time: new Date().toISOString()
   });
 });
@@ -247,6 +244,6 @@ app.listen(PORT, () => {
   console.log(`${"=".repeat(60)}`);
   console.log(`📍 Server: http://localhost:${PORT}`);
   console.log(`🤖 Model: ${GPT_MODEL}`);
-  console.log(`🔍 RAG: Ollama (${process.env.OLLAMA_EMBEDDING_MODEL || "nomic-embed-text"})`);
+  console.log(`🔍 RAG: OpenAI text-embedding-3-small`);
   console.log(`${"=".repeat(60)}\n`);
 });

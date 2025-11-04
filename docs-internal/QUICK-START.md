@@ -4,8 +4,7 @@
 
 1. **Node.js** installato
 2. **Python 3** installato
-3. **Ollama** installato e in esecuzione
-4. **OpenAI API Key** configurata nel file `.env`
+3. **OpenAI API Key** configurata nel file `.env`
 
 ## ⚡ Comandi Rapidi
 
@@ -16,8 +15,6 @@ npm run quick-start
 Avvia contemporaneamente:
 - ✅ Backend API (porta 3001)
 - ✅ Frontend (porta 5173)
-
-**Requisiti**: Ollama deve essere già avviato in un terminale separato
 
 ---
 
@@ -65,23 +62,18 @@ Converte tutti i documenti dalla cartella `docs/` in formato TXT
 ```bash
 npm run load
 ```
-Genera il vectorstore con gli embeddings Ollama
+Genera il vectorstore con gli embeddings OpenAI
 
 ---
 
 ## 🔧 Setup Manuale (massimo controllo)
 
-### Terminal 1 - Ollama
-```bash
-ollama serve
-```
-
-### Terminal 2 - Backend
+### Terminal 1 - Backend
 ```bash
 node server/index.js
 ```
 
-### Terminal 3 - Frontend
+### Terminal 2 - Frontend
 ```bash
 cd frontend
 npm run dev
@@ -96,8 +88,6 @@ npm run dev
 OPENAI_API_KEY=your-key-here
 PORT=3001
 GPT_MODEL=gpt-4o
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_EMBEDDING_MODEL=nomic-embed-text
 ```
 
 ### `src/system_prompt.txt` - System Prompt
@@ -111,21 +101,17 @@ Contiene la descrizione dell'azienda che viene inclusa nel system prompt.
 
 ## 🐛 Troubleshooting
 
-### "fetch failed" / "ECONNREFUSED"
-**Problema**: Ollama non è in esecuzione
-**Soluzione**: Avvia Ollama in un terminale separato: `ollama serve`
-
 ### "Missing API key"
 **Problema**: OpenAI API key non configurata
 **Soluzione**: Aggiungi la tua key nel file `.env`
 
 ### "Model not found"
-**Problema**: Modello Ollama non installato
-**Soluzione**: `ollama pull nomic-embed-text`
-
-### "Unsupported parameter: max_tokens"
-**Problema**: Modello non supportato
+**Problema**: Modello GPT non supportato
 **Soluzione**: Usa `gpt-4o`, `gpt-4o-mini` o `gpt-4-turbo` nel file `.env`
+
+### "Retrieval returns no documents"
+**Problema**: Vectorstore non generato o incompatibile
+**Soluzione**: Rigenera il vectorstore con `npm run load`
 
 ---
 
@@ -140,10 +126,7 @@ npm install
 cp .env.example .env
 # Modifica .env con la tua API key
 
-# 3. Avvia Ollama (terminale separato)
-ollama serve
-
-# 4. Setup completo e avvio
+# 3. Setup completo e avvio
 npm run full-start
 ```
 
@@ -210,7 +193,6 @@ Ogni richiesta logga:
 
 - **Backend API**: http://localhost:3001
 - **Frontend**: http://localhost:5173
-- **Ollama**: http://localhost:11434
 
 ---
 
@@ -240,7 +222,7 @@ knowledge-poc/
 - **Modifica solo il system prompt**: Usa `src/system_prompt.txt` invece di modificare il codice
 - **Usa quick-start**: Più veloce per lo sviluppo quotidiano
 - **Monitora i log**: Il server mostra dettagli su retrieval, token usage e cache
-- **Tieni Ollama sempre attivo**: Serve per gli embeddings del RAG
+- **Embeddings OpenAI**: Gli embedding sono generati con OpenAI text-embedding-3-small
 
 ---
 

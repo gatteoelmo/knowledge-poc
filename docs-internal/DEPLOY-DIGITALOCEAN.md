@@ -11,7 +11,7 @@ Questa guida ti porta da zero (droplet appena creato) a istanza funzionante acce
 ## 2. Crea il Droplet
 1. Accedi a DigitalOcean > Create > Droplets
 2. Immagine: Ubuntu 22.04 LTS
-3. Piano: minimo 2GB RAM se usi Ollama (Basic $12/mese)
+3. Piano: minimo 1GB RAM (Basic $6/mese) - non serve più Ollama
 4. Datacenter: vicino al tuo team (es. FRA / AMS)
 5. SSH Key: seleziona la tua
 6. Hostname: knowledge-poc
@@ -33,7 +33,7 @@ bash scripts/shell/droplet-init.sh https://github.com/gatteoelmo/knowledge-poc.g
 
 Lo script fa:
 - Update pacchetti
-- Installa Node.js, Python, PM2, Ollama, Nginx
+- Installa Node.js, Python, PM2, Nginx
 - Clona repo
 - Crea `.env`
 - Installa dipendenze backend + frontend
@@ -49,10 +49,6 @@ apt-get install -y git curl python3 python3-pip
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 apt-get install -y nodejs build-essential
 npm install -g pm2
-
-# Ollama
-curl -fsSL https://ollama.com/install.sh | sh
-ollama pull nomic-embed-text
 
 git clone https://github.com/gatteoelmo/knowledge-poc.git "$HOME/knowledge-poc"
 cd "$HOME/knowledge-poc"
@@ -74,7 +70,6 @@ Logs:
 ```bash
 pm2 logs knowledge-backend
 pm2 logs knowledge-frontend
-pm2 logs ollama
 ```
 
 ## 7. Nginx (reverse proxy + static)
@@ -164,7 +159,7 @@ certbot renew --dry-run
 |----------|-----------|
 | 404 su frontend | Assicurati build e Nginx `try_files` corretti |
 | API non risponde | Controlla `pm2 logs knowledge-backend` |
-| Embeddings falliscono | Verifica `ollama serve` processo avviato (se lo usi sul server) |
+| Embeddings falliscono | Verifica `OPENAI_API_KEY` nel `.env` |
 | Porta bloccata | `ufw status` e regole corrette |
 | OPENAI key assente | Modifica `.env` e `pm2 restart knowledge-backend` |
 

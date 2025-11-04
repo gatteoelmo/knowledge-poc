@@ -54,23 +54,10 @@ npm run full-start
 
 
 
----``````bash
-
-
-
-## 📋 Prerequisitiollama pull mxbai-embed-large
-
-
-
-1. **Node.js** - [Download](https://nodejs.org/)### Metodo 2: Comandi npm```
-
+---## 📋 Prerequisiti
+1. **Node.js** - [Download](https://nodejs.org/)
 2. **Python 3** - [Download](https://www.python.org/)
-
-3. **Ollama** - [Download](https://ollama.ai/)```bash
-
-4. **OpenAI API Key** - [Get key](https://platform.openai.com/api-keys)
-
-```bashollama run
+3. **OpenAI API Key** - [Get key](https://platform.openai.com/api-keys)
 
 ---
 
@@ -182,7 +169,7 @@ knowledge-poc/
 
 ├── 🛠️  scripts/
 
-│   ├── shell/                  # Script bash### 3. Avvia Ollama (terminale separato)
+│   ├── shell/                  # Script bash### 1. Installa dipendenze
 
 │   │   ├── start.sh           # Avvio veloce```bash
 

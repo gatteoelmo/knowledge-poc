@@ -8,17 +8,7 @@ echo "🔄 MAIZE Collective Intelligence - Full Setup"
 echo "============================================================"
 echo ""
 
-# Check if Ollama is running
-if ! curl -s http://localhost:11434/api/tags > /dev/null 2>&1; then
-    echo "❌ Error: Ollama non è in esecuzione!"
-    echo ""
-    echo "Per favore avvia Ollama in un terminale separato:"
-    echo "  ollama serve"
-    echo ""
-    exit 1
-fi
-
-echo "✅ Ollama è attivo"
+echo "✅ Embedding con OpenAI text-embedding-3-small"
 echo ""
 
 # Step 1: Convert documents
@@ -33,7 +23,7 @@ echo "✅ Conversione completata"
 echo ""
 
 # Step 2: Generate vectorstore
-echo "📚 Step 2/3: Generazione vectorstore..."
+echo "📚 Step 2/3: Generazione vectorstore (OpenAI)..."
 echo "------------------------------------------------------------"
 node scripts/load_docs.mjs
 if [ $? -ne 0 ]; then

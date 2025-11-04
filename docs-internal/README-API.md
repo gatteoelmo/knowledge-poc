@@ -1,8 +1,8 @@
 # MAIZE Collective Intelligence API
 
 Sistema RAG (Retrieval-Augmented Generation) che combina:
-- **Ollama** per embeddings e ricerca vettoriale
-- **GPT-4** per generazione di risposte
+- **OpenAI text-embedding-3-small** per embeddings e ricerca vettoriale
+- **GPT-4o** per generazione di risposte
 
 ## Setup
 
@@ -24,18 +24,10 @@ OPENAI_API_KEY=your-openai-api-key-here
 PORT=3001
 
 # Model Configuration
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_EMBEDDING_MODEL=nomic-embed-text
 GPT_MODEL=gpt-4o
 ```
 
-### 3. Assicurati che Ollama sia in esecuzione
-
-```bash
-ollama serve
-```
-
-### 4. Avvia il server
+### 3. Avvia il server
 
 ```bash
 node server/index.js
@@ -46,9 +38,9 @@ node server/index.js
 ### RAG Pipeline
 
 1. **Query Processing**: L'utente invia una domanda
-2. **Vector Search (Ollama)**: Ricerca i 3 documenti più rilevanti usando embeddings Ollama
+2. **Vector Search (OpenAI)**: Ricerca i 3 documenti più rilevanti usando embeddings OpenAI text-embedding-3-small
 3. **Context Building**: Costruisce il contesto con system prompt, documenti e storia conversazione
-4. **Response Generation (GPT-4)**: Genera la risposta usando GPT-4
+4. **Response Generation (GPT-4o)**: Genera la risposta usando GPT-4o
 5. **Caching**: System prompt e documenti vengono cachati per efficienza
 
 ### Prompt Caching
@@ -106,7 +98,7 @@ Il server logga informazioni utili:
 
 ```
 📩 Query: "Come lavora MAIZE..."
-🔍 Retrieving relevant documents with Ollama...
+🔍 Retrieving relevant documents with OpenAI...
 📚 Found 3 documents: doc1.txt, doc2.txt, doc3.txt
 🤖 Generating response with gpt-4o...
 💾 Token usage - Prompt: 1234, Completion: 567, Total: 1801
@@ -125,8 +117,5 @@ Con il prompt caching:
 ### Errore: "Missing API key"
 Assicurati di aver configurato `OPENAI_API_KEY` nel file `.env`
 
-### Errore: "Cannot connect to Ollama"
-Verifica che Ollama sia in esecuzione: `ollama serve`
-
 ### Errore: "Model not found"
-Scarica il modello: `ollama pull nomic-embed-text`
+Verifica che il modello GPT sia corretto nel `.env` (es: `gpt-4o`, `gpt-4o-mini`)
