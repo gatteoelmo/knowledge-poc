@@ -31,17 +31,6 @@ module.exports = {
         NODE_ENV: 'production'
       },
       time: true
-    },
-    {
-      name: 'ollama',
-      script: 'ollama',
-      args: 'serve',
-      instances: 1,
-      exec_mode: 'fork',
-      autorestart: true,
-      watch: false,
-      max_memory_restart: '300M',
-      time: true
     }
   ]
 };
