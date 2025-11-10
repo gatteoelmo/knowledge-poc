@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-"${TRACE:+set -x}"
+${TRACE:+set -x}
 set -euo pipefail
 
 # setup-nginx.sh
@@ -14,13 +14,13 @@ set -euo pipefail
 # Env Vars (override defaults):
 #   PROJECT_DIR      Path to project (default: $HOME/knowledge-poc)
 #   SITE_NAME        Nginx site name (default: knowledge-poc)
-#   NGINX_CONF_SRC   Source config file (default: $PROJECT_DIR/nginx.conf.example)
+#   NGINX_CONF_SRC   Source config file (default: $PROJECT_DIR/deploy/nginx.conf.example)
 #   ENABLE_AUTH      If set to '1', require BASIC_AUTH_USER/PASS (default: auto when both provided)
 # =============================
 
 PROJECT_DIR="${PROJECT_DIR:-$HOME/knowledge-poc}"
 SITE_NAME="${SITE_NAME:-knowledge-poc}"
-NGINX_CONF_SRC="${NGINX_CONF_SRC:-$PROJECT_DIR/nginx.conf.example}"
+NGINX_CONF_SRC="${NGINX_CONF_SRC:-$PROJECT_DIR/deploy/nginx.conf.example}"
 TARGET_CONF="/etc/nginx/sites-available/${SITE_NAME}.conf"
 LINK_CONF="/etc/nginx/sites-enabled/${SITE_NAME}.conf"
 AUTH_FILE="/etc/nginx/.htpasswd-${SITE_NAME}"
